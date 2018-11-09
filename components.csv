@@ -1,0 +1,2 @@
+Label,Description,Component Type,Codelist
+Age,"Age group, with older age groups split to reflect traditional UK retirement age for women/men",Dimension,http://gss-data.org.uk/def/concept-scheme/ages
