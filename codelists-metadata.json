@@ -1,0 +1,12 @@
+{
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "tables": [{
+    "url": "codelists/age-groups.csv",
+    "tableSchema": "codelist-schema.json",
+    "rdfs:label": "Ages"
+  }, {
+    "url": "codelists/measurement-units.csv",
+    "tableSchema": "codelist-schema.json",
+    "rdfs:label": "Measurement Units"
+  }]
+}
