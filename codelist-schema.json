@@ -10,6 +10,7 @@
     },
     {
       "titles": "Notation",
+      "name": "notation",
       "datatype": {
         "base": "string",
         "format": "^-?[\\w\\/]+(-[\\w\\/]+)*$"
@@ -35,5 +36,5 @@
       "required": false
     }
   ],
-  "primaryKey": "label"
+  "primaryKey": "notation"
 }
