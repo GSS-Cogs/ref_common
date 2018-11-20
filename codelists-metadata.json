@@ -8,5 +8,9 @@
     "url": "codelists/measurement-units.csv",
     "tableSchema": "codelist-schema.json",
     "rdfs:label": "Measurement Units"
+  }, {
+    "url": "codelists/statistics-authority-themes.csv",
+    "tableSchema": "codelist-schema.json",
+    "rdfs:label": "Statistics Authority Themes"
   }]
 }
