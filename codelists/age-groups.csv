@@ -160,3 +160,19 @@ National Records Scotland Age Groups,nrs,all,152
 65-74,nrs/65-74,nrs,159
 75-84,nrs/75-84,nrs,160
 85+,nrs/85-plus,nrs,161
+Home Office Asylum Applicants and Dependants Ages,hoad,all,162
+Under 5,hoad/under-5,hoad,163
+5-9,hoad/5-9,hoad,164
+10-13,hoad/10-13,hoad,165
+14-15,hoad/14-15,hoad,166
+16-17,hoad/16-17,hoad,167
+18-20,hoad/18-20,hoad,168
+21-24,hoad/21-24,hoad,169
+25-29,hoad/25-29,hoad,170
+30-34,hoad/30-34,hoad,171
+35-39,hoad/35-39,hoad,172
+40-49,hoad/40-49,hoad,173
+50-59,hoad/50-59,hoad,174
+60-64,hoad/60-64,hoad,175
+65+,hoad/65-plus,hoad,176
+Unknown,hoad/unknown,hoad,177
