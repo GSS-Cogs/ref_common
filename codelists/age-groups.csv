@@ -1,6 +1,8 @@
 Label,Notation,Parent Notation,Sort Priority
 All ages,all,,1
 Quinary age groups,agq,all,2
+Under 1,agq/under-1,agq,
+1 - 4,agq/1-4,agq,
 0 - 4,agq/0-4,agq,3
 5 - 9,agq/5-9,agq,4
 10 - 14,agq/10-14,agq,5
