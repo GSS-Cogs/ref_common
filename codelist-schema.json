@@ -39,12 +39,5 @@
       "required": false
     }
   ],
-  "primaryKey": "notation",
-  "foreignKeys": [{
-    "columnReference": "parent",
-    "reference": {
-      "schemaReference": "codelist-schema.json",
-      "columnReference": "notation"
-    }
-  }]
+  "primaryKey": "notation"
 }
