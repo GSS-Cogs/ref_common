@@ -12,7 +12,9 @@ pipeline {
             }
             steps {
                 script {
-                    sh "csvlint -s codelists-metadata.json"
+                    ansiColor('xterm') {
+                        sh "csvlint -s codelists-metadata.json"
+                    }
                 }
             }
         }
