@@ -43,6 +43,7 @@ Under 15,agr/under-15,agr,37
 45-59/64,agr/45-59-or-64,agr,40
 60/65 and over,agr/60-or-65-and-over,agr,41
 NISRA 5 year bands,nisra5,all,42
+Under 25,nisra5/under-25,nisra5,
 00-17,nisra5/00-17,nisra5,43
 18-24,nisra5/18-24,nisra5,44
 25-34,nisra5/25-34,nisra5,45
@@ -50,6 +51,8 @@ NISRA 5 year bands,nisra5,all,42
 45-54,nisra5/45-54,nisra5,47
 55-64,nisra5/55-64,nisra5,48
 65+,nisra5/65-plus,nisra5,49
+65-74,nisra5/65-74,nisra5,
+75 and over,nisra5/75-plus,nisra5,
 Single Year of Age,year,all,50
 0,year/0,year,51
 1,year/1,year,52
