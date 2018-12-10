@@ -1,0 +1,8 @@
+Label,Notation,Parent Notation,Sort Priority,Description
+2011 Census Revision,2011-census-revision,,1,"Net migration figures for the United Kingdom for 2001 to 2011 have been revised in light of the results of the 2011 Census. This was caused by the adjustments in the sampling and data processing methodology of the IPS (International Passenger Survey) in 2009."
+Original Estimate,original-estimate,,2,Original net migration estimates.
+Revised,revised,,3,Value revised to reflect amendments to returns data.
+Provisional,provisional,,4,
+Estimated,estimated,,5,Value estimated based on previous years; this is due to data quality issues.
+Original Value,original-value,,6,Original value that has not been revised or estimated.
+Rounded Estimate,rounded-estimate,,7,Estimates are rounded to the nearest ten.
