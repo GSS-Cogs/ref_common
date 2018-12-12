@@ -43,6 +43,7 @@ Under 15,agr/under-15,agr,38
 25-44,agr/25-44,agr,40
 45-59/64,agr/45-59-or-64,agr,41
 60/65 and over,agr/60-or-65-and-over,agr,42
+16-61/64,agr/16-61-or-64,agr, 
 NISRA 5 year bands,nisra5,all,43
 Under 25,nisra5/under-25,nisra5,
 00-17,nisra5/00-17,nisra5,44
@@ -189,3 +190,9 @@ Alternative age groups 3,ag3,all,179
 50+,ag3/50-plus,ag3,183
 Under 18,under-18,all,184
 18 and over,18-plus,all,185
+Under 75,under-75,all,186
+Under 40,under-40,all,187
+18-75,18-75,all,188
+40-64,40-64,all,189
+16 and over,16-plus,all,190
+17 and over,17-plus,all,191
