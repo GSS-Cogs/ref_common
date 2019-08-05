@@ -16,9 +16,5 @@
     "url": "codelists/statistics-authority-themes.csv",
     "tableSchema": "codelist-schema.json",
     "rdfs:label": "Statistics Authority Themes"
-  }, {
-    "url": "codelists/markers.csv",
-    "tableSchema": "codelist-loose-schema.json",
-    "rdfs:label": "Markers"
   }]
 }
