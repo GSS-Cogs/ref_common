@@ -1,3 +1,24 @@
 Label,Notation,Parent Notation,Sort Priority,Description
+Break,break,,,Break in time series
+Confidential,confidential,,,
+Earliest,earliest,,,Earliest revision
+Estimated,estimated,,,
+Forecast,forecast,,,
+Rounds to zero,rounds-to-zero,,,Less than half the final digit shown and different from a real zero.
+Low reliability,low-reliability,,,
+Not applicable,not-applicable,,,
+Not available,not-available,,,
+Not significant,not-significant,,,
+Provisional,provisional,,,
+Revised,revised,,,
+Significant at 5%,significant-5,,,
+Significant at 1%,significant-1,,,
+Significant at 0.1%,significant-01,,,
 Suppressed,suppressed,,,
 No marker,,,,There is no marker
+"Nil none recorded in the sample",nhs-guardianship/nil-none-recorded-in-the-sample,,,
+"Negligible less than 0.5 percent or 0.1 million",nhs-guardianship/negligible-less-than-0-5-percent-or-0-1-million,,,
+"Not available due to small sample size fewer than 100",nhs-guardianship/not-available-due-to-small-sample-size-fewer-than-100,,,
+Less than three,nhs-guardianship/less-than-three,,,
+Negligible,nhs-guardianship/negligible,,,
+Between one and five,nhs-guardianship/between-one-and-five,,,

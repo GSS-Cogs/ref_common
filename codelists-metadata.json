@@ -5,6 +5,10 @@
     "tableSchema": "codelist-schema.json",
     "rdfs:label": "Ages"
   }, {
+    "url": "codelists/markers.csv",
+    "tableSchema": "codelist-loose-schema.json",
+    "rdfs:label": "Markers"
+  }, {
     "url": "codelists/measurement-units.csv",
     "tableSchema": "codelist-schema.json",
     "rdfs:label": "Measurement Units"
