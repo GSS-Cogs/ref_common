@@ -1,5 +1,5 @@
 {
-  "@id": "codelist-schema.json",
+  "@id": "codelist-loose-schema.json",
   "@context": "http://www.w3.org/ns/csvw",
   "columns": [
     {
