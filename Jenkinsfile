@@ -24,6 +24,13 @@ pipeline {
             }
         }
         stage('Add common/GSS components') {
+            agent {
+                docker {
+                    image 'gsscogs/csv2rdf'
+                    reuseNode true
+                    alwaysPull true
+                }
+            }
             steps {
                 script {
                     def pmd = pmdConfig('pmd')
