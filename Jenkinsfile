@@ -47,7 +47,7 @@ pipeline {
                     sh "csv2rdf -t 'measures.csv' -u 'measures.csv-metadata.json' -m annotated -o measures.ttl"
                     writeFile file: "graph.sparql", text:  """SELECT ?graph { ?graph a <http://www.w3.org/2002/07/owl#Ontology> }"""
                     sh "sparql --data='measures.ttl' --query=graph.sparql --results=JSON > 'measures-graph.json'"
-                    def graph = readJSON(text: readFile(file: "measure-graph.json")).results.bindings[0].graph.value
+                    def graph = readJSON(text: readFile(file: "measures-graph.json")).results.bindings[0].graph.value
                     pmd.drafter.addData(
                             id,
                             "${WORKSPACE}/measures.ttl",
