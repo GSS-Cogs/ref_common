@@ -1,0 +1,2 @@
+Path,Label,Comment,Source,Parent,Range
+count,Count,The total number of items,,http://purl.org/linked-data/sdmx/2009/measure#obsValue,xsd:integer
