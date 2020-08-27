@@ -23,7 +23,26 @@ pipeline {
                 }
             }
         }
-        stage('Add common/GSS components') {
+        stage('Convert to RDF') {
+            agent {
+                docker {
+                    image 'gsscogs/csv2rdf'
+                    reuseNode true
+                    alwaysPull true
+                }
+            }
+            steps {
+                script {
+                    sh "mkdir -p out/ontologies out/concept-schemes"
+                    sh "csv2rdf -t 'measures.csv' -u 'measures.csv-metadata.json' -m annotated -o out/concept-schemes/measures.ttl"
+                    for (def metadata : findFiles(glob: "codelists/*.csv-metadata.json")) {
+                        String baseName = metadata.name.substring(0, metadata.name.lastIndexOf('.csv-metadata.json'))
+                        sh "csv2rdf -t 'codelists/${basename}.csv' -u 'codelists/${metadata.name}' -m annotated > 'out/concept-schemes/${basename}.ttl'"
+                    }
+                }
+            }
+        }
+        stage('Upload') {
             agent {
                 docker {
                     image 'gsscogs/csv2rdf'
@@ -44,25 +63,21 @@ pipeline {
                         pmd.drafter.deleteGraph(id, graph)
                         echo "Removing own graph ${graph}"
                     }
-                    sh "csv2rdf -t 'measures.csv' -u 'measures.csv-metadata.json' -m annotated -o measures.ttl"
-                    writeFile file: "graph.sparql", text:  """SELECT ?graph { ?graph a <http://www.w3.org/2002/07/owl#Ontology> }"""
-                    sh "sparql --data='measures.ttl' --query=graph.sparql --results=JSON > 'measures-graph.json'"
-                    def graph = readJSON(text: readFile(file: "measures-graph.json")).results.bindings[0].graph.value
-                    pmd.drafter.addData(
-                            id,
-                            "${WORKSPACE}/measures.ttl",
-                            "text/turtle",
-                            "UTF-8",
-                            graph
-                    )
-                    writeFile(file: "measures-prov.ttl", text: util.jobPROV(graph))
-                    pmd.drafter.addData(
-                            id,
-                            "${WORKSPACE}/measures-prov.ttl",
-                            "text/turtle",
-                            "UTF-8",
-                            graph
-                    )
+                    def uploads = []
+                    writeFile file: "ontgraph.sparql", text:  """SELECT ?graph { ?graph a <http://www.w3.org/2002/07/owl#Ontology> }"""
+                    for (def ontology : findFiles(glob: 'out/ontologies/*')) {
+                        sh "sparql --data='${ontology.path}' --query=ontgraph.sparql --results=JSON > 'graph.json'"
+                        uploads.add([
+                            "path": ontology.path,
+                            "format": "text/turtle",
+                            "graph": readJSON(text: readFile(file: "graph.json")).results.bindings[0].graph.value
+                        ])
+                    }
+                    for (def upload: uploads) {
+                        pmd.drafter.addData(id, "${WORKSPACE}/${upload.path}", upload.format, "UTF-8", upload.graph)
+                        writeFile(file: "${upload.path}-prov.ttl", text: util.jobPROV(upload.graph))
+                        pmd.drafter.addData(id, "${WORKSPACE}/${upload.path}-prov.ttl", "text/turtle", "UTF-8", upload.graph)
+                    }
                     pmd.drafter.publishDraftset(id)
                 }
             }
