@@ -7,6 +7,13 @@ pipeline {
         label 'master'
     }
     stages {
+        stage('Clean') {
+            steps {
+                script {
+                    sh "rm -rf out"
+                }
+            }
+        }
         stage('Test') {
             agent {
                 docker {
