@@ -11,7 +11,7 @@
         "@type": "skos:ConceptScheme",
         "rdfs:label": "GSS measurement units"
     },
-    "url": "markers.csv",
+    "url": "measurement-units.csv",
     "tableSchema": {
         "columns": [
             {
