@@ -64,25 +64,25 @@ pipeline {
                         echo "Removing own graph ${graph}"
                     }
                     def uploads = []
-                    writeFile file: "ontgraph.sparql", text:  """SELECT ?graph { ?graph a <http://www.w3.org/2002/07/owl#Ontology> }"""
+                    writeFile file: "ontgraph.sparql", text: """SELECT ?graph { ?graph a <http://www.w3.org/2002/07/owl#Ontology> }"""
                     for (def ontology : findFiles(glob: 'out/ontologies/*')) {
                         sh "sparql --data='${ontology.path}' --query=ontgraph.sparql --results=JSON > 'graph.json'"
                         uploads.add([
-                            "path": ontology.path,
-                            "format": "text/turtle",
-                            "graph": readJSON(text: readFile(file: "graph.json")).results.bindings[0].graph.value
+                                "path"  : ontology.path,
+                                "format": "text/turtle",
+                                "graph" : readJSON(text: readFile(file: "graph.json")).results.bindings[0].graph.value
                         ])
                     }
-                    writeFile file: "csgraph.sparql", text:  """SELECT ?graph { ?graph a <http://www.w3.org/2004/02/skos/core#ConceptScheme> }"""
+                    writeFile file: "csgraph.sparql", text: """SELECT ?graph { ?graph a <http://www.w3.org/2004/02/skos/core#ConceptScheme> }"""
                     for (def cs : findFiles(glob: 'out/concept-schemes/*')) {
                         sh "sparql --data='${ontology.path}' --query=csgraph.sparql --results=JSON > 'graph.json'"
                         uploads.add([
-                                "path": cs.path,
+                                "path"  : cs.path,
                                 "format": "text/turtle",
-                                "graph": readJSON(text: readFile(file: "graph.json")).results.bindings[0].graph.value
+                                "graph" : readJSON(text: readFile(file: "graph.json")).results.bindings[0].graph.value
                         ])
                     }
-                    for (def upload: uploads) {
+                    for (def upload : uploads) {
                         pmd.drafter.addData(id, "${WORKSPACE}/${upload.path}", upload.format, "UTF-8", upload.graph)
                         writeFile(file: "${upload.path}-prov.ttl", text: util.jobPROV(upload.graph))
                         pmd.drafter.addData(id, "${WORKSPACE}/${upload.path}-prov.ttl", "text/turtle", "UTF-8", upload.graph)
@@ -91,11 +91,11 @@ pipeline {
                 }
             }
         }
-        post {
-            always {
-                script {
-                    archiveArtifacts artifacts: "out/"
-                }
+    }
+    post {
+        always {
+            script {
+                archiveArtifacts artifacts: "out/"
             }
         }
     }
