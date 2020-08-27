@@ -75,7 +75,7 @@ pipeline {
                     }
                     writeFile file: "csgraph.sparql", text: """SELECT ?graph { ?graph a <http://www.w3.org/2004/02/skos/core#ConceptScheme> }"""
                     for (def cs : findFiles(glob: 'out/concept-schemes/*')) {
-                        sh "sparql --data='${ontology.path}' --query=csgraph.sparql --results=JSON > 'graph.json'"
+                        sh "sparql --data='${cs.path}' --query=csgraph.sparql --results=JSON > 'graph.json'"
                         uploads.add([
                                 "path"  : cs.path,
                                 "format": "text/turtle",
