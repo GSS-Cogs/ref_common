@@ -34,10 +34,10 @@ pipeline {
             steps {
                 script {
                     sh "mkdir -p out/ontologies out/concept-schemes"
-                    sh "csv2rdf -t 'measures.csv' -u 'measures.csv-metadata.json' -m annotated -o out/concept-schemes/measures.ttl"
+                    sh "csv2rdf -t 'measures.csv' -u 'measures.csv-metadata.json' -m annotated -o out/ontologies/measures.ttl"
                     for (def metadata : findFiles(glob: "codelists/*.csv-metadata.json")) {
                         String baseName = metadata.name.substring(0, metadata.name.lastIndexOf('.csv-metadata.json'))
-                        sh "csv2rdf -t 'codelists/${basename}.csv' -u 'codelists/${metadata.name}' -m annotated > 'out/concept-schemes/${basename}.ttl'"
+                        sh "csv2rdf -t 'codelists/${baseName}.csv' -u 'codelists/${metadata.name}' -m annotated > 'out/concept-schemes/${baseName}.ttl'"
                     }
                 }
             }
@@ -73,12 +73,28 @@ pipeline {
                             "graph": readJSON(text: readFile(file: "graph.json")).results.bindings[0].graph.value
                         ])
                     }
+                    writeFile file: "csgraph.sparql", text:  """SELECT ?graph { ?graph a <http://www.w3.org/2004/02/skos/core#ConceptScheme> }"""
+                    for (def cs : findFiles(glob: 'out/concept-schemes/*')) {
+                        sh "sparql --data='${ontology.path}' --query=csgraph.sparql --results=JSON > 'graph.json'"
+                        uploads.add([
+                                "path": cs.path,
+                                "format": "text/turtle",
+                                "graph": readJSON(text: readFile(file: "graph.json")).results.bindings[0].graph.value
+                        ])
+                    }
                     for (def upload: uploads) {
                         pmd.drafter.addData(id, "${WORKSPACE}/${upload.path}", upload.format, "UTF-8", upload.graph)
                         writeFile(file: "${upload.path}-prov.ttl", text: util.jobPROV(upload.graph))
                         pmd.drafter.addData(id, "${WORKSPACE}/${upload.path}-prov.ttl", "text/turtle", "UTF-8", upload.graph)
                     }
                     pmd.drafter.publishDraftset(id)
+                }
+            }
+        }
+        post {
+            always {
+                script {
+                    archiveArtifacts artifacts: "out/"
                 }
             }
         }
