@@ -1,4 +1,4 @@
 Path,Label,Comment,Source,Parent,Range
 count,Count,The total number of items,,http://purl.org/linked-data/sdmx/2009/measure#obsValue,xsd:integer
 cumulative-count,Cumulative Count,The total number of items added to the previous total,,http://purl.org/linked-data/sdmx/2009/measure#obsValue,xsd:integer
-exposure,Exposure,,http://purl.org/linked-data/sdmx/2009/measure#obsValue,xsd:decimal
+exposure,Exposure,,,,xsd:decimal
