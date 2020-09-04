@@ -197,12 +197,12 @@ Under 40,under-40,all,187
 16 and over,16-plus,all,190
 17 and over,17-plus,all,191
 NHS Coronavirus Shielded Patient List Summary Totals England,nhs,all,192
-0 17,nhs/0-17,all,193
-18 29,nhs/18-29,all,194
-30 39,nhs/30-39,all,195
-40 49,nhs/40-49,all,196
-50 59,nhs/50-59,all,197
-60 69,nhs/60-69,all,198
-70 79,nhs/70-79,all,199
-80 89,nhs/80-89,all,200
+0-17,nhs/0-17,all,193
+18-29,nhs/18-29,all,194
+30-39,nhs/30-39,all,195
+40-49,nhs/40-49,all,196
+50-59,nhs/50-59,all,197
+60-69,nhs/60-69,all,198
+70-79,nhs/70-79,all,199
+80-89,nhs/80-89,all,200
 90+,nhs/90plus,all,201
