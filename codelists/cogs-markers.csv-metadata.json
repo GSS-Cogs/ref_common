@@ -62,8 +62,8 @@
             }
         ],
         "primaryKey": [
-            "path"
+            "notation"
         ],
-        "aboutUrl": "http://gss-data.org.uk/def/concept/cogs-markers/{+path}"
+        "aboutUrl": "http://gss-data.org.uk/def/concept/cogs-markers/{+notation}"
     }
 }
