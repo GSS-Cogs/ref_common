@@ -64,6 +64,6 @@
         "primaryKey": [
             "path"
         ],
-        "aboutUrl": "http://gss-data.org.uk/def/concept/marker/{+path}"
+        "aboutUrl": "http://gss-data.org.uk/def/concept/markers/{+path}"
     }
 }
