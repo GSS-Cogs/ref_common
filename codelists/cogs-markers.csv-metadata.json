@@ -7,7 +7,7 @@
     ],
     "@id": "#table",
     "prov:hadDerivation": {
-        "@id": "http://gss-data.org.uk/def/concept-scheme/cogs-markers",
+        "@id": "http://gss-data.org.uk/def/concept-scheme/markers",
         "@type": "skos:ConceptScheme",
         "rdfs:label": "Harmonised symbols"
     },
@@ -46,7 +46,7 @@
                 "name": "top",
                 "virtual": true,
                 "propertyUrl": "skos:topConceptOf",
-                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/cogs-markers"
+                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/markers"
             },
             {
                 "name": "type",
@@ -58,7 +58,7 @@
                 "name": "in_scheme",
                 "virtual": true,
                 "propertyUrl": "skos:inScheme",
-                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/cogs-markers"
+                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/markers"
             }
         ],
         "primaryKey": [
