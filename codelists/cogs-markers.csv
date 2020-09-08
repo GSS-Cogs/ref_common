@@ -1,4 +1,3 @@
 Label,Notation,Comment,Sort Priority
 Imputed,imputed,"Missing values have been imputed using linear interpolation",1
 Between 1 and 7,between-1-and-7,"Protected patient confidentiality",2
-,No marker,"There is no marker",3
