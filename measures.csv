@@ -3,3 +3,4 @@ count,Count,The total number of items,,http://purl.org/linked-data/sdmx/2009/mea
 cumulative-count,Cumulative Count,The total number of items added to the previous total,,http://purl.org/linked-data/sdmx/2009/measure#obsValue,xsd:integer
 indicator,Indicator,,,,xsd:decimal
 standardised-scale,Standardised Scale,,,,xsd:decimal
+percentage,Percentage,,,,xsd:decimal
