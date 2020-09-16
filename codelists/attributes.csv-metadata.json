@@ -1,69 +1,73 @@
 {
-    "@context": [
-        "http://www.w3.org/ns/csvw",
-        {
-            "@language": "en"
-        }
-    ],
-    "@id": "#table",
-    "prov:hadDerivation": {
-        "@id": "http://gss-data.org.uk/def/concept-scheme/attributes",
-        "@type": "skos:ConceptScheme",
-        "rdfs:label": ""
-    },
-    "url": "attributes.csv",
-    "tableSchema": {
+  "@context": [
+  "http://www.w3.org/ns/csvw",
+  {
+    "@language": "en"
+  }
+],
+  "tables": [
+    {
+      "url": "attributes.csv",
+      "tableSchema": {
         "columns": [
-            {
-                "titles": "Label",
-                "required": true,
-                "name": "label",
-                "datatype": "string",
-                "propertyUrl": "rdfs:label"
-            },
-            {
-                "titles": "Notation",
-                "required": false,
-                "name": "notation",
-                "datatype": "string",
-                "propertyUrl": "skos:notation"
-            },
-            {
-                "titles": "Comment",
-                "required": false,
-                "name": "comment",
-                "datatype": "string",
-                "propertyUrl": "rdfs:comment"
-            },
-            {
-                "titles": "Sort Priority",
-                "required": false,
-                "name": "sort",
-                "datatype": "integer",
-                "propertyUrl": "http://www.w3.org/ns/ui#sortPriority"
-            },
-            {
-                "name": "top",
-                "virtual": true,
-                "propertyUrl": "skos:topConceptOf",
-                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/attributes"
-            },
-            {
-                "name": "type",
-                "virtual": true,
-                "propertyUrl": "rdf:type",
-                "valueUrl": "skos:Concept"
-            },
-            {
-                "name": "in_scheme",
-                "virtual": true,
-                "propertyUrl": "skos:inScheme",
-                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/attributes"
+          {
+            "titles": "title",
+            "required": true,
+            "name": "title",
+            "datatype": "string"
+          }, {
+            "titles": "name",
+            "required": true,
+            "name": "name",
+            "datatype": {
+              "base": "string",
+              "format": "^\\w+$"
             }
+          }, {
+            "titles": "component_attachment",
+            "required": false,
+            "name": "component_attachment",
+            "datatype": {
+              "format": "^(qb:dimension|qb:measure|qb:attribute)$"
+            }
+          }, {
+            "titles": "property_template",
+            "required": false,
+            "name": "observation_status",
+            "datatype": "anyURI"
+          }, {
+            "titles": "value_template",
+            "required": false,
+            "name": "value_template",
+            "datatype": "anyURI"
+          }, {
+            "titles": "datatype",
+            "required": false,
+            "name": "datatype",
+            "datatype": {
+              "format": "^(string|number)$"
+            }
+          }, {
+            "titles": "value_transformation",
+            "required": false,
+            "name": "value_transformation",
+            "datatype": "string"
+          }, {
+            "titles": "regex",
+            "required": false,
+            "name": "regex",
+            "datatype": "string"
+          }, {
+            "titles": "range",
+            "required": false,
+            "name": "range",
+            "datatype": "anyURI"
+          }
         ],
         "primaryKey": [
-            "notation"
-        ],
-        "aboutUrl": "http://gss-data.org.uk/def/concept/attributes/{+notation}"
+          "title"
+        ]
+      }
     }
+  ]
 }
