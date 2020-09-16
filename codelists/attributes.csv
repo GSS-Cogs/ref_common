@@ -1,0 +1,5 @@
+Label,Notation,Comment,Sort Priority
+Number of care homes,number_of_care_homes,"",1
+Total number of domestic electricity meters,total_number_of_domestic_electricity_meters,"",2
+Mean Domestic electricity consumption kWh per meter,mean_domestic_electricity_consumption_kwh_per_meter,"",3
+Median domestic electricity consumption kWh per meter,median_domestic_electricity_consumption_kwh_per_meter,"",4

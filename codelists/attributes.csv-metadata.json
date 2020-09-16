@@ -1,0 +1,69 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "@id": "#table",
+    "prov:hadDerivation": {
+        "@id": "http://gss-data.org.uk/def/concept-scheme/attributes",
+        "@type": "skos:ConceptScheme",
+        "rdfs:label": ""
+    },
+    "url": "attributes.csv",
+    "tableSchema": {
+        "columns": [
+            {
+                "titles": "Label",
+                "required": true,
+                "name": "label",
+                "datatype": "string",
+                "propertyUrl": "rdfs:label"
+            },
+            {
+                "titles": "Notation",
+                "required": false,
+                "name": "notation",
+                "datatype": "string",
+                "propertyUrl": "skos:notation"
+            },
+            {
+                "titles": "Comment",
+                "required": false,
+                "name": "comment",
+                "datatype": "string",
+                "propertyUrl": "rdfs:comment"
+            },
+            {
+                "titles": "Sort Priority",
+                "required": false,
+                "name": "sort",
+                "datatype": "integer",
+                "propertyUrl": "http://www.w3.org/ns/ui#sortPriority"
+            },
+            {
+                "name": "top",
+                "virtual": true,
+                "propertyUrl": "skos:topConceptOf",
+                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/attributes"
+            },
+            {
+                "name": "type",
+                "virtual": true,
+                "propertyUrl": "rdf:type",
+                "valueUrl": "skos:Concept"
+            },
+            {
+                "name": "in_scheme",
+                "virtual": true,
+                "propertyUrl": "skos:inScheme",
+                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/attributes"
+            }
+        ],
+        "primaryKey": [
+            "notation"
+        ],
+        "aboutUrl": "http://gss-data.org.uk/def/concept/attributes/{+notation}"
+    }
+}
