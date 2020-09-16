@@ -12,3 +12,7 @@ Value,value,,http://gss-data.org.uk/def/measure/{measure_type},,number,,,
 Trust,trust,qb:dimension,http://gss-data.org.uk/def/dimension/trust,http://gss-data.org.uk/def/concept/trust/{trust},string,slugize,,
 Year,year,qb:dimension,http://purl.org/linked-data/sdmx/2009/dimension#refPeriod,http://reference.data.gov.uk/id/year/{year},string,,^[0-9]{4}$,http://reference.data.gov.uk/def/intervals/Year
 Severity,severity,qb:dimension,http://gss-data.org.uk/def/dimension/severity,http://gss-data.org.uk/def/concept/severity/{severity},string,slugize,,
+Number of care homes,number_of_care_homes,qb:attribute,http://gss-data.org.uk/def/attribute/number_of_care_homes,,number,,,
+Total number of domestic electricity meters,total_number_of_domestic_electricity_meters,qb:attribute,http://gss-data.org.uk/def/attribute/total_number_of_domestic_electricity_meters,,number,,,
+Mean Domestic electricity consumption kWh per meter,mean_domestic_electricity_consumption_kwh_per_meter,qb:attribute,http://gss-data.org.uk/def/attribute/mean_domestic_electricity_consumption_kwh_per_meter,,number,,,
+Median domestic electricity consumption kWh per meter,median_domestic_electricity_consumption_kwh_per_meter,qb:attribute,http://gss-data.org.uk/def/attribute/median_domestic_electricity_consumption_kwh_per_meter,,number,,,
