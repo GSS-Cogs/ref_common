@@ -5,3 +5,4 @@ indicator,Indicator,,,,xsd:decimal
 standardised-scale,Standardised Scale,,,,xsd:decimal
 percentage,Percentage,,,,xsd:decimal
 percent,Percent,,,,xsd:decimal
+kilowatt,Kilowatt,,,,xsd:decimal
