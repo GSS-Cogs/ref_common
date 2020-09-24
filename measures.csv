@@ -7,3 +7,4 @@ percentage,Percentage,,,,xsd:decimal
 percent,Percent,,,,xsd:decimal
 kilowatt,Kilowatt,,,,xsd:decimal
 weight,Weight,,,,xsd:decimal
+travel-time,Travel Time,,,,xsd:decimal
