@@ -1,32 +1,54 @@
 {
-  "@id": "components.csv-metadata.json",
-  "@context": "http://www.w3.org/ns/csvw",
-  "columns": [
-    {
-      "titles": "Label",
-      "name": "label",
-      "datatype": "string",
-      "required": true
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "@id": "components.csv-metadata.json",
+    "prov:hadDerivation": {
+        "@id": "http://gss-data.org.uk/def/concept-scheme/components",
+        "@type": "skos:ConceptScheme",
+        "rdfs:label": ""
     },
-    {
-      "titles": "Description",
-      "name": "description",
-      "datatype": "string",
-      "required": true
-    },
-    {
-      "titles": "Component Type",
-      "name": "component_type",
-      "datatype": {
-        "base": "string",
-        "format": "^Attribute$|^Dimension$|^Measure$"
-      },
-      "required": true
-    },
-    {
-      "titles": "Codelist",
-      "datatype": "anyURI",
-      "required": false
-    }],
-  "primaryKey": ["label"]
+    "url": "components.csv",
+    "tableSchema": {
+        "columns": [
+            {
+                "titles": "Label",
+                "name": "label",
+                "datatype": "string",
+                "required": true
+            },
+            {
+                "titles": "Notation",
+                "required": false,
+                "name": "notation",
+                "datatype": "string",
+                "propertyUrl": "skos:notation"
+            },
+            {
+                "titles": "Description",
+                "name": "description",
+                "datatype": "string",
+                "required": true
+            },
+            {
+                "titles": "Component Type",
+                "name": "component_type",
+                "datatype": {
+                    "base": "string",
+                    "format": "^Attribute$|^Dimension$|^Measure$"
+                },
+                "required": true
+            },
+            {
+                "titles": "Codelist",
+                "datatype": "anyURI",
+                "required": false
+            }],
+        "primaryKey": ["label"],
+        "aboutUrl": "http://gss-data.org.uk/def/concept/components/{+notation}"
+    }
+            
 }
