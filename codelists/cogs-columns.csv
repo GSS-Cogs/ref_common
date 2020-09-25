@@ -1,2 +1,2 @@
 title,name,component_attachment,property_template,value_template,datatype,value_transformation,regex,range
-Field Code,field_code,qp:dimension,http://gss-data.org.uk/def/dimension/field-code,http://gss-data.org.uk/def/concept/field-code/{field_code},string,slugize,,
+Field Code,field_code,qb:dimension,http://gss-data.org.uk/def/dimension/field-code,http://gss-data.org.uk/def/concept/field-code/{field_code},string,slugize,,
