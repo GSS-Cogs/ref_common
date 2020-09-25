@@ -1,5 +1,5 @@
 Label,Notation,Parent Notation,Sort Priority
-"to nearest employment centre with 100 to 499 jobs by PT/walk",100empptt,,1
+"nearest employment centre with 100 to 499 jobs by PT/walk",100empptt,,1
 "employment centres with 100 to 499 jobs available by PT/walk within 15 minutes",100emppt15n,,2
 "employment centres with 100 to 499 jobs available by PT/walk within 30 minutes",100emppt30n,,3
 "employment centres with 100 to 499 jobs available by PT/walk within 45 minutes",100emppt45n,,4
@@ -8,7 +8,7 @@ Label,Notation,Parent Notation,Sort Priority
 "users within 30 minutes of employment centres with 100 to 499 jobs available by PT/walk",100emppt30pct,,7
 "users within 45 minutes of employment centres with 100 to 499 jobs available by PT/walk",100emppt45pct,,8
 "users within 60 minutes of employment centres with 100 to 499 jobs available by PT/walk",100emppt60pct,,9
-"to nearest employment centre with 100 to 499 jobs by cycle",100empcyct,,10
+"nearest employment centre with 100 to 499 jobs by cycle",100empcyct,,10
 "employment centres with 100 to 499 jobs available by cycle within 15 minutes",100empcyc15n,,11
 "employment centres with 100 to 499 jobs available by cycle within 30 minutes",100empcyc30n,,12
 "employment centres with 100 to 499 jobs available by cycle within 45 minutes",100empcyc45n,,13
@@ -17,7 +17,7 @@ Label,Notation,Parent Notation,Sort Priority
 "users within 30 minutes of employment centres with 100 to 499 jobs available by cycle",100empcyc30pct,,16
 "users within 45 minutes of employment centres with 100 to 499 jobs available by cycle",100empcyc45pct,,17
 "users within 60 minutes of employment centres with 100 to 499 jobs available by cycle",100empcyc60pct,,18
-"to nearest employment centre with 100 to 499 jobs by car",100empcart,,19
+"nearest employment centre with 100 to 499 jobs by car",100empcart,,19
 "employment centres with 100 to 499 jobs available by car within 15 minutes",100empcar15n,,20
 "employment centres with 100 to 499 jobs available by car within 30 minutes",100empcar30n,,21
 "employment centres with 100 to 499 jobs available by car within 45 minutes",100empcar45n,,22
@@ -26,7 +26,7 @@ Label,Notation,Parent Notation,Sort Priority
 "users within 30 minutes of employment centres with 100 to 499 jobs available by car",100empcar30pct,,25
 "users within 45 minutes of employment centres with 100 to 499 jobs available by car",100empcar45pct,,26
 "users within 60 minutes of employment centres with 100 to 499 jobs available by car",100empcar60pct,,27
-"to nearest employment centre with 500 to 4999 jobs by PT/walk",500empptt,,28
+"nearest employment centre with 500 to 4999 jobs by PT/walk",500empptt,,28
 "employment centres with 500 to 4999 jobs available by PT/walk within 15 minutes",500emppt15n,,29
 "employment centres with 500 to 4999 jobs available by PT/walk within 30 minutes",500emppt30n,,30
 "employment centres with 500 to 4999 jobs available by PT/walk within 45 minutes",500emppt45n,,31
@@ -35,7 +35,7 @@ Label,Notation,Parent Notation,Sort Priority
 "users within 30 minutes of employment centres with 500 to 4999 jobs available by PT/walk",500emppt30pct,,34
 "users within 45 minutes of employment centres with 500 to 4999 jobs available by PT/walk",500emppt45pct,,35
 "users within 60 minutes of employment centres with 500 to 4999 jobs available by PT/walk",500emppt60pct,,36
-"to nearest employment centre with 500 to 4999 jobs by cycle",500empcyct,,37
+"nearest employment centre with 500 to 4999 jobs by cycle",500empcyct,,37
 "employment centres with 500 to 4999 jobs available by cycle within 15 minutes",500empcyc15n,,38
 "employment centres with 500 to 4999 jobs available by cycle within 30 minutes",500empcyc30n,,39
 "employment centres with 500 to 4999 jobs available by cycle within 45 minutes",500empcyc45n,,40
@@ -44,7 +44,7 @@ Label,Notation,Parent Notation,Sort Priority
 "users within 30 minutes of employment centres with 500 to 4999 jobs available by cycle",500empcyc30pct,,43
 "users within 45 minutes of employment centres with 500 to 4999 jobs available by cycle",500empcyc45pct,,44
 "users within 60 minutes of employment centres with 500 to 4999 jobs available by cycle",500empcyc60pct,,45
-"to nearest employment centre with 500 to 4999 jobs by car",500empcart,,46
+"nearest employment centre with 500 to 4999 jobs by car",500empcart,,46
 "employment centres with 500 to 4999 jobs available by car within 15 minutes",500empcar15n,,47
 "employment centres with 500 to 4999 jobs available by car within 30 minutes",500empcar30n,,48
 "employment centres with 500 to 4999 jobs available by car within 45 minutes",500empcar45n,,49
@@ -53,7 +53,7 @@ Label,Notation,Parent Notation,Sort Priority
 "users within 30 minutes of employment centres with 500 to 4999 jobs available by car",500empcar30pct,,52
 "users within 45 minutes of employment centres with 500 to 4999 jobs available by car",500empcar45pct,,53
 "users within 60 minutes of employment centres with 500 to 4999 jobs available by car",500empcar60pct,,54
-"to nearest employment centre with at least 5000 jobs by PT/walk",5000empptt,,55
+"nearest employment centre with at least 5000 jobs by PT/walk",5000empptt,,55
 "employment centres with at least 5000 jobs available by PT/walk within 15 minutes",5000emppt15n,,56
 "employment centres with at least 5000 jobs available by PT/walk within 30 minutes",5000emppt30n,,57
 "employment centres with at least 5000 jobs available by PT/walk within 45 minutes",5000emppt45n,,58
@@ -62,7 +62,7 @@ Label,Notation,Parent Notation,Sort Priority
 "users within 30 minutes of employment centres with at least 5000 jobs available by PT/walk",5000emppt30pct,,61
 "users within 45 minutes of employment centres with  at least 5000 jobs available by PT/walk",5000emppt45pct,,62
 "users within 60 minutes of employment centres with at least 5000 jobs available by PT/walk",5000emppt60pct,,63
-"to nearest employment centre with at least 5000 jobs by cycle",5000empcyct,,64
+"nearest employment centre with at least 5000 jobs by cycle",5000empcyct,,64
 "employment centres with at least 5000 jobs available by cycle within 15 minutes",5000empcyc15n,,65
 "employment centres with at least 5000 jobs available by cycle within 30 minutes",5000empcyc30n,,66
 "employment centres with at least 5000 jobs available by cycle within 45 minutes",5000empcyc45n,,67
@@ -71,7 +71,7 @@ Label,Notation,Parent Notation,Sort Priority
 "users within 30 minutes of employment centres with at least 5000 jobs available by cycle",5000empcyc30pct,,70
 "users within 45 minutes of employment centres with  at least 5000 jobs available by cycle",5000empcyc45pct,,71
 "users within 60 minutes of employment centres with at least 5000 jobs available by cycle",5000empcyc60pct,,72
-"to nearest employment centre with at least 5000 jobs by car",5000empcart,,73
+"nearest employment centre with at least 5000 jobs by car",5000empcart,,73
 "employment centres with at least 5000 jobs available by car within 15 minutes",5000empcar15n,,74
 "employment centres with at least 5000 jobs available by car within 30 minutes",5000empcar30n,,75
 "employment centres with at least 5000 jobs available by car within 45 minutes",5000empcar45n,,76
