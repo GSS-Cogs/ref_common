@@ -48,7 +48,8 @@
             {
                 "titles": "Codelist",
                 "datatype": "anyURI",
-                "required": false
+                "required": false,
+                "propertyUrl": "qb:codelist"
             },
             {
                 "name": "in_scheme",
