@@ -46,6 +46,11 @@
                 "propertyUrl": "rdf:XMLLiteral"
             },
             {
+                "titles": "Codelist",
+                "datatype": "anyURI",
+                "required": false
+            },
+            {
                 "name": "in_scheme",
                 "virtual": true,
                 "propertyUrl": "skos:inScheme",
@@ -62,11 +67,6 @@
                 "virtual": true,
                 "propertyUrl": "rdf:type",
                 "valueUrl": "skos:Concept"
-            },
-            {
-                "titles": "Codelist",
-                "datatype": "anyURI",
-                "required": false
             }],
         "primaryKey": ["label"],
         "aboutUrl": "http://gss-data.org.uk/def/concept/components/{+notation}"
