@@ -1,0 +1,10 @@
+Label,Description,Component Type,Codelist
+Field Code,DfT code for Journey time statistics,Dimension,http://gss-data.org.uk/def/concept-scheme/field-code
+Severity,Severity,Dimension,http://gss-data.org.uk/def/concept-scheme/severity
+Treatment Type,Treatment Type,Dimension,http://gss-data.org.uk/def/concept-scheme/treatment-type
+Trust,NHS trust,Dimension,http://gss-data.org.uk/def/concept-scheme/trust
+Service Type,Service Type,Dimension,http://gss-data.org.uk/def/concept-scheme/service-type
+Residential Status,Residential Status,Dimension,http://gss-data.org.uk/def/concept-scheme/residential-status
+Age,"Age group, with older age groups split to reflect traditional UK retirement age for women/men",Dimension,http://gss-data.org.uk/def/concept-scheme/ages
+Revision,Indicator for whether the original value has been revised and the cause of revision,Dimension,http://gss-data.org.uk/def/concept-scheme/revisions
+Value,Value,Measure,http://gss-data.org.uk/def/concept-scheme/value

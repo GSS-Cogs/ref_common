@@ -1,0 +1,32 @@
+{
+  "@id": "components.csv-metadata.json",
+  "@context": "http://www.w3.org/ns/csvw",
+  "columns": [
+    {
+      "titles": "Label",
+      "name": "label",
+      "datatype": "string",
+      "required": true
+    },
+    {
+      "titles": "Description",
+      "name": "description",
+      "datatype": "string",
+      "required": true
+    },
+    {
+      "titles": "Component Type",
+      "name": "component_type",
+      "datatype": {
+        "base": "string",
+        "format": "^Attribute$|^Dimension$|^Measure$"
+      },
+      "required": true
+    },
+    {
+      "titles": "Codelist",
+      "datatype": "anyURI",
+      "required": false
+    }],
+  "primaryKey": ["label"]
+}
