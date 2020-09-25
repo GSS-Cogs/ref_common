@@ -16,9 +16,10 @@
         "columns": [
             {
                 "titles": "Label",
+                "required": true,
                 "name": "label",
                 "datatype": "string",
-                "required": true
+                "propertyUrl": "rdfs:label"
             },
             {
                 "titles": "Notation",
@@ -31,6 +32,7 @@
                 "titles": "Description",
                 "name": "description",
                 "datatype": "string",
+                "propertyUrl": "rdfs:comment",
                 "required": true
             },
             {
@@ -40,7 +42,26 @@
                     "base": "string",
                     "format": "^Attribute$|^Dimension$|^Measure$"
                 },
-                "required": true
+                "required": true,
+                "propertyUrl": "rdf:XMLLiteral"
+            },
+            {
+                "name": "in_scheme",
+                "virtual": true,
+                "propertyUrl": "skos:inScheme",
+                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/components"
+            },
+            {
+                "name": "top",
+                "virtual": true,
+                "propertyUrl": "skos:topConceptOf",
+                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/components"
+            },
+            {
+                "name": "type",
+                "virtual": true,
+                "propertyUrl": "rdf:type",
+                "valueUrl": "skos:Concept"
             },
             {
                 "titles": "Codelist",
