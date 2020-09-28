@@ -80,3 +80,31 @@ Label,Notation,Parent Notation,Sort Priority
 "users within 30 minutes of employment centres with at least 5000 jobs available by car",5000empcar30pct,,79
 "users within 45 minutes of employment centres with  at least 5000 jobs available by car",5000empcar45pct,,80
 "users within 60 minutes of employment centres with at least 5000 jobs available by car",5000empcar60pct,,81
+"Service users in LSOA = population aged 5-10 years",ps_pop,,82
+"nearest primary schools by PT/walk",psptt,,83
+"primary schools available by PT/walk within 15 minutes",pspt15n,,84
+"primary schools available by PT/walk within 30 minutes",pspt30n,,85
+"primary schools available by PT/walk within 45 minutes",pspt45n,,86
+"primary schools available by PT/walk within 60 minutes",pspt60n,,87
+"users within 15 minutes of primary schools available by PT/walk",pspt15pct,,88
+"users within 30 minutes of primary schools available by PT/walk",pspt30pct,,89
+"users within 45 minutes of primary schools available by PT/walk",pspt45pct,,90
+"users within 60 minutes of primary schools available by PT/walk",pspt60pct,,91
+"nearest primary schools by cycle",pscyct,,92
+"primary schools available by cycle within 15 minutes",pscyc15n,,93
+"primary schools available by cycle within 30 minutes",pscyc30n,,94
+"primary schools available by cycle within 45 minutes",pscyc45n,,95
+"primary schools available by cycle within 60 minutes",pscyc60n,,96
+"users within 15 minutes of primary schools available by cycle",pscyc15pct,,97
+"users within 30 minutes of primary schools available by cycle",pscyc30pct,,98
+"users within 45 minutes of primary schools available by cycle",pscyc45pct,,99
+"users within 60 minutes of primary schools available by cycle",pscyc60pct,,100
+"nearest primary schools by car",pscart,,101
+"primary schools available by car within 15 minutes",pscar15n,,102
+"primary schools available by car within 30 minutes",pscar30n,,103
+"primary schools available by car within 45 minutes",pscar45n,,104
+"primary schools available by car within 60 minutes",pscar60n,,105
+"users within 15 minutes of primary schools available by car",pscar15pct,,106
+"users within 30 minutes of primary schools available by car",pscar30pct,,107
+"users within 45 minutes of primary schools available by car",pscar45pct,,108
+"users within 60 minutes of primary schools available by car",pscar60pct,,109
