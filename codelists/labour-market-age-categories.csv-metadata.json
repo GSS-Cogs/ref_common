@@ -63,6 +63,6 @@
   "prov:hadDerivation": {
     "@id": "http://gss-data.org.uk/def/concept-scheme/components#scheme/labour-market-age-categories",
     "@type": "skos:ConceptScheme",
-    "rdfs:label": "labour-market-age-categories"
+    "rdfs:label": "Labour Market Age Categories"
   }
 }
