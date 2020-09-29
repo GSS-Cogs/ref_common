@@ -1,6 +1,6 @@
 {
   "@context": "http://www.w3.org/ns/csvw",
-  "@id": "http://gss-data.org.uk/data/gss_data/towns-high-streets/ons-population-estimates-by-output-areas-electoral-health-and-other-geographies-england-and-wales#schema",
+  "@id": "http://gss-data.org.uk/def/concept-scheme/components#schema",
   "url": "labour-market-age-categories.csv",
   "tableSchema": {
     "columns": [
@@ -30,7 +30,7 @@
         },
         "required": false,
         "propertyUrl": "skos:broader",
-        "valueUrl": "http://gss-data.org.uk/data/gss_data/towns-high-streets/ons-population-estimates-by-output-areas-electoral-health-and-other-geographies-england-and-wales#concept/labour-market-age-categories/{parent_notation}"
+        "valueUrl": "http://gss-data.org.uk/def/concept-scheme/components#concept/labour-market-age-categories/{parent_notation}"
       },
       {
         "titles": "Sort Priority",
@@ -54,16 +54,15 @@
       {
         "virtual": true,
         "propertyUrl": "skos:inScheme",
-        "valueUrl": "http://gss-data.org.uk/data/gss_data/towns-high-streets/ons-population-estimates-by-output-areas-electoral-health-and-other-geographies-england-and-wales#scheme/labour-market-age-categories"
+        "valueUrl": "http://gss-data.org.uk/def/concept-scheme/components#scheme/labour-market-age-categories"
       }
     ],
     "primaryKey": "notation",
-    "aboutUrl": "http://gss-data.org.uk/data/gss_data/towns-high-streets/ons-population-estimates-by-output-areas-electoral-health-and-other-geographies-england-and-wales#concept/labour-market-age-categories/{notation}"
+    "aboutUrl": "http://gss-data.org.uk/def/concept-scheme/components#concept/labour-market-age-categories/{notation}"
   },
   "prov:hadDerivation": {
-    "@id": "http://gss-data.org.uk/data/gss_data/towns-high-streets/ons-population-estimates-by-output-areas-electoral-health-and-other-geographies-england-and-wales#scheme/labour-market-age-categories",
+    "@id": "http://gss-data.org.uk/def/concept-scheme/components#scheme/labour-market-age-categories",
     "@type": "skos:ConceptScheme",
-    "rdfs:label": "labour-market-age-categories",
-    "skos:hasTopConcept": "http://gss-data.org.uk/data/gss_data/towns-high-streets/ons-population-estimates-by-output-areas-electoral-health-and-other-geographies-england-and-wales#concept/labour-market-age-categories/all"
+    "rdfs:label": "labour-market-age-categories"
   }
 }
