@@ -108,7 +108,7 @@ Label,Notation,Parent Notation,Sort Priority
 "users within 30 minutes of primary schools available by car",pscar30pct,,107
 "users within 45 minutes of primary schools available by car",pscar45pct,,108
 "users within 60 minutes of primary schools available by car",pscar60pct,,109
-"Service users in LSOA = population aged 11-15 years",ss_pop',,110
+"Service users in LSOA = population aged 11-15 years",ss_pop,,110
 "nearest secondary school by PT/walk",ssptt,,111
 "secondary schools available by PT/walk within 15 minutes",sspt15n,,112
 "secondary schools available by PT/walk within 30 minutes",sspt30n,,113
