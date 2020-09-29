@@ -175,20 +175,48 @@ Label,Notation,Parent Notation,Sort Priority
 "users within 45 minutes of GPs by PT/walk",gppt45pct,,174
 "users within 60 minutes of GPs by PT/walk",gppt60pct,,175
 "nearest GP by cycle",gpcyct,,176
-"GPs by PT/walk within 15 minutes",gpcyc15n,,177
-"GPs by PT/walk within 30 minutes",gpcyc30n,,178
-"GPs by PT/walk within 45 minutes",gpcyc45n,,179
-"GPs by PT/walk within 60 minutes",gpcyc60n,,180
-"users within 15 minutes of GPs by PT/walk",gpcyc15pct,,181
-"users within 30 minutes of GPs by PT/walk",gpcyc30pct,,182
-"users within 45 minutes of GPs by PT/walk",gpcyc45pct,,183
-"users within 60 minutes of GPs by PT/walk",gpcyc60pct,,184
+"GPs by cycle within 15 minutes",gpcyc15n,,177
+"GPs by cycle within 30 minutes",gpcyc30n,,178
+"GPs by cycle within 45 minutes",gpcyc45n,,179
+"GPs by cycle within 60 minutes",gpcyc60n,,180
+"users within 15 minutes of GPs by cycle",gpcyc15pct,,181
+"users within 30 minutes of GPs by cycle",gpcyc30pct,,182
+"users within 45 minutes of GPs by Cycle",gpcyc45pct,,183
+"users within 60 minutes of GPs by cycle",gpcyc60pct,,184
 "nearest GP by car",gpcart,,185
-"GPs by PT/walk within 15 minutes",gpcar15n,,186
-"GPs by PT/walk within 30 minutes",gpcar30n,,187
-"GPs by PT/walk within 45 minutes",gpcar45n,,188
-"GPs by PT/walk within 60 minutes",gpcar60n,,189
-"users within 15 minutes of GPs by PT/walk",gpcar15pct,,190
-"users within 30 minutes of GPs by PT/walk",gpcar30pct,,191
-"users within 45 minutes of GPs by PT/walk",gpcar45pct,,192
-"users within 60 minutes of GPs by PT/walk",gpcar60pct,,193
+"GPs by car within 15 minutes",gpcar15n,,186
+"GPs by car within 30 minutes",gpcar30n,,187
+"GPs by car within 45 minutes",gpcar45n,,188
+"GPs by Car within 60 minutes",gpcar60n,,189
+"users within 15 minutes of GPs by car",gpcar15pct,,190
+"users within 30 minutes of GPs by car",gpcar30pct,,191
+"users within 45 minutes of GPs by car",gpcar45pct,,192
+"users within 60 minutes of GPs by car",gpcar60pct,,193
+"Service users in LSOA: number of households in LSOA",hosp_pop,,194
+"nearest hospital by PT/walk",hospptt,,195
+"hospitals by PT/walk within 15 minutes",hosppt15n,,196
+"hospitals by PT/walk within 30 minutes",hosppt30n,,197
+"hospitals by PT/walk within 45 minutes",hosppt45n,,198
+"hospitals by PT/walk within 60 minutes",hosppt60n,,199
+"users within 15 minutes of hospitals by PT/walk",hosppt15pct,,200
+"users within 30 minutes of hospitals by PT/walk",hosppt30pct,,201
+"users within 45 minutes of hospitals by PT/walk",hosppt45pct,,202
+"users within 60 minutes of hospitals by PT/walk",hosppt60pct,,203
+"nearest hospital by cycle",hospcyct,,204
+"Number of hospitals by cycle within 15 minutes",hospcyc15n,,205
+"hospitals by cycle within 30 minutes",hospcyc30n,,206
+"hospitals by cycle within 45 minutes",hospcyc45n,,207
+"hospitals by cycle within 60 minutes",hospcyc60n,,208
+"users within 15 minutes of hospitals by cycle",hospcyc15pct,,209
+"users within 30 minutes of hospitals by cycle",hospcyc30pct,,210
+"users within 45 minutes of hospitals by cycle",hospcyc45pct,,211
+"users within 60 minutes of hospitals by cycle",hospcyc60pct,,212
+"nearest hospital by car",hospcart,,213
+"hospitals by car within 15 minutes",hospcar15n,,214
+"hospitals by car within 30 minutes",hospcar30n,,215
+"hospitals by car within 45 minutes",hospcar45n,,216
+"hospitals by car within 60 minutes",hospcar60n,,217
+"users within 15 minutes of hospitals by car",hospcar15pct,,218
+"users within 30 minutes of hospitals by car",hospcar30pct,,219
+"users within 45 minutes of hospitals by car",hospcar45pct,,220
+"users within 60 minutes of hospitals by car",hospcar60pct,,221
