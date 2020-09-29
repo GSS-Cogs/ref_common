@@ -164,3 +164,31 @@ Label,Notation,Parent Notation,Sort Priority
 "users within 30 minutes of further education colleges available by car",fecar30pct,163
 "users within 45 minutes of further education colleges available by car",fecar45pct,164
 "users within 60 minutes of further education colleges available by car",fecar60pct,165
+"Service users in LSOA = all households",gp_pop,166
+"nearest GP by PT/walk"	,gpptt,167
+"GPs by PT/walk within 15 minutes",gppt15n,168
+"GPs by PT/walk within 30 minutes",gppt30n,169
+"GPs by PT/walk within 45 minutes",gppt45n,170
+"GPs by PT/walk within 60 minutes",gppt60n,171
+"users within 15 minutes of GPs by PT/walk",gppt15pct,172
+"users within 30 minutes of GPs by PT/walk",gppt30pct,173
+"users within 45 minutes of GPs by PT/walk",gppt45pct,174
+"users within 60 minutes of GPs by PT/walk",gppt60pct,175
+"nearest GP by cycle",gpcyct,176
+"GPs by PT/walk within 15 minutes",gpcyc15n,177
+"GPs by PT/walk within 30 minutes",gpcyc30n,178
+"GPs by PT/walk within 45 minutes",gpcyc45n,179
+"GPs by PT/walk within 60 minutes",gpcyc60n,180
+"users within 15 minutes of GPs by PT/walk",gpcyc15pct,181
+"users within 30 minutes of GPs by PT/walk",gpcyc30pct,182
+"users within 45 minutes of GPs by PT/walk",gpcyc45pct,183
+"users within 60 minutes of GPs by PT/walk",gpcyc60pct,184
+"nearest GP by car",gpcart,185
+"GPs by PT/walk within 15 minutes",gpcar15n,186
+"GPs by PT/walk within 30 minutes",gpcar30n,187
+"GPs by PT/walk within 45 minutes",gpcar45n,188
+"GPs by PT/walk within 60 minutes",gpcar60n,189
+"users within 15 minutes of GPs by PT/walk",gpcar15pct,190
+"users within 30 minutes of GPs by PT/walk",gpcar30pct,191
+"users within 45 minutes of GPs by PT/walk",gpcar45pct,192
+"users within 60 minutes of GPs by PT/walk",gpcar60pct,193
