@@ -108,3 +108,31 @@ Label,Notation,Parent Notation,Sort Priority
 "users within 30 minutes of primary schools available by car",pscar30pct,,107
 "users within 45 minutes of primary schools available by car",pscar45pct,,108
 "users within 60 minutes of primary schools available by car",pscar60pct,,109
+"Service users in LSOA = population aged 11-15 years",ss_pop',,110
+"nearest secondary school by PT/walk",ssptt,,111
+"secondary schools available by PT/walk within 15 minutes",sspt15n,,112
+"secondary schools available by PT/walk within 30 minutes",sspt30n,,113
+"secondary schools available by PT/walk within 45 minutes",sspt45n,,114
+"secondary schools available by PT/walk within 60 minutes",sspt60n,,115
+"users within 15 minutes of secondary schools available by PT/walk",sspt15pct,,116
+"users within 30 minutes of secondary schools available by PT/walk",sspt30pct,,117
+"users within 45 minutes of secondary schools available by PT/walk",sspt45pct,,118
+"users within 60 minutes of secondary schools available by PT/walk",sspt60pct,,119
+"nearest secondary school by cycle",sscyct,,120
+"secondary schools available by cycle within 15 minutes",sscyc15n,,121
+"secondary schools available by cycle within 30 minutes",sscyc30n,,122
+"secondary schools available by cycle within 45 minutes",sscyc45n,,123
+"secondary schools available by cycle within 60 minutes",sscyc60n,,124
+"users within 15 minutes of secondary schools available by cycle",sscyc15pct,,125
+"users within 30 minutes of secondary schools available by cycle",sscyc30pct,,126
+"users within 45 minutes of secondary schools available by cycle",sscyc45pct,,127
+"users within 60 minutes of secondary schools available by cycle",sscyc60pct,,128
+"nearest secondary school by car",sscart,,129
+"secondary schools available by car within 15 minutes",sscar15n,,130
+"secondary schools available by car within 30 minutes",sscar30n,,131
+"secondary schools available by car within 45 minutes",sscar45n,,132
+"secondary schools available by car within 60 minutes",sscar60n,,133
+"users within 15 minutes of secondary schools available by car",sscar15pct,,134
+"users within 30 minutes of secondary schools available by car",sscar30pct,,135
+"users within 45 minutes of secondary schools available by car",sscar45pct,,136
+"users within 60 minutes of secondary schools available by car",sscar60pct,,137
