@@ -136,59 +136,59 @@ Label,Notation,Parent Notation,Sort Priority
 "users within 30 minutes of secondary schools available by car",sscar30pct,,135
 "users within 45 minutes of secondary schools available by car",sscar45pct,,136
 "users within 60 minutes of secondary schools available by car",sscar60pct,,137
-"Service users in LSOA = population aged 16-19 years",fe_pop,138
-"nearest further education colleges by PT/walk",feptt,139
-"education colleges available by PT/walk within 15 minutes",fept15n,140
-"Neducation colleges available by PT/walk within 30 minutes",fept30n,141
-"education colleges available by PT/walk within 45 minutes",fept45n,142
-"education colleges available by PT/walk within 60 minutes",fept60n,143
-"users within 15 minutes of further education colleges available by PT/walk",fept15pct,144
-"users within 30 minutes of further education colleges available by PT/walk",fept30pct,145
-"users within 45 minutes of further education colleges available by PT/walk",fept45pct,146
-"users within 60 minutes of further education colleges available by PT/walk",fept60pct,147
-"nearest further education colleges by cycle",fecyct,148
-"further education colleges available by cycle within 15 minutes",fecyc15n,149
-"further education colleges available by cycle within 30 minutes",fecyc30n,150
-"further education colleges available by cycle within 45 minutes",fecyc45n,151
-"further education colleges available by cycle within 60 minutes",fecyc60n,152
-"users within 15 minutes of further education colleges available by cycle",fecyc15pct,153
-"users within 30 minutes of further education colleges available by cycle",fecyc30pct,154
-"users within 45 minutes of further education colleges available by cycle",fecyc45pct,155
-"users within 60 minutes of further education colleges available by cycle",fecyc60pct,156
-"nearest further education colleges by car",fecart,157
-"further education colleges available by car within 15 minutes",fecar15n,158
-"further education colleges available by car within 30 minutes",fecar30n,159
-"further education colleges available by car within 45 minutes",fecar45n,160
-"further education colleges available by car within 60 minutes",fecar60n,161
-"users within 15 minutes of further education colleges available by car",fecar15pct,162
-"users within 30 minutes of further education colleges available by car",fecar30pct,163
-"users within 45 minutes of further education colleges available by car",fecar45pct,164
-"users within 60 minutes of further education colleges available by car",fecar60pct,165
-"Service users in LSOA = all households",gp_pop,166
-"nearest GP by PT/walk"	,gpptt,167
-"GPs by PT/walk within 15 minutes",gppt15n,168
-"GPs by PT/walk within 30 minutes",gppt30n,169
-"GPs by PT/walk within 45 minutes",gppt45n,170
-"GPs by PT/walk within 60 minutes",gppt60n,171
-"users within 15 minutes of GPs by PT/walk",gppt15pct,172
-"users within 30 minutes of GPs by PT/walk",gppt30pct,173
-"users within 45 minutes of GPs by PT/walk",gppt45pct,174
-"users within 60 minutes of GPs by PT/walk",gppt60pct,175
-"nearest GP by cycle",gpcyct,176
-"GPs by PT/walk within 15 minutes",gpcyc15n,177
-"GPs by PT/walk within 30 minutes",gpcyc30n,178
-"GPs by PT/walk within 45 minutes",gpcyc45n,179
-"GPs by PT/walk within 60 minutes",gpcyc60n,180
-"users within 15 minutes of GPs by PT/walk",gpcyc15pct,181
-"users within 30 minutes of GPs by PT/walk",gpcyc30pct,182
-"users within 45 minutes of GPs by PT/walk",gpcyc45pct,183
-"users within 60 minutes of GPs by PT/walk",gpcyc60pct,184
-"nearest GP by car",gpcart,185
-"GPs by PT/walk within 15 minutes",gpcar15n,186
-"GPs by PT/walk within 30 minutes",gpcar30n,187
-"GPs by PT/walk within 45 minutes",gpcar45n,188
-"GPs by PT/walk within 60 minutes",gpcar60n,189
-"users within 15 minutes of GPs by PT/walk",gpcar15pct,190
-"users within 30 minutes of GPs by PT/walk",gpcar30pct,191
-"users within 45 minutes of GPs by PT/walk",gpcar45pct,192
-"users within 60 minutes of GPs by PT/walk",gpcar60pct,193
+"Service users in LSOA = population aged 16-19 years",fe_pop,,138
+"nearest further education colleges by PT/walk",feptt,,139
+"education colleges available by PT/walk within 15 minutes",fept15n,,140
+"Neducation colleges available by PT/walk within 30 minutes",fept30n,,141
+"education colleges available by PT/walk within 45 minutes",fept45n,,142
+"education colleges available by PT/walk within 60 minutes",fept60n,,143
+"users within 15 minutes of further education colleges available by PT/walk",fept15pct,,144
+"users within 30 minutes of further education colleges available by PT/walk",fept30pct,,145
+"users within 45 minutes of further education colleges available by PT/walk",fept45pct,,146
+"users within 60 minutes of further education colleges available by PT/walk",fept60pct,,147
+"nearest further education colleges by cycle",fecyct,,148
+"further education colleges available by cycle within 15 minutes",fecyc15n,,149
+"further education colleges available by cycle within 30 minutes",fecyc30n,,150
+"further education colleges available by cycle within 45 minutes",fecyc45n,,151
+"further education colleges available by cycle within 60 minutes",fecyc60n,,152
+"users within 15 minutes of further education colleges available by cycle",fecyc15pct,,153
+"users within 30 minutes of further education colleges available by cycle",fecyc30pct,,154
+"users within 45 minutes of further education colleges available by cycle",fecyc45pct,,155
+"users within 60 minutes of further education colleges available by cycle",fecyc60pct,,156
+"nearest further education colleges by car",fecart,,157
+"further education colleges available by car within 15 minutes",fecar15n,,158
+"further education colleges available by car within 30 minutes",fecar30n,,159
+"further education colleges available by car within 45 minutes",fecar45n,,160
+"further education colleges available by car within 60 minutes",fecar60n,,161
+"users within 15 minutes of further education colleges available by car",fecar15pct,,162
+"users within 30 minutes of further education colleges available by car",fecar30pct,,163
+"users within 45 minutes of further education colleges available by car",fecar45pct,,164
+"users within 60 minutes of further education colleges available by car",fecar60pct,,165
+"Service users in LSOA = all households",gp_pop,,166
+"nearest GP by PT/walk"	,gpptt,,167
+"GPs by PT/walk within 15 minutes",gppt15n,,168
+"GPs by PT/walk within 30 minutes",gppt30n,,169
+"GPs by PT/walk within 45 minutes",gppt45n,,170
+"GPs by PT/walk within 60 minutes",gppt60n,,171
+"users within 15 minutes of GPs by PT/walk",gppt15pct,,172
+"users within 30 minutes of GPs by PT/walk",gppt30pct,,173
+"users within 45 minutes of GPs by PT/walk",gppt45pct,,174
+"users within 60 minutes of GPs by PT/walk",gppt60pct,,175
+"nearest GP by cycle",gpcyct,,176
+"GPs by PT/walk within 15 minutes",gpcyc15n,,177
+"GPs by PT/walk within 30 minutes",gpcyc30n,,178
+"GPs by PT/walk within 45 minutes",gpcyc45n,,179
+"GPs by PT/walk within 60 minutes",gpcyc60n,,180
+"users within 15 minutes of GPs by PT/walk",gpcyc15pct,,181
+"users within 30 minutes of GPs by PT/walk",gpcyc30pct,,182
+"users within 45 minutes of GPs by PT/walk",gpcyc45pct,,183
+"users within 60 minutes of GPs by PT/walk",gpcyc60pct,,184
+"nearest GP by car",gpcart,,185
+"GPs by PT/walk within 15 minutes",gpcar15n,,186
+"GPs by PT/walk within 30 minutes",gpcar30n,,187
+"GPs by PT/walk within 45 minutes",gpcar45n,,188
+"GPs by PT/walk within 60 minutes",gpcar60n,,189
+"users within 15 minutes of GPs by PT/walk",gpcar15pct,,190
+"users within 30 minutes of GPs by PT/walk",gpcar30pct,,191
+"users within 45 minutes of GPs by PT/walk",gpcar45pct,,192
+"users within 60 minutes of GPs by PT/walk",gpcar60pct,,193
