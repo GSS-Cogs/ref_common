@@ -165,7 +165,7 @@ Label,Notation,Parent Notation,Sort Priority
 "users within 45 minutes of further education colleges available by car",fecar45pct,,164
 "users within 60 minutes of further education colleges available by car",fecar60pct,,165
 "Service users in LSOA = all households",gp_pop,,166
-"nearest GP by PT/walk"	,gpptt,,167
+"nearest GP by PT/walk",gpptt,,167
 "GPs by PT/walk within 15 minutes",gppt15n,,168
 "GPs by PT/walk within 30 minutes",gppt30n,,169
 "GPs by PT/walk within 45 minutes",gppt45n,,170
