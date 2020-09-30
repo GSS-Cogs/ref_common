@@ -1,12 +1,12 @@
 Label,Notation,Parent Notation,Sort Priority
-All Ages,all-ages,,1
-Aged 0 to 15,Y0T15,all-ages,2
-Aged 16 plus,Y_GE16,all-ages,3
-Aged 16 to 64,Y16T64,Y_GE16,4
-Aged 16 to 24,Y16T24,Y16T64,5
-Aged 16 to 17,Y16T17,Y16T24,6
-Aged 18 to 24,Y18T24,Y16T24,7
-Aged 18 to 21,Y18T21,Y18T24,8
-Aged 25 to 49,Y25T49,Y16T64,9
-Aged 50 to 64,Y50T64,Y16T64,10
-Aged 65 plus,Y_GE65,Y_GE16,11
+All,all-ages,,1
+0 to 15,Y0T15,all-ages,2
+16 plus,Y_GE16,all-ages,3
+16 to 64,Y16T64,Y_GE16,4
+16 to 24,Y16T24,Y16T64,5
+16 to 17,Y16T17,Y16T24,6
+18 to 24,Y18T24,Y16T24,7
+18 to 21,Y18T21,Y18T24,8
+25 to 49,Y25T49,Y16T64,9
+50 to 64,Y50T64,Y16T64,10
+65 plus,Y_GE65,Y_GE16,11
