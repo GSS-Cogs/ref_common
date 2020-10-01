@@ -220,3 +220,77 @@ Label,Notation,Parent Notation,Sort Priority
 "users within 30 minutes of hospitals by car",hospcar30pct,,219
 "users within 45 minutes of hospitals by car",hospcar45pct,,220
 "users within 60 minutes of hospitals by car",hospcar60pct,,221
+"Service users in LSOA: number of households in LSOA",food_pop,,222
+"nearest food store by PT/walk",foodptt,,223
+"food stores by PT/walk within 15 minutes",foodpt15n,,224
+"food stores by PT/walk within 30 minutes",foodpt30n,,225
+"food stores by PT/walk within 45 minutes",foodpt45n,,226
+"food stores by PT/walk within 60 minutes",foodpt60n,,227
+"users within 15 minutes of food stores by PT/walk",foodpt15pct,,228
+"users within 30 minutes of food stores by PT/walk",foodpt30pct,,229
+"users within 45 minutes of food stores by PT/walk",foodpt45pct,,230
+"users within 60 minutes of food stores by PT/walk",foodpt60pct,,231
+"nearest food store by cycle",foodcyct,,232
+"food stores by cycle within 15 minutes",foodcyc15n,,233
+"food stores by cycle within 30 minutes",foodcyc30n,,234
+"food stores by cycle within 45 minutes",foodcyc45n,,235
+"food stores by cycle within 60 minutes",foodcyc60n,,236
+"users within 15 minutes of food stores by cycle",foodcyc15pct,,237
+"users within 30 minutes of food stores by cycle",foodcyc30pct,,238
+"users within 45 minutes of food stores by cycle",foodcyc45pct,,239
+"users within 60 minutes of food stores by cycle",foodcyc60pct,,240
+"nearest food store by car",foodcart,,241
+"food stores by car within 15 minutes",foodcar15n,,242
+"food stores by car within 30 minutes",foodcar30n,,243
+"food stores by car within 45 minutes",foodcar45n,,244
+"food stores by car within 60 minutes",foodcar60n,,245
+"users within 15 minutes of food stores by car",foodcar15pct,,246
+"users within 30 minutes of food stores by car",foodcar30pct,,247
+"users within 45 minutes of food stores by car",foodcar45pct,,248
+"users within 60 minutes of food stores by car",foodcar60pct,,249
+"Service users in LSOA: number of households in LSOA",town_pop,,250
+"nearest Town centre by PT/walk",townptt,,251
+"Town Centre by PT/walk within 15 minutes",townpt15n,,252
+"Town Centre by PT/walk within 30 minutes",townpt30n,,253
+"Town Centre by PT/walk within 45 minutes",townpt45n,,254
+"Town Centre by PT/walk within 60 minutes",townpt60n,,255
+"users within 15 minutes of Town Centre by PT/walk",townpt15pct,,256
+"users within 30 minutes of Town Centre by PT/walk",townpt30pct,,257
+"users within 45 minutes of Town Centre by PT/walk",townpt45pct,,258
+"users within 60 minutes of Town Centre by PT/walk",townpt60pct,,259
+"nearest Town centre by cycle",towncyct,,260
+"Town Centre by cycle within 15 minutes",towncyc15n,,261
+"Town Centre by cycle within 30 minutes",towncyc30n,,262
+"Town Centre by cycle within 45 minutes",towncyc45n,,263
+"Town Centre by cycle within 60 minutes",towncyc60n,,264
+"users within 15 minutes of Town Centre by cycle",towncyc15pct,,265
+"users within 30 minutes of Town Centre by cycle",towncyc30pct,,266
+"users within 45 minutes of Town Centre by cycle",towncyc45pct,,267
+"users within 60 minutes of Town Centre by cycle",towncyc60pct,,268
+"nearest Town centre by car",towncart,,269
+"Town Centre by car within 15 minutes",towncar15n,,270
+"Town Centre by car within 30 minutes",towncar30n,,271
+"Town Centre by car within 45 minutes",towncar45n,,272
+"Town Centre by car within 60 minutes",towncar60n,,273
+"users within 15 minutes of Town Centre by car",towncar15pct,,274
+"users within 30 minutes of Town Centre by car",towncar30pct,,275
+"users within 45 minutes of Town Centre by car",towncar45pct,,276
+"users within 60 minutes of Town Centre by car",towncar60pct,,277
+"nearest Pharmacy by cycle",phcyct,,278
+"Pharmacies available by cycle within 15 minutes",phcyc15n,,279
+"Pharmacies available by cycle within 30 minutes",phcyc30n,,280
+"Pharmacies available by cycle within 45 minutes",phcyc45n,,281
+"Pharmacies available by cycle within 60 minutes",phcyc60n,,282
+"users within 15 minutes of Pharmacies available by cycle",phcyc15pct,,283
+"users within 30 minutes of Pharmacies available by cycle",phcyc30pct,,284
+"users within 45 minutes of Pharmacies available by cycle",phcyc45pct,,285
+"users within 60 minutes of Pharmacies available by cycle",phcyc60pct,,286
+"nearest Pharmacy by car",phcart,,287
+"Pharmacies available by car within 15 minutes",phcar15n,,288
+"Pharmacies available by car within 30 minutes",phcar30n,,289
+"Pharmacies available by car within 45 minutes",phcar45n,,290
+"Pharmacies available by car within 60 minutes",phcar60n,,291
+"users within 15 minutes of Pharmacies available by car",phcar15pct,,292
+"users within 30 minutes of Pharmacies available by car",phcar30pct,,293
+"users within 45 minutes of Pharmacies available by car",phcar45pct,,294
+"users within 60 minutes of Pharmacies available by car",phcar60pct,,295
