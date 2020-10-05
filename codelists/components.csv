@@ -1,0 +1,3 @@
+Label,Notation,Description,Component Type,Codelist
+Mode of Travel,mode-of-travel,DfT code for Journey time statistics,Dimension,http://gss-data.org.uk/def/concept-scheme/mode-of-travel
+Employment Centre Size,employment-centre-size,,Dimension,http://gss-data.org.uk/def/concept-scheme/employment-centre-size

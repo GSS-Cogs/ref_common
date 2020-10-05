@@ -63,6 +63,6 @@
   "prov:hadDerivation": {
     "@id": "http://gss-data.org.uk/def/concept-scheme/components#scheme/employment-centre-size",
     "@type": "skos:ConceptScheme",
-    "rdfs:label": "Mode of Travel"
+    "rdfs:label": "Employment Centre Size"
   }
 }
