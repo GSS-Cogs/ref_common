@@ -9,3 +9,4 @@ kilowatt,Kilowatt,,,,xsd:decimal
 weight,Weight,,,,xsd:decimal
 travel-time,Travel Time,,,,xsd:decimal
 deprivation,Deprivation,,,,xsd:decimal
+indices,Indices,,,,xsd:decimal
