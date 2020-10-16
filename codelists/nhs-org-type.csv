@@ -1,0 +1,6 @@
+Label,Notation,Parent Notation,Sort Priority
+Clinical Commissioning Group,ccg,,1
+NHS England Commissioning Region,comm-region,,2
+Primary Care Network,pcn,,3
+Sustainability and transformation partnership,stp,,4
+GP Practice,gp,,5
