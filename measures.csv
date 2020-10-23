@@ -10,3 +10,7 @@ weight,Weight,,,,xsd:decimal
 travel-time,Travel Time,,,,xsd:decimal
 deprivation,Deprivation,,,,xsd:decimal
 indices,Indices,,,,xsd:decimal
+sales,Sales,,,,xsd:decimal
+mean-consumption,Mean Consumption,In this case mean consumption of electricity,,,xsd:decimal
+median-consumption,Median Consumption,In this case median consumption of electricity,,,xsd:decimal
+
