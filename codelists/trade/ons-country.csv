@@ -1,0 +1,84 @@
+Label,Notation,Parent Notation,Sort Priority
+World total - W1 ,w1 ,,1
+Total EU28 - B5 ,b5 ,,2
+Non-EU - D5 ,d5 ,,3
+European Union Institutions (excl. ECB and ESM) - 4A ,4a ,,4
+European Central Bank - 4F ,4f ,,5
+International Organisations - 9A ,9a ,,6
+Albania - AL ,al ,,7
+Argentina - AR ,ar ,,8
+Austria - AT ,at ,,9
+Australia - AU ,au ,,10
+Belgium - BE ,be ,,11
+Bulgaria - BG ,bg ,,12
+Brazil - BR ,br ,,13
+Belarus - BY ,by ,,14
+Canada - CA ,ca ,,15
+Switzerland - CH ,ch ,,16
+Chile - CL ,cl ,,17
+China - CN ,cn ,,18
+Colombia - CO ,co ,,19
+Cyprus - CY ,cy ,,20
+Czech Republic - CZ ,cz ,,21
+Germany - DE ,de ,,22
+Denmark - DK ,dk ,,23
+Estonia - EE ,ee ,,24
+Egypt - EG ,eg ,,25
+Spain - ES ,es ,,26
+Finland - FI ,fi ,,27
+France - FR ,fr ,,28
+Greece - GR ,gr ,,29
+Hong Kong - HK ,hk ,,30
+Croatia - HR ,hr ,,31
+Hungary - HU ,hu ,,32
+Indonesia - ID ,id ,,33
+Ireland - IE ,ie ,,34
+Israel - IL ,il ,,35
+India - IN ,in ,,36
+Iran - IR ,ir ,,37
+Iceland - IS ,is ,,38
+Italy - IT ,it ,,39
+Japan - JP ,jp ,,40
+South Korea - KR ,kr ,,41
+Liechtenstein - LI ,li ,,42
+Lithuania - LT ,lt ,,43
+Luxembourg - LU ,lu ,,44
+Latvia - LV ,lv ,,45
+Morocco - MA ,ma ,,46
+Montenegro - ME ,me ,,47
+Malta - MT ,mt ,,48
+Mexico - MX ,mx ,,49
+Malaysia - MY ,my ,,50
+Netherlands - NL ,nl ,,51
+Norway - NO ,no ,,52
+New Zealand - NZ ,nz ,,53
+ Other Europe - PB1,pb1,,54
+ Other Central American Countries - PB2,pb2,,55
+ Other American Countries - PB3,pb3,,56
+ Residual Gulf Arabian Countries - PB4,pb4,,57
+ Other Near & Middle Eastern Countries - PB5,pb5,,58
+ Other Asia - PB6,pb6,,59
+ Other Australasia & Oceania - PB7,pb7,,60
+ Other North Africa - PB8,pb8,,61
+ Other Africa - PB9,pb9,,62
+Philippines - PH ,ph ,,63
+Pakistan - PK ,pk ,,64
+Poland - PL ,pl ,,65
+Portugal - PT ,pt ,,66
+Romania - RO ,ro ,,67
+Serbia - RS ,rs ,,68
+Russia - RU ,ru ,,69
+Saudi Arabia - SA ,sa ,,70
+Sweden - SE ,se ,,71
+Singapore - SG ,sg ,,72
+Slovenia - SI ,si ,,73
+Slovak Republic - SK ,sk ,,74
+Thailand - TH ,th ,,75
+Turkey - TR ,tr ,,76
+Taiwan - TW ,tw ,,77
+Ukraine - UA ,ua ,,78
+United States inc Puerto Rico - US ,us ,,79
+Uruguay - UY ,uy ,,80
+Venezuela - VE ,ve ,,81
+South Africa - ZA ,za ,,82
+Slovakia - SK ,sk ,,83

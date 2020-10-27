@@ -1,0 +1,85 @@
+Label,Notation,Parent Notation,Sort Priority
+"Crop and animal production, hunting and related service activities - 01",01,,1
+Fishing and aquaculture - 03,03,,2
+Extraction of crude petroleum and natural gas - 06,06,,3
+Mining of metal ores - 07,07,,4
+Other mining and quarrying - 08,08,,5
+Mining support service activities - 09,09,,6
+Manufacture of food products - 10,10,,7
+Manufacture of beverages - 11,11,,8
+Manufacture of textiles - 13,13,,9
+Manufacture of wearing apparel - 14,14,,10
+Manufacture of leather and related products - 15,15,,11
+"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials - 16",16,,12
+Manufacture of paper and paper products - 17,17,,13
+Printing and reproduction of recorded media - 18,18,,14
+Manufacture of coke and refined petroleum products - 19,19,,15
+Manufacture of chemicals and chemical products - 20,20,,16
+Manufacture of basic pharmaceutical products and pharmaceutical preparations - 21,21,,17
+Manufacture of rubber and plastic products - 22,22,,18
+Manufacture of other non-metallic mineral products - 23,23,,19
+Manufacture of basic metals - 24,24,,20
+"Manufacture of fabricated metal products, except machinery and equipment - 25",25,,21
+"Manufacture of computer, electronic and optical products - 26",26,,22
+Manufacture of electrical equipment - 27,27,,23
+Manufacture of machinery and equipment n.e.c. - 28,28,,24
+"Manufacture of motor vehicles, trailers and semi-trailers - 29",29,,25
+Manufacture of other transport equipment - 30,30,,26
+Manufacture of furniture - 31,31,,27
+Other manufacturing - 32,32,,28
+Repair and installation of machinery and equipment - 33,33,,29
+"Electricity, gas, steam and air conditioning supply - 35",35,,30
+"Water collection, treatment and supply - 36",36,,31
+Sewerage - 37,37,,32
+"Waste collection, treatment and disposal activities; materials recovery - 38",38,,33
+Construction of buildings - 41,41,,34
+Civil engineering - 42,42,,35
+Specialised construction activities - 43,43,,36
+Wholesale and retail trade and repair of motor vehicles and motorcycles - 45,45,,37
+"Wholesale trade, except of motor vehicles and motorcycles - 46",46,,38
+"Retail trade, except of motor vehicles and motorcycles - 47",47,,39
+Land transport and transport via pipelines - 49,49,,40
+Water transport - 50,50,,41
+Air transport - 51,51,,42
+Warehousing and support activities for transportation - 52,52,,43
+Postal and courier activities - 53,53,,44
+Accommodation - 55,55,,45
+Food and beverage service activities - 56,56,,46
+Publishing activities - 58,58,,47
+"Motion picture, video and television programme production, sound recording and music publishing activities - 59",59,,48
+Programming and broadcasting activities - 60,60,,49
+Telecommunications - 61,61,,50
+"Computer programming, consultancy and related activities - 62",62,,51
+Information service activities - 63,63,,52
+"Financial service activities, except insurance and pension funding - 64",64,,53
+Activities auxiliary to financial services and insurance activities - 66,66,,54
+Real estate activities - 68,68,,55
+Legal and accounting activities - 69,69,,56
+Activities of head offices; management consultancy activities - 70,70,,57
+Architectural and engineering activities; technical testing and analysis - 71,71,,58
+Scientific research and development - 72,72,,59
+Advertising and market research - 73,73,,60
+"Other professional, scientific and technical activities - 74",74,,61
+Veterinary activities - 75,75,,62
+Rental and leasing activities - 77,77,,63
+Employment activities - 78,78,,64
+"Travel agency, tour operator and other reservation service and related activities - 79",79,,65
+Security and investigation activities - 80,80,,66
+Services to buildings and landscape activities - 81,81,,67
+"Office administrative, office support and other business support activities - 82",82,,68
+Public administration and defence; compulsory social security - 84,84,,69
+Education - 85,85,,70
+Social work activities without accommodation - 88,88,,71
+"Creative, arts and entertainment activities - 90",90,,72
+"Libraries, archives, museums and other cultural activities - 91",91,,73
+Gambling and betting activities - 92,92,,74
+Sports activities and amusement and recreation activities - 93,93,,75
+Activities of membership organisations - 94,94,,76
+Repair of computers and personal and household goods - 95,95,,77
+Other personal service activities - 96,96,,78
+No industry - N,n,,79
+Total,total,,80
+Unknown industry - U,u,,81
+Forestry and logging - 02,02,,82
+"Insurance, reinsurance and pension funding, except compulsory social security - 65",65,,83
+Human health activities - 86,86,,84

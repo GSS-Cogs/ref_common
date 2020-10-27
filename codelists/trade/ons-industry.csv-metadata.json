@@ -1,7 +1,7 @@
 {
   "@context": "http://www.w3.org/ns/csvw",
   "@id": "#table",
-  "url": "flow.csv",
+  "url": "ons-industry.csv",
   "tableSchema": {
     "columns": [
       {
@@ -30,7 +30,7 @@
         },
         "required": false,
         "propertyUrl": "skos:broader",
-        "valueUrl": "http://gss-data.org.uk/def/trade/concept/flow/{parent_notation}"
+        "valueUrl": "http://gss-data.org.uk/def/trade/concept/ons-industry/{parent_notation}"
       },
       {
         "titles": "Sort Priority",
@@ -54,15 +54,15 @@
       {
         "virtual": true,
         "propertyUrl": "skos:inScheme",
-        "valueUrl": "http://gss-data.org.uk/def/trade/concept-scheme/flow"
+        "valueUrl": "http://gss-data.org.uk/def/trade/concept-scheme/ons-industry"
       }
     ],
     "primaryKey": "notation",
-    "aboutUrl": "http://gss-data.org.uk/def/trade/concept/flow/{notation}"
+    "aboutUrl": "http://gss-data.org.uk/def/trade/concept/concept/ons-industry/{notation}"
   },
   "prov:hadDerivation": {
-    "@id": "http://gss-data.org.uk/def/trade/concept-scheme/flow",
+    "@id": "http://gss-data.org.uk/def/trade/concept-scheme/ons-industry",
     "@type": "skos:ConceptScheme",
-    "rdfs:label": "Flow"
+    "rdfs:label": "Industry"
   }
 }
