@@ -3,3 +3,4 @@ Imputed,imputed,"Missing values have been imputed using linear interpolation",1
 Between 1 and 7,between-1-and-7,"Protected patient confidentiality",2
 Figure less than-1,figure-less-than-1,"Replaced with 0 and no comparison between years has been made",3
 Not Applcable,not-applicable,"",4
+Suppressed,suppressed,"",5
