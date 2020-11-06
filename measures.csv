@@ -13,3 +13,8 @@ indices,Indices,,,,xsd:decimal
 sales,Sales,,,,xsd:decimal
 mean-consumption,Mean Consumption,In this case mean consumption of electricity,,,xsd:decimal
 median-consumption,Median Consumption,In this case median consumption of electricity,,,xsd:decimal
+gdp,Gross Domestic Product,,,,xsd:decimal
+ranks,Ranks,,,,xsd:integer
+scores,Scores,,,,xsd:decimal
+denominators,Denominators,,,,xsd:integer
+numerators,Numerators,,,,xsd:integer
