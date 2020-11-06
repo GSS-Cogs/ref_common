@@ -58,7 +58,7 @@
       }
     ],
     "primaryKey": "notation",
-    "aboutUrl": "http://gss-data.org.uk/def/concept/concept/dcms-country/{notation}"
+    "aboutUrl": "http://gss-data.org.uk/def/concept/dcms-country/{notation}"
   },
   "prov:hadDerivation": {
     "@id": "http://gss-data.org.uk/def/concept-scheme/dcms-country",
