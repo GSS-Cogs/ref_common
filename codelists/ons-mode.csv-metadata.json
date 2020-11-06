@@ -30,7 +30,7 @@
         },
         "required": false,
         "propertyUrl": "skos:broader",
-        "valueUrl": "http://gss-data.org.uk/def/trade/concept/ons-mode/{parent_notation}"
+        "valueUrl": "http://gss-data.org.uk/def/concept/ons-mode/{parent_notation}"
       },
       {
         "titles": "Sort Priority",
@@ -54,14 +54,14 @@
       {
         "virtual": true,
         "propertyUrl": "skos:inScheme",
-        "valueUrl": "http://gss-data.org.uk/def/trade/concept-scheme/ons-mode"
+        "valueUrl": "http://gss-data.org.uk/def/concept-scheme/ons-mode"
       }
     ],
     "primaryKey": "notation",
-    "aboutUrl": "http://gss-data.org.uk/def/trade/concept/concept/ons-mode/{notation}"
+    "aboutUrl": "http://gss-data.org.uk/def/concept/concept/ons-mode/{notation}"
   },
   "prov:hadDerivation": {
-    "@id": "http://gss-data.org.uk/def/trade/concept-scheme/ons-mode",
+    "@id": "http://gss-data.org.uk/def/concept-scheme/ons-mode",
     "@type": "skos:ConceptScheme",
     "rdfs:label": "Mode"
   }
