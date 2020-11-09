@@ -18,3 +18,4 @@ ranks,Ranks,,,,xsd:integer
 scores,Scores,,,,xsd:decimal
 denominators,Denominators,,,,xsd:integer
 numerators,Numerators,,,,xsd:integer
+current-prices,Current Prices,,,,xsd:integer
