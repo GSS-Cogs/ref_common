@@ -19,3 +19,4 @@ scores,Scores,,,,xsd:decimal
 denominators,Denominators,,,,xsd:integer
 numerators,Numerators,,,,xsd:integer
 current-prices,Current Prices,,,,xsd:integer
+proportion,Proportion,,,,xsd:decimal
