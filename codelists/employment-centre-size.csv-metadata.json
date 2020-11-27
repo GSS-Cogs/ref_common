@@ -54,7 +54,7 @@
       {
         "virtual": true,
         "propertyUrl": "skos:inScheme",
-        "valueUrl": "http://gss-data.org.uk/def/concept-scheme/lemployment-centre-size"
+        "valueUrl": "http://gss-data.org.uk/def/concept-scheme/employment-centre-size"
       }
     ],
     "primaryKey": "notation",
@@ -63,6 +63,7 @@
   "prov:hadDerivation": {
     "@id": "http://gss-data.org.uk/def/concept-scheme/employment-centre-size",
     "@type": "skos:ConceptScheme",
-    "rdfs:label": "Employment Centre Size"
+    "rdfs:label": "Employment Centre Size",
+    "skos:hasTopConcept": "http://gss-data.org.uk/def/concept/employment-centre-size/all"
   }
 }
