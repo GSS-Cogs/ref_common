@@ -20,3 +20,6 @@ denominators,Denominators,,,,xsd:integer
 numerators,Numerators,,,,xsd:integer
 current-prices,Current Prices,,,,xsd:integer
 proportion,Proportion,,,,xsd:decimal
+cmp,Current Market Prices,,,,xsd:integer
+gva,Gross Value Added,,,xsd:decimal
+cvm,Chained Volume Measures,,,xsd:decimal
