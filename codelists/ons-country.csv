@@ -1,84 +1,253 @@
 Label,Notation,Parent Notation,Sort Priority
-World total - W1 ,w1 ,,1
-Total EU28 - B5 ,b5 ,,2
-Non-EU - D5 ,d5 ,,3
-European Union Institutions (excl. ECB and ESM) - 4A ,4a ,,4
-European Central Bank - 4F ,4f ,,5
-International Organisations - 9A ,9a ,,6
-Albania - AL ,al ,,7
-Argentina - AR ,ar ,,8
-Austria - AT ,at ,,9
-Australia - AU ,au ,,10
-Belgium - BE ,be ,,11
-Bulgaria - BG ,bg ,,12
-Brazil - BR ,br ,,13
-Belarus - BY ,by ,,14
-Canada - CA ,ca ,,15
-Switzerland - CH ,ch ,,16
-Chile - CL ,cl ,,17
-China - CN ,cn ,,18
-Colombia - CO ,co ,,19
-Cyprus - CY ,cy ,,20
-Czech Republic - CZ ,cz ,,21
-Germany - DE ,de ,,22
-Denmark - DK ,dk ,,23
-Estonia - EE ,ee ,,24
-Egypt - EG ,eg ,,25
-Spain - ES ,es ,,26
-Finland - FI ,fi ,,27
-France - FR ,fr ,,28
-Greece - GR ,gr ,,29
-Hong Kong - HK ,hk ,,30
-Croatia - HR ,hr ,,31
-Hungary - HU ,hu ,,32
-Indonesia - ID ,id ,,33
-Ireland - IE ,ie ,,34
-Israel - IL ,il ,,35
-India - IN ,in ,,36
-Iran - IR ,ir ,,37
-Iceland - IS ,is ,,38
-Italy - IT ,it ,,39
-Japan - JP ,jp ,,40
-South Korea - KR ,kr ,,41
-Liechtenstein - LI ,li ,,42
-Lithuania - LT ,lt ,,43
-Luxembourg - LU ,lu ,,44
-Latvia - LV ,lv ,,45
-Morocco - MA ,ma ,,46
-Montenegro - ME ,me ,,47
-Malta - MT ,mt ,,48
-Mexico - MX ,mx ,,49
-Malaysia - MY ,my ,,50
-Netherlands - NL ,nl ,,51
-Norway - NO ,no ,,52
-New Zealand - NZ ,nz ,,53
- Other Europe - PB1,pb1,,54
- Other Central American Countries - PB2,pb2,,55
- Other American Countries - PB3,pb3,,56
- Residual Gulf Arabian Countries - PB4,pb4,,57
- Other Near & Middle Eastern Countries - PB5,pb5,,58
- Other Asia - PB6,pb6,,59
- Other Australasia & Oceania - PB7,pb7,,60
- Other North Africa - PB8,pb8,,61
- Other Africa - PB9,pb9,,62
-Philippines - PH ,ph ,,63
-Pakistan - PK ,pk ,,64
-Poland - PL ,pl ,,65
-Portugal - PT ,pt ,,66
-Romania - RO ,ro ,,67
-Serbia - RS ,rs ,,68
-Russia - RU ,ru ,,69
-Saudi Arabia - SA ,sa ,,70
-Sweden - SE ,se ,,71
-Singapore - SG ,sg ,,72
-Slovenia - SI ,si ,,73
-Slovak Republic - SK ,sk ,,74
-Thailand - TH ,th ,,75
-Turkey - TR ,tr ,,76
-Taiwan - TW ,tw ,,77
-Ukraine - UA ,ua ,,78
-United States inc Puerto Rico - US ,us ,,79
-Uruguay - UY ,uy ,,80
-Venezuela - VE ,ve ,,81
-South Africa - ZA ,za ,,82
-Slovakia - SK ,sk ,,83
+World total - W1 ,,,1
+Afghanistan - AF,af,d5,2
+Albania - AL,al,d5,3
+Algeria - DZ,dz,d5,4
+American Samoa - AS,as,d5,5
+Andorra - AD,ad,d5,6
+Angola - AO,ao,d5,7
+Anguilla - AI,ai,d5,8
+Antarctica - AQ,aq,d5,9
+Antigua & Barbuda - AG,ag,d5,10
+Argentina - AR,ar,d5,11
+Armenia - AM,am,d5,12
+Aruba - AW,aw,d5,13
+Australia - AU,au,d5,14
+Austria - AT ,at,b5,15
+Azerbaijan - AZ,az,d5,16
+Bahamas - BS,bs,d5,17
+Bahrain - BH,bh,d5,18
+Bangladesh - BD,bd,d5,19
+Barbados - BB,bb,d5,20
+Belarus - BY,by,d5,21
+Belgium - BE ,be,b5,22
+Belize - BZ,bz,d5,23
+Benin - BJ,bj,d5,24
+Bermuda - BM,bm,d5,25
+Bhutan - BT,bt,d5,26
+Bolivia - BO,bo,d5,27
+"Bonaire, Sint Eustatius & Saba - BQ",bq,d5,28
+Bosnia & Herzegovina - BA,ba,d5,29
+Botswana - BW,bw,d5,30
+Bouvet Island - BV,bv,d5,31
+Brazil - BR,br,d5,32
+British Indian Ocean Territory - IO,io,d5,33
+British Virgin Islands - VG,vg,d5,34
+Brunei - BN,bn,d5,35
+Bulgaria - BG ,bg,b5,36
+Burkina Faso - BF,bf,d5,37
+Burundi - BI,bi,d5,38
+Cambodia - KH,kh,d5,39
+Cameroon - CM,cm,d5,40
+Canada - CA,ca,d5,41
+Cape Verde - CV,cv,d5,42
+Cayman Islands - KY,ky,d5,43
+Central African Republic - CF,cf,d5,44
+Chad - TD,td,d5,45
+Chile - CL,cl,d5,46
+China - CN,cn,d5,47
+Christmas Island - CX,cx,d5,48
+Cocos Islands - CC,cc,d5,49
+Colombia - CO,co,d5,50
+Comoros - KM,km,d5,51
+Congo - Democratic Republic - CD,cd,d5,52
+Congo - Republic - CG,cg,d5,53
+Cook Islands - CK,ck,d5,54
+Costa Rica - CR,cr,d5,55
+Croatia - HR,hr,b5,56
+Croatia - HR ,hr,b5,57
+Cuba - CU,cu,d5,58
+Curacao - CW,cw,d5,59
+Cyprus - CY ,cy,b5,60
+Czech Republic - CZ ,cz,b5,61
+Denmark - DK ,dk,b5,62
+Djibouti - DJ,dj,d5,63
+Dominica - DM,dm,d5,64
+Dominican Republic - DO,do,d5,65
+East Timor - TL,tl,d5,66
+Ecuador - EC,ec,d5,67
+Egypt - EG,eg,d5,68
+El Salvador - SV,sv,d5,69
+Equatorial Guinea - GQ,gq,d5,70
+Eritrea - ER,er,d5,71
+Estonia - EE ,ee,b5,72
+Ethiopia - ET,et,d5,73
+European Central Bank - 4F ,4f,b5,74
+European Union (EU28) - B5,b5,w1,75
+European Union Institutions (excl. ECB and ESM) - 4A ,4a,b5,76
+Extra EU28 (Rest of World) - D5,d5,w1,77
+Falkland Islands - FK,fk,d5,78
+Faroe Islands - FO,fo,d5,79
+Fiji - FJ,fj,d5,80
+Finland - FI ,fi,b5,81
+France - FR ,fr,b5,82
+French Polynesia - PF,pf,d5,83
+French Southern Territories - TF,tf,d5,84
+FYR Macedonia - MK,mk,d5,85
+Gabon - GA,ga,d5,86
+Gambia - GM,gm,d5,87
+Georgia - GE,ge,d5,88
+Germany - DE ,de,b5,89
+Ghana - GH,gh,d5,90
+Gibraltar - GI,gi,d5,91
+Greece - GR ,gr,b5,92
+Greenland - GL,gl,d5,93
+Grenada - GD,gd,d5,94
+Guam - GU,gu,d5,95
+Guatemala - GT,gt,d5,96
+Guernsey - GG,gg,d5,97
+Guinea - GN,gn,d5,98
+Guinea Bissau - GW,gw,d5,99
+Guyana - GY,gy,d5,100
+Haiti - HT,ht,d5,101
+Heard & McDonald Islands - HM,hm,d5,102
+Honduras - HN,hn,d5,103
+Hong Kong - HK,hk,d5,104
+Hungary - HU ,hu,b5,105
+Iceland - IS,is,d5,106
+India - IN,in,d5,107
+Indonesia - ID,id,d5,108
+International Organisations - 9A ,9a,d5,109
+Iran - IR,ir,d5,110
+Iraq - IQ,iq,d5,111
+Ireland - IE ,ie,b5,112
+Isle of Man - IM,im,d5,113
+Israel - IL,il,d5,114
+Italy - IT ,it,b5,115
+Ivory Coast - CI,ci,d5,116
+Jamaica - JM,jm,d5,117
+Japan - JP,jp,d5,118
+Jersey - JE,je,d5,119
+Jordan - JO,jo,d5,120
+Kazakhstan - KZ,kz,d5,121
+Kenya - KE,ke,d5,122
+Kiribati - KI,ki,d5,123
+Kosovo - XK,xk,d5,124
+Kuwait - KW,kw,d5,125
+Kyrgyz Republic - KG,kg,d5,126
+Laos - LA,la,d5,127
+Lebanon - LB,lb,d5,128
+Lesotho - LS,ls,d5,129
+Liberia - LR,lr,d5,130
+Libya - LY,ly,d5,131
+Liechtenstein - LI,li,d5,132
+Lithuania - LT ,lt,b5,133
+Luxembourg - LU ,lu,b5,134
+Macao - MO,mo,d5,135
+Madagascar - MG,mg,d5,136
+Malawi - MW,mw,d5,137
+Malaysia - MY,my,d5,138
+Maldives - MV,mv,d5,139
+Mali - ML,ml,d5,140
+Malta - MT ,mt,b5,141
+Marshall Islands - MH,mh,d5,142
+Mauritania - MR,mr,d5,143
+Mauritius - MU,mu,d5,144
+Mexico - MX,mx,d5,145
+Micronesia - FM,fm,d5,146
+Moldova - MD,md,d5,147
+Mongolia - MN,mn,d5,148
+Montenegro - ME,me,d5,149
+Montserrat - MS,ms,d5,150
+Morocco - MA,ma,d5,151
+Mozambique - MZ,mz,d5,152
+Myanmar - MM,mm,d5,153
+Namibia - NA,na,d5,154
+Nauru - NR,nr,d5,155
+Nepal - NP,np,d5,156
+Netherlands - NL ,nl,b5,157
+New Caledonia - NC,nc,d5,158
+New Zealand - NZ,nz,d5,159
+Nicaragua - NI,ni,d5,160
+Niger - NE,ne,d5,161
+Nigeria - NG,ng,d5,162
+Niue Island - NU,nu,d5,163
+Norfolk Island - NF,nf,d5,164
+North Korea - KP,kp,d5,165
+Northern Mariana Islands - MP,mp,d5,166
+Norway - NO,no,d5,167
+Occupied Palestinian Territory - PS,ps,d5,168
+Oman - OM,om,d5,169
+Other Europe - PB1,pb1,,170
+Other Central American Countries - PB2,pb2,,171
+Other American Countries - PB3,pb3,,172
+Residual Gulf Arabian Countries - PB4,pb4,,173
+Other Near & Middle Eastern Countries - PB5,pb5,,174
+Other Asia - PB6,pb6,,175
+Other Australasia & Oceania - PB7,pb7,,176
+Other North Africa - PB8,pb8,,177
+Other Africa - PB9,pb9,,178
+Pakistan - PK,pk,d5,179
+Palau - PW,pw,d5,180
+Panama - PA,pa,d5,181
+Papua New Guinea - PG,pg,d5,182
+Paraguay - PY,py,d5,183
+Peru - PE,pe,d5,184
+Philippines - PH,ph,d5,185
+Pitcairn - PN,pn,d5,186
+Poland - PL ,pl,b5,187
+Portugal - PT ,pt,b5,188
+Qatar - QA,qa,d5,189
+Romania - RO ,ro,b5,190
+Russia - RU,ru,d5,191
+Rwanda - RW,rw,d5,192
+Samoa - WS,ws,d5,193
+San Marino - SM,sm,d5,194
+Sao Tome & Principe - ST,st,d5,195
+Saudi Arabia - SA,sa,d5,196
+Senegal - SN,sn,d5,197
+Serbia - RS,rs,d5,198
+Seychelles - SC,sc,d5,199
+Sierra Leone - SL,sl,d5,200
+Singapore - SG,sg,d5,201
+Sint Maarten - SX,sx,d5,202
+Slovak Republic - SK ,sk,b5,203
+Slovakia - SK,sk,b5,204
+Slovenia - SI ,si,b5,205
+Solomon Islands - SB,sb,d5,206
+Somalia - SO,so,d5,207
+South Africa - ZA,za,d5,208
+South Georgia - GS,gs,d5,209
+South Korea - KR,kr,d5,210
+South Sudan - SS,ss,d5,211
+Spain - ES ,es,b5,212
+Sri Lanka - LK,lk,d5,213
+St Kitts & Nevis - KN,kn,d5,214
+St Lucia - LC,lc,d5,215
+St Vincent - VC,vc,d5,216
+St. Helena - SH,sh,d5,217
+Sudan - SD,sd,d5,218
+Suriname - SR,sr,d5,219
+Swaziland - SZ,sz,d5,220
+Sweden - SE ,se,b5,221
+Switzerland - CH,ch,d5,222
+Syria - SY,sy,d5,223
+Taiwan - TW,tw,d5,224
+Tajikistan - TJ,tj,d5,225
+Tanzania - TZ,tz,d5,226
+Thailand - TH,th,d5,227
+Togo - TG,tg,d5,228
+Tokelau Islands - TK,tk,d5,229
+Tonga - TO,to,d5,230
+Trinidad & Tobago - TT,tt,d5,231
+Tunisia - TN,tn,d5,232
+Turkey - TR,tr,d5,233
+Turkmenistan - TM,tm,d5,234
+Turks & Caicos Islands - TC,tc,d5,235
+Tuvalu - TV,tv,d5,236
+Uganda - UG,ug,d5,237
+Ukraine - UA,ua,d5,238
+United Arab Emirates - AE,ae,d5,239
+United States inc Puerto Rico - US,us,d5,240
+Uruguay - UY,uy,d5,241
+US Minor Outlying Islands - UM,um,d5,242
+US Virgin Islands - VI,vi,d5,243
+Uzbekistan - UZ,uz,d5,244
+Vanuatu - VU,vu,d5,245
+Vatican City - VA,va,d5,246
+Venezuela - VE,ve,d5,247
+Vietnam - VN,vn,d5,248
+Wallis & Futuna - WF,wf,d5,249
+Yemen - YE,ye,d5,250
+Zambia - ZM,zm,d5,251
+Zimbabwe - ZW,zw,d5,252
