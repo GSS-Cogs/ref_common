@@ -25,3 +25,4 @@ gva,Gross Value Added,,,,xsd:decimal
 cvm,Chained Volume Measures,,,,xsd:decimal
 trade,Trade,,,,xsd:decimal
 expenditure,Expenditure,,,,xsd:decimal
+tariff,Tariff,,,,xsd:decimal
