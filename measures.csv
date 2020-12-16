@@ -26,5 +26,5 @@ cvm,Chained Volume Measures,,,,xsd:decimal
 trade,Trade,,,,xsd:decimal
 expenditure,Expenditure,,,,xsd:decimal
 tariff,Tariff,,,,xsd:decimal
-Aggregate Fuel Pverty Gap,aggregate-fuel-poverty-gap,,,,xsd:decimal
-Average Fuel Pverty Gap,aggregate-fuel-poverty-gap,,,,xsd:decimal
+aggregate-fuel-poverty-gap,Aggregate Fuel Poverty Gap,,,,xsd:decimal
+aggregate-fuel-poverty-gap,Average Fuel Poverty Gap,,,,xsd:decimal
