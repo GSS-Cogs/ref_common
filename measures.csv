@@ -28,3 +28,4 @@ expenditure,Expenditure,,,,xsd:decimal
 tariff,Tariff,,,,xsd:decimal
 aggregate-fuel-poverty-gap,Aggregate Fuel Poverty Gap,,,,xsd:decimal
 average-fuel-poverty-gap,Average Fuel Poverty Gap,,,,xsd:decimal
+median-income,Median Income,,,,xsd:decimal
