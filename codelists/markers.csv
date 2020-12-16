@@ -28,5 +28,5 @@ significant-1,Significant at 0.01 level,**,"The figure is statistically signific
 was due to chance.",,https://gss.civilservice.gov.uk/wp-content/uploads/2018/03/GSS-Website-Harmonised-Symbols-Supporting-Documentation_Feb-2018-7.pdf,
 significant-01,Significant at 0.001 level,***,"The figure is statistically significant, and there is only a 0.1% probability that the
 result was due to chance.",,https://gss.civilservice.gov.uk/wp-content/uploads/2018/03/GSS-Website-Harmonised-Symbols-Supporting-Documentation_Feb-2018-7.pdf,
-low-sample-count,low sample count,*,* numbers hidden due to very low sample count (less than 10) within this category.,,
+low-sample-count,low sample count,*,numbers hidden due to very low sample count (less than 10) within this category,,,
 ,No marker,,There is no marker,,,,
