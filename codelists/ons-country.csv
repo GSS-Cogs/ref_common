@@ -1,5 +1,5 @@
 Label,Notation,Parent Notation,Sort Priority
-World total - W1 ,,,1
+World total - W1,w1,,1
 Afghanistan - AF,af,d5,2
 Albania - AL,al,d5,3
 Algeria - DZ,dz,d5,4
@@ -251,3 +251,6 @@ Wallis & Futuna - WF,wf,d5,249
 Yemen - YE,ye,d5,250
 Zambia - ZM,zm,d5,251
 Zimbabwe - ZW,zw,d5,252
+Offshore financial centres - C4,c4,,253
+Latvia - LV,lv,,254
+Extra EU-27 not allocated - Z8,z8,,255

@@ -24,3 +24,12 @@ cmp,Current Market Prices,,,,xsd:integer
 gva,Gross Value Added,,,,xsd:decimal
 cvm,Chained Volume Measures,,,,xsd:decimal
 trade,Trade,,,,xsd:decimal
+expenditure,Expenditure,,,,xsd:decimal
+tariff,Tariff,,,,xsd:decimal
+aggregate-fuel-poverty-gap,Aggregate Fuel Poverty Gap,,,,xsd:decimal
+average-fuel-poverty-gap,Average Fuel Poverty Gap,,,,xsd:decimal
+median-income,Median Income,,,,xsd:decimal
+median-costs,Median Costs,,,,xsd:decimal
+median-rating,Median Rating,,,,xsd:decimal
+median-floor-area,Median Floor Area,,,,xsd:decimal
+exposure,Exposure,"Proximity or contact with a source of a disease agent in such a manner that effective transmission of the agent or harmful effects of the agent may occur",,,xsd:decimal
