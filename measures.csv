@@ -24,7 +24,7 @@ cmp,Current Market Prices,,,,xsd:integer
 gva,Gross Value Added,,,,xsd:decimal
 cvm,Chained Volume Measures,,,,xsd:decimal
 trade,Trade,,,,xsd:decimal
-trade-in-goods,Trade in good,,,,xsd:integer
+trade-in-goods,Trade in goods,,,,xsd:integer
 expenditure,Expenditure,,,,xsd:decimal
 tariff,Tariff,,,,xsd:decimal
 aggregate-fuel-poverty-gap,Aggregate Fuel Poverty Gap,,,,xsd:decimal
