@@ -38,4 +38,9 @@ births,Births,,,,xsd:integer
 area,Area,,,,xsd:decimal
 children,Children,,,,xsd:integer
 families,Families,,,,xsd:integer
-
+average-value-per-exporter,Average value per Exporter,,,,xsd:decimal
+average-value-per-importer,AVerage value per Importer,,,,xsd:decimal
+number-of-exporters,Number of Exporters,,,,xsd:integer
+number-of-importers,Number of Importers,,,,xsd:integer
+value-of-exports,Value of Exports,,,,xsd:decimal
+value-of-imports,Value of Importers,,,,xsd:decimal
