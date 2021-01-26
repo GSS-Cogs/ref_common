@@ -36,4 +36,6 @@ median-floor-area,Median Floor Area,,,,xsd:decimal
 exposure,Exposure,"Proximity or contact with a source of a disease agent in such a manner that effective transmission of the agent or harmful effects of the agent may occur",,,xsd:decimal
 births,Births,,,,xsd:integer
 area,Area,,,,xsd:decimal
+children,Children,,,,xsd:integer
+families,Families,,,,xsd:integer
 
