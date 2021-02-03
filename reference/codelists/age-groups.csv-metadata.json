@@ -65,8 +65,7 @@
         "@type": [
             "skos:ConceptScheme",
             "http://publishmydata.com/pmdcat#ConceptScheme"
-        ],
-        "skos:hasTopConcept": "http://gss-data.org.uk/data/gss_data/covid-19/nhs-d-coronavirus-shielded-patient-list-summary-totals-england#concept/age-groups/all"
+        ]
     },
     "rdfs:label": "Age Groups",
     "dc:title": "Age Groups",
