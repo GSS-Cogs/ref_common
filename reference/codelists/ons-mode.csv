@@ -1,4 +1,4 @@
-Label,Notation,Parent Notaton,Sort Priority
+Label,Notation,Parent Notation,Sort Priority
 Total,total,,1
 Remote Trade (mode 1),mode-1,total,2
 Consumption Abroad (mode 2),mode-2,total,3
