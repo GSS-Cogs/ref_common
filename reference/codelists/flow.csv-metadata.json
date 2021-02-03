@@ -1,6 +1,6 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
-    "@id": "#table",
+    "@id": "http://gss-data.org.uk/def/concept-scheme/flow",
     "url": "flow.csv",
     "tableSchema": {
         "columns": [
@@ -71,20 +71,20 @@
     "dc:title": "Flow",
     "rdfs:seeAlso": [
         {
-            "@id": "#table/dataset",
+            "@id": "http://gss-data.org.uk/def/concept-scheme/flow/dataset",
             "@type": [
                 "dcat:Dataset",
                 "http://publishmydata.com/pmdcat#Dataset"
             ],
             "http://publishmydata.com/pmdcat#datasetContents": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/flow"
             },
             "http://publishmydata.com/pmdcat#graph": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/flow"
             },
             "dc:modified": {
                 "@type": "dateTime",
-                "@value": "2021-02-03T08:41:31.825330"
+                "@value": "2021-02-03T15:13:25.191795"
             },
             "rdfs:label": "Flow",
             "dc:title": "Flow",
@@ -97,17 +97,17 @@
         {
             "@id": "http://gss-data.org.uk/catalog/vocabularies",
             "dcat:record": {
-                "@id": "#table/catalog-record"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/flow/catalog-record"
             }
         },
         {
-            "@id": "#table/catalog-record",
+            "@id": "http://gss-data.org.uk/def/concept-scheme/flow/catalog-record",
             "@type": "dcat:CatalogRecord",
             "foaf:primaryTopic": {
-                "@id": "#table/dataset"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/flow/dataset"
             },
             "http://publishmydata.com/pmdcat#metadataGraph": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/flow"
             },
             "dc:title": "Flow Catalog Record",
             "rdfs:label": "Flow Catalog Record",

@@ -1,6 +1,6 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
-    "@id": "#table",
+    "@id": "http://gss-data.org.uk/def/concept-scheme/ons-mode",
     "url": "ons-mode.csv",
     "tableSchema": {
         "columns": [
@@ -71,20 +71,20 @@
     "dc:title": "Mode",
     "rdfs:seeAlso": [
         {
-            "@id": "#table/dataset",
+            "@id": "http://gss-data.org.uk/def/concept-scheme/ons-mode/dataset",
             "@type": [
                 "dcat:Dataset",
                 "http://publishmydata.com/pmdcat#Dataset"
             ],
             "http://publishmydata.com/pmdcat#datasetContents": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/ons-mode"
             },
             "http://publishmydata.com/pmdcat#graph": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/ons-mode"
             },
             "dc:modified": {
                 "@type": "dateTime",
-                "@value": "2021-02-03T08:41:31.827079"
+                "@value": "2021-02-03T15:13:25.193473"
             },
             "rdfs:label": "Mode",
             "dc:title": "Mode",
@@ -97,17 +97,17 @@
         {
             "@id": "http://gss-data.org.uk/catalog/vocabularies",
             "dcat:record": {
-                "@id": "#table/catalog-record"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/ons-mode/catalog-record"
             }
         },
         {
-            "@id": "#table/catalog-record",
+            "@id": "http://gss-data.org.uk/def/concept-scheme/ons-mode/catalog-record",
             "@type": "dcat:CatalogRecord",
             "foaf:primaryTopic": {
-                "@id": "#table/dataset"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/ons-mode/dataset"
             },
             "http://publishmydata.com/pmdcat#metadataGraph": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/ons-mode"
             },
             "dc:title": "Mode Catalog Record",
             "rdfs:label": "Mode Catalog Record",

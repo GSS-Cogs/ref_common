@@ -1,6 +1,6 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
-    "@id": "#table",
+    "@id": "http://gss-data.org.uk/def/concept-scheme/trade-type",
     "url": "trade-type.csv",
     "tableSchema": {
         "columns": [
@@ -71,20 +71,20 @@
     "dc:title": "Trade Type",
     "rdfs:seeAlso": [
         {
-            "@id": "#table/dataset",
+            "@id": "http://gss-data.org.uk/def/concept-scheme/trade-type/dataset",
             "@type": [
                 "dcat:Dataset",
                 "http://publishmydata.com/pmdcat#Dataset"
             ],
             "http://publishmydata.com/pmdcat#datasetContents": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/trade-type"
             },
             "http://publishmydata.com/pmdcat#graph": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/trade-type"
             },
             "dc:modified": {
                 "@type": "dateTime",
-                "@value": "2021-02-03T08:41:31.830289"
+                "@value": "2021-02-03T15:13:25.196121"
             },
             "rdfs:label": "Trade Type",
             "dc:title": "Trade Type",
@@ -97,17 +97,17 @@
         {
             "@id": "http://gss-data.org.uk/catalog/vocabularies",
             "dcat:record": {
-                "@id": "#table/catalog-record"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/trade-type/catalog-record"
             }
         },
         {
-            "@id": "#table/catalog-record",
+            "@id": "http://gss-data.org.uk/def/concept-scheme/trade-type/catalog-record",
             "@type": "dcat:CatalogRecord",
             "foaf:primaryTopic": {
-                "@id": "#table/dataset"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/trade-type/dataset"
             },
             "http://publishmydata.com/pmdcat#metadataGraph": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/trade-type"
             },
             "dc:title": "Trade Type Catalog Record",
             "rdfs:label": "Trade Type Catalog Record",

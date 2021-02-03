@@ -1,6 +1,6 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
-    "@id": "#table",
+    "@id": "http://gss-data.org.uk/def/concept-scheme/employment-centre-size",
     "url": "employment-centre-size.csv",
     "tableSchema": {
         "columns": [
@@ -72,20 +72,20 @@
     "dc:title": "Employment Centre Size",
     "rdfs:seeAlso": [
         {
-            "@id": "#table/dataset",
+            "@id": "http://gss-data.org.uk/def/concept-scheme/employment-centre-size/dataset",
             "@type": [
                 "dcat:Dataset",
                 "http://publishmydata.com/pmdcat#Dataset"
             ],
             "http://publishmydata.com/pmdcat#datasetContents": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/employment-centre-size"
             },
             "http://publishmydata.com/pmdcat#graph": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/employment-centre-size"
             },
             "dc:modified": {
                 "@type": "dateTime",
-                "@value": "2021-02-03T08:41:31.824695"
+                "@value": "2021-02-03T15:13:25.191403"
             },
             "rdfs:label": "Employment Centre Size",
             "dc:title": "Employment Centre Size",
@@ -98,17 +98,17 @@
         {
             "@id": "http://gss-data.org.uk/catalog/vocabularies",
             "dcat:record": {
-                "@id": "#table/catalog-record"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/employment-centre-size/catalog-record"
             }
         },
         {
-            "@id": "#table/catalog-record",
+            "@id": "http://gss-data.org.uk/def/concept-scheme/employment-centre-size/catalog-record",
             "@type": "dcat:CatalogRecord",
             "foaf:primaryTopic": {
-                "@id": "#table/dataset"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/employment-centre-size/dataset"
             },
             "http://publishmydata.com/pmdcat#metadataGraph": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/employment-centre-size"
             },
             "dc:title": "Employment Centre Size Catalog Record",
             "rdfs:label": "Employment Centre Size Catalog Record",

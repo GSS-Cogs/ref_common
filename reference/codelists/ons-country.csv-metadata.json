@@ -1,6 +1,6 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
-    "@id": "#table",
+    "@id": "http://gss-data.org.uk/def/concept-scheme/ons-country",
     "url": "ons-country.csv",
     "tableSchema": {
         "columns": [
@@ -57,7 +57,7 @@
                 "valueUrl": "http://gss-data.org.uk/def/concept-scheme/ons-country"
             }
         ],
-        "primaryKey": "notation",
+        "primaryKey": ["notation", "parent_notation"],
         "aboutUrl": "http://gss-data.org.uk/def/concept/ons-country/{notation}"
     },
     "prov:hadDerivation": {
@@ -74,16 +74,16 @@
     "dc:title": "Country",
     "rdfs:seeAlso": [
         {
-            "@id": "#table/dataset",
+            "@id": "http://gss-data.org.uk/def/concept-scheme/ons-country/dataset",
             "@type": [
                 "dcat:Dataset",
                 "http://publishmydata.com/pmdcat#Dataset"
             ],
             "http://publishmydata.com/pmdcat#datasetContents": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/ons-country"
             },
             "http://publishmydata.com/pmdcat#graph": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/ons-country"
             },
             "rdfs:label": "Country",
             "dc:title": "Country",
@@ -94,23 +94,23 @@
             },
             "dc:modified": {
                 "@type": "dateTime",
-                "@value": "2021-02-03T08:41:31.829142"
+                "@value": "2021-02-03T15:13:25.195359"
             }
         },
         {
             "@id": "http://gss-data.org.uk/catalog/vocabularies",
             "dcat:record": {
-                "@id": "#table/catalog-record"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/ons-country/catalog-record"
             }
         },
         {
-            "@id": "#table/catalog-record",
+            "@id": "http://gss-data.org.uk/def/concept-scheme/ons-country/catalog-record",
             "@type": "dcat:CatalogRecord",
             "foaf:primaryTopic": {
-                "@id": "#table/dataset"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/ons-country/dataset"
             },
             "http://publishmydata.com/pmdcat#metadataGraph": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/ons-country"
             },
             "dc:title": "ONS Country Catalog Record",
             "rdfs:label": "ONS Country Catalog Record",

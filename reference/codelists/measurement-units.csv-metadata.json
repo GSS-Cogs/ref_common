@@ -5,7 +5,7 @@
             "@language": "en"
         }
     ],
-    "@id": "#table",
+    "@id": "http://gss-data.org.uk/def/concept-scheme/measurement-units",
     "prov:hadDerivation": {
         "@id": "http://gss-data.org.uk/def/concept-scheme/measurement-units",
         "@type": [
@@ -18,7 +18,7 @@
         "columns": [
             {
                 "titles": "Path",
-                "required": false,
+                "required": true,
                 "name": "path",
                 "datatype": "string",
                 "suppressOutput": true
@@ -38,9 +38,9 @@
                 "propertyUrl": "skos:notation"
             },
             {
-                "titles": "Comment",
+                "titles": "Description",
                 "required": false,
-                "name": "comment",
+                "name": "description",
                 "datatype": "string",
                 "propertyUrl": "rdfs:comment"
             },
@@ -68,12 +68,6 @@
                 "propertyUrl": "http://www.w3.org/ns/ui#sortPriority"
             },
             {
-                "name": "top",
-                "virtual": true,
-                "propertyUrl": "skos:topConceptOf",
-                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/measurement-units"
-            },
-            {
                 "name": "type",
                 "virtual": true,
                 "propertyUrl": "rdf:type",
@@ -95,20 +89,20 @@
     "dc:title": "GSS measurement units",
     "rdfs:seeAlso": [
         {
-            "@id": "#table/dataset",
+            "@id": "http://gss-data.org.uk/def/concept-scheme/measurement-units/dataset",
             "@type": [
                 "dcat:Dataset",
                 "http://publishmydata.com/pmdcat#Dataset"
             ],
             "http://publishmydata.com/pmdcat#datasetContents": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/measurement-units"
             },
             "http://publishmydata.com/pmdcat#graph": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/measurement-units"
             },
             "dc:modified": {
                 "@type": "dateTime",
-                "@value": "2021-02-03T08:41:31.826544"
+                "@value": "2021-02-03T15:13:25.192779"
             },
             "rdfs:label": "GSS measurement units",
             "dc:title": "GSS measurement units",
@@ -121,17 +115,17 @@
         {
             "@id": "http://gss-data.org.uk/catalog/vocabularies",
             "dcat:record": {
-                "@id": "#table/catalog-record"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/measurement-units/catalog-record"
             }
         },
         {
-            "@id": "#table/catalog-record",
+            "@id": "http://gss-data.org.uk/def/concept-scheme/measurement-units/catalog-record",
             "@type": "dcat:CatalogRecord",
             "foaf:primaryTopic": {
-                "@id": "#table/dataset"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/measurement-units/dataset"
             },
             "http://publishmydata.com/pmdcat#metadataGraph": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/measurement-units"
             },
             "dc:title": "GSS measurement units Catalog Record",
             "rdfs:label": "GSS measurement units Catalog Record",

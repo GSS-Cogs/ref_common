@@ -5,7 +5,7 @@
             "@language": "en"
         }
     ],
-    "@id": "#table",
+    "@id": "http://gss-data.org.uk/def/concept-scheme/cogs-markers",
     "prov:hadDerivation": {
         "@id": "http://gss-data.org.uk/def/concept-scheme/cogs-markers",
         "@type": [
@@ -72,20 +72,20 @@
     "dc:title": "",
     "rdfs:seeAlso": [
         {
-            "@id": "#table/dataset",
+            "@id": "http://gss-data.org.uk/def/concept-scheme/cogs-markers/dataset",
             "@type": [
                 "dcat:Dataset",
                 "http://publishmydata.com/pmdcat#Dataset"
             ],
             "http://publishmydata.com/pmdcat#datasetContents": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/cogs-markers"
             },
             "http://publishmydata.com/pmdcat#graph": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/cogs-markers"
             },
             "dc:modified": {
                 "@type": "dateTime",
-                "@value": "2021-02-03T08:41:31.818952"
+                "@value": "2021-02-03T15:13:25.187671"
             },
             "rdfs:label": "",
             "dc:title": "",
@@ -98,17 +98,17 @@
         {
             "@id": "http://gss-data.org.uk/catalog/vocabularies",
             "dcat:record": {
-                "@id": "#table/catalog-record"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/cogs-markers/catalog-record"
             }
         },
         {
-            "@id": "#table/catalog-record",
+            "@id": "http://gss-data.org.uk/def/concept-scheme/cogs-markers/catalog-record",
             "@type": "dcat:CatalogRecord",
             "foaf:primaryTopic": {
-                "@id": "#table/dataset"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/cogs-markers/dataset"
             },
             "http://publishmydata.com/pmdcat#metadataGraph": {
-                "@id": "#table"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/cogs-markers"
             },
             "dc:title": " Catalog Record",
             "rdfs:label": " Catalog Record",
