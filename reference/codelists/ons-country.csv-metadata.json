@@ -61,14 +61,11 @@
         "aboutUrl": "http://gss-data.org.uk/def/concept/ons-country/{notation}"
     },
     "prov:hadDerivation": {
-        "@id": "http://gss-data.org.uk/def/concept-scheme/country",
+        "@id": "http://gss-data.org.uk/def/concept-scheme/ons-country",
         "@type": [
             "skos:ConceptScheme",
             "http://publishmydata.com/pmdcat#ConceptScheme"
-        ],
-        "skos:hasTopConcept": {
-            "@id": "http://gss-data.org.uk/def/concept/country/all"
-        }
+        ]
     },
     "rdfs:label": "Country",
     "dc:title": "Country",

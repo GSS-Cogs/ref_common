@@ -1,6 +1,6 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
-    "@id": "http://gss-data.org.uk/data/gss_data/covid-19/nhs-d-coronavirus-shielded-patient-list-summary-totals-england#schema",
+    "@id": "http://gss-data.org.uk/def/concept-scheme/age-groups",
     "url": "age-groups.csv",
     "tableSchema": {
         "columns": [
@@ -30,7 +30,7 @@
                 },
                 "required": false,
                 "propertyUrl": "skos:broader",
-                "valueUrl": "http://gss-data.org.uk/data/gss_data/covid-19/nhs-d-coronavirus-shielded-patient-list-summary-totals-england#concept/age-groups/{parent_notation}"
+                "valueUrl": "http://gss-data.org.uk/def/concept/age-groups/{parent_notation}"
             },
             {
                 "titles": "Sort Priority",
@@ -54,11 +54,11 @@
             {
                 "virtual": true,
                 "propertyUrl": "skos:inScheme",
-                "valueUrl": "http://gss-data.org.uk/data/gss_data/covid-19/nhs-d-coronavirus-shielded-patient-list-summary-totals-england#scheme/age-groups"
+                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/age-groups"
             }
         ],
         "primaryKey": "notation",
-        "aboutUrl": "http://gss-data.org.uk/data/gss_data/covid-19/nhs-d-coronavirus-shielded-patient-list-summary-totals-england#concept/age-groups/{notation}"
+        "aboutUrl": "http://gss-data.org.uk/def/concept/age-groups/{notation}"
     },
     "prov:hadDerivation": {
         "@id": "http://gss-data.org.uk/data/gss_data/covid-19/nhs-d-coronavirus-shielded-patient-list-summary-totals-england#scheme/age-groups",
@@ -72,20 +72,20 @@
     "dc:title": "Age Groups",
     "rdfs:seeAlso": [
         {
-            "@id": "http://gss-data.org.uk/data/gss_data/covid-19/nhs-d-coronavirus-shielded-patient-list-summary-totals-england#schema/dataset",
+            "@id": "http://gss-data.org.uk/def/concept-scheme/age-groups/dataset",
             "@type": [
                 "dcat:Dataset",
                 "http://publishmydata.com/pmdcat#Dataset"
             ],
             "http://publishmydata.com/pmdcat#datasetContents": {
-                "@id": "http://gss-data.org.uk/data/gss_data/covid-19/nhs-d-coronavirus-shielded-patient-list-summary-totals-england#schema"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/age-groups"
             },
             "http://publishmydata.com/pmdcat#graph": {
-                "@id": "http://gss-data.org.uk/data/gss_data/covid-19/nhs-d-coronavirus-shielded-patient-list-summary-totals-england#schema"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/age-groups"
             },
             "dc:modified": {
                 "@type": "dateTime",
-                "@value": "2021-02-03T15:13:25.189283"
+                "@value": "2021-02-03T15:38:35.219364"
             },
             "rdfs:label": "Age Groups",
             "dc:title": "Age Groups",
@@ -98,17 +98,17 @@
         {
             "@id": "http://gss-data.org.uk/catalog/vocabularies",
             "dcat:record": {
-                "@id": "http://gss-data.org.uk/data/gss_data/covid-19/nhs-d-coronavirus-shielded-patient-list-summary-totals-england#schema/catalog-record"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/age-groups/catalog-record"
             }
         },
         {
-            "@id": "http://gss-data.org.uk/data/gss_data/covid-19/nhs-d-coronavirus-shielded-patient-list-summary-totals-england#schema/catalog-record",
+            "@id": "http://gss-data.org.uk/def/concept-scheme/age-groups/catalog-record",
             "@type": "dcat:CatalogRecord",
             "foaf:primaryTopic": {
-                "@id": "http://gss-data.org.uk/data/gss_data/covid-19/nhs-d-coronavirus-shielded-patient-list-summary-totals-england#schema/dataset"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/age-groups/dataset"
             },
             "http://publishmydata.com/pmdcat#metadataGraph": {
-                "@id": "http://gss-data.org.uk/data/gss_data/covid-19/nhs-d-coronavirus-shielded-patient-list-summary-totals-england#schema"
+                "@id": "http://gss-data.org.uk/def/concept-scheme/age-groups"
             },
             "dc:title": "Age Groups Catalog Record",
             "rdfs:label": "Age Groups Catalog Record",
