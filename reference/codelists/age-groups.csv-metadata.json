@@ -61,7 +61,7 @@
         "aboutUrl": "http://gss-data.org.uk/def/concept/age-groups/{notation}"
     },
     "prov:hadDerivation": {
-        "@id": "http://gss-data.org.uk/data/gss_data/covid-19/nhs-d-coronavirus-shielded-patient-list-summary-totals-england#scheme/age-groups",
+        "@id": "http://gss-data.org.uk/def/concept-scheme/age-groups",
         "@type": [
             "skos:ConceptScheme",
             "http://publishmydata.com/pmdcat#ConceptScheme"
