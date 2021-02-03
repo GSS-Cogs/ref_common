@@ -8,8 +8,10 @@
     "@id": "#table",
     "prov:hadDerivation": {
         "@id": "http://gss-data.org.uk/def/concept-scheme/measurement-units",
-        "@type": "skos:ConceptScheme",
-        "rdfs:label": "GSS measurement units"
+        "@type": [
+            "skos:ConceptScheme",
+            "http://publishmydata.com/pmdcat#ConceptScheme"
+        ]
     },
     "url": "measurement-units.csv",
     "tableSchema": {
@@ -88,5 +90,59 @@
             "path"
         ],
         "aboutUrl": "http://gss-data.org.uk/def/concept/measurement-units/{+path}"
-    }
+    },
+    "rdfs:label": "GSS measurement units",
+    "dc:title": "GSS measurement units",
+    "rdfs:seeAlso": [
+        {
+            "@id": "#table/dataset",
+            "@type": [
+                "dcat:Dataset",
+                "http://publishmydata.com/pmdcat#Dataset"
+            ],
+            "http://publishmydata.com/pmdcat#datasetContents": {
+                "@id": "#table"
+            },
+            "http://publishmydata.com/pmdcat#graph": {
+                "@id": "#table"
+            },
+            "dc:modified": {
+                "@type": "dateTime",
+                "@value": "2021-02-03T08:41:31.826544"
+            },
+            "rdfs:label": "GSS measurement units",
+            "dc:title": "GSS measurement units",
+            "rdfs:comment": "Dataset representing the 'GSS measurement units' code list.",
+            "dc:issued": {
+                "@type": "dateTime",
+                "@value": "2021-02-03T08:41:31.826544"
+            }
+        },
+        {
+            "@id": "http://gss-data.org.uk/catalog/vocabularies",
+            "dcat:record": {
+                "@id": "#table/catalog-record"
+            }
+        },
+        {
+            "@id": "#table/catalog-record",
+            "@type": "dcat:CatalogRecord",
+            "foaf:primaryTopic": {
+                "@id": "#table/dataset"
+            },
+            "http://publishmydata.com/pmdcat#metadataGraph": {
+                "@id": "#table"
+            },
+            "dc:title": "GSS measurement units Catalog Record",
+            "rdfs:label": "GSS measurement units Catalog Record",
+            "dc:issued": {
+                "@type": "dateTime",
+                "@value": "2021-02-03T08:41:31.826544"
+            },
+            "dc:modified": {
+                "@type": "dateTime",
+                "@value": "2021-02-03T08:41:31.826544"
+            }
+        }
+    ]
 }

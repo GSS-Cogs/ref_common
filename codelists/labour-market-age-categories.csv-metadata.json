@@ -1,71 +1,127 @@
 {
-  "@context": "http://www.w3.org/ns/csvw",
-  "@id": "#table",
-  "url": "labour-market-age-categories.csv",
-  "tableSchema": {
-    "columns": [
-      {
-        "titles": "Label",
-        "name": "label",
-        "datatype": "string",
-        "required": true,
-        "propertyUrl": "rdfs:label"
-      },
-      {
-        "titles": "Notation",
-        "name": "notation",
-        "datatype": {
-          "base": "string",
-          "format": "^-?[\\w\\.\\/]+(-[\\w\\.\\/]+)*$"
-        },
-        "required": true,
-        "propertyUrl": "skos:notation"
-      },
-      {
-        "titles": "Parent Notation",
-        "name": "parent_notation",
-        "datatype": {
-          "base": "string",
-          "format": "^(-?[\\w\\.\\/]+(-[\\w\\.\\/]+)*|)$"
-        },
-        "required": false,
-        "propertyUrl": "skos:broader",
-        "valueUrl": "http://gss-data.org.uk/def/concept/labour-market-age-categories/{parent_notation}"
-      },
-      {
-        "titles": "Sort Priority",
-        "name": "sort",
-        "datatype": "integer",
-        "required": false,
-        "propertyUrl": "http://www.w3.org/ns/ui#sortPriority"
-      },
-      {
-        "titles": "Description",
-        "name": "description",
-        "datatype": "string",
-        "required": false,
-        "propertyUrl": "rdfs:comment"
-      },
-      {
-        "virtual": true,
-        "propertyUrl": "rdf:type",
-        "valueUrl": "skos:Concept"
-      },
-      {
-        "virtual": true,
-        "propertyUrl": "skos:inScheme",
-        "valueUrl": "http://gss-data.org.uk/def/concept-scheme/labour-market-age-categories"
-      }
-    ],
-    "primaryKey": "notation",
-    "aboutUrl": "http://gss-data.org.uk/def/concept/labour-market-age-categories/{notation}"
-  },
-  "prov:hadDerivation": {
-    "@id": "http://gss-data.org.uk/def/concept-scheme/labour-market-age-categories",
-    "@type": "skos:ConceptScheme",
+    "@context": "http://www.w3.org/ns/csvw",
+    "@id": "#table",
+    "url": "labour-market-age-categories.csv",
+    "tableSchema": {
+        "columns": [
+            {
+                "titles": "Label",
+                "name": "label",
+                "datatype": "string",
+                "required": true,
+                "propertyUrl": "rdfs:label"
+            },
+            {
+                "titles": "Notation",
+                "name": "notation",
+                "datatype": {
+                    "base": "string",
+                    "format": "^-?[\\w\\.\\/]+(-[\\w\\.\\/]+)*$"
+                },
+                "required": true,
+                "propertyUrl": "skos:notation"
+            },
+            {
+                "titles": "Parent Notation",
+                "name": "parent_notation",
+                "datatype": {
+                    "base": "string",
+                    "format": "^(-?[\\w\\.\\/]+(-[\\w\\.\\/]+)*|)$"
+                },
+                "required": false,
+                "propertyUrl": "skos:broader",
+                "valueUrl": "http://gss-data.org.uk/def/concept/labour-market-age-categories/{parent_notation}"
+            },
+            {
+                "titles": "Sort Priority",
+                "name": "sort",
+                "datatype": "integer",
+                "required": false,
+                "propertyUrl": "http://www.w3.org/ns/ui#sortPriority"
+            },
+            {
+                "titles": "Description",
+                "name": "description",
+                "datatype": "string",
+                "required": false,
+                "propertyUrl": "rdfs:comment"
+            },
+            {
+                "virtual": true,
+                "propertyUrl": "rdf:type",
+                "valueUrl": "skos:Concept"
+            },
+            {
+                "virtual": true,
+                "propertyUrl": "skos:inScheme",
+                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/labour-market-age-categories"
+            }
+        ],
+        "primaryKey": "notation",
+        "aboutUrl": "http://gss-data.org.uk/def/concept/labour-market-age-categories/{notation}"
+    },
+    "prov:hadDerivation": {
+        "@id": "http://gss-data.org.uk/def/concept-scheme/labour-market-age-categories",
+        "@type": [
+            "skos:ConceptScheme",
+            "http://publishmydata.com/pmdcat#ConceptScheme"
+        ],
+        "skos:hasTopConcept": {
+            "@id": "http://gss-data.org.uk/def/concept/labour-market-age-categories/all-ages"
+        }
+    },
     "rdfs:label": "Labour Market Age Categories",
-    "skos:hasTopConcept": {
-      "@id": "http://gss-data.org.uk/def/concept/labour-market-age-categories/all-ages"
-    }
-  }
+    "dc:title": "Labour Market Age Categories",
+    "rdfs:seeAlso": [
+        {
+            "@id": "#table/dataset",
+            "@type": [
+                "dcat:Dataset",
+                "http://publishmydata.com/pmdcat#Dataset"
+            ],
+            "http://publishmydata.com/pmdcat#datasetContents": {
+                "@id": "#table"
+            },
+            "http://publishmydata.com/pmdcat#graph": {
+                "@id": "#table"
+            },
+            "dc:modified": {
+                "@type": "dateTime",
+                "@value": "2021-02-03T08:41:31.830780"
+            },
+            "rdfs:label": "Labour Market Age Categories",
+            "dc:title": "Labour Market Age Categories",
+            "rdfs:comment": "Dataset representing the 'Labour Market Age Categories' code list.",
+            "dc:issued": {
+                "@type": "dateTime",
+                "@value": "2021-02-03T08:41:31.830780"
+            }
+        },
+        {
+            "@id": "http://gss-data.org.uk/catalog/vocabularies",
+            "dcat:record": {
+                "@id": "#table/catalog-record"
+            }
+        },
+        {
+            "@id": "#table/catalog-record",
+            "@type": "dcat:CatalogRecord",
+            "foaf:primaryTopic": {
+                "@id": "#table/dataset"
+            },
+            "http://publishmydata.com/pmdcat#metadataGraph": {
+                "@id": "#table"
+            },
+            "dc:title": "Labour Market Age Categories Catalog Record",
+            "rdfs:label": "Labour Market Age Categories Catalog Record",
+            "dc:issued": {
+                "@type": "dateTime",
+                "@value": "2021-02-03T08:41:31.830780"
+            },
+            "dc:modified": {
+                "@type": "dateTime",
+                "@value": "2021-02-03T08:41:31.830780"
+            }
+        }
+    ]
 }

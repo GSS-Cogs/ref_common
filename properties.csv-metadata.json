@@ -5,21 +5,14 @@
             "@language": "en"
         }
     ],
-    "@id": "http://gss-data.org.uk/def/trade/ontology/measures",
+    "@id": "http://gss-data.org.uk/def/trade/ontology/properties",
     "prov:hadDerivation": {
-        "@id": "http://gss-data.org.uk/def/trade/ontology/measures",
+        "@id": "http://gss-data.org.uk/def/trade/ontology/properties",
         "@type": "owl:Ontology"
     },
-    "url": "measures.csv",
+    "url": "properties.csv",
     "tableSchema": {
         "columns": [
-            {
-                "titles": "Path",
-                "required": true,
-                "name": "path",
-                "datatype": "string",
-                "suppressOutput": true
-            },
             {
                 "titles": "Label",
                 "required": true,
@@ -28,11 +21,27 @@
                 "propertyUrl": "rdfs:label"
             },
             {
-                "titles": "Comment",
-                "required": false,
-                "name": "comment",
+                "titles": "Path",
+                "required": true,
+                "name": "path",
                 "datatype": "string",
-                "propertyUrl": "rdfs:comment"
+                "suppressOutput": true
+            },
+            {
+                "titles": "Qb Property Type",
+                "required": true,
+                "name": "qb_property_type",
+                "datatype": "string",
+                "propertyUrl": "rdf:type",
+                "valueUrl": "{qb_property_type}"
+            },
+            {
+                "titles": "Parent Property",
+                "required": false,
+                "name": "parent_property",
+                "datatype": "anyURI",
+                "propertyUrl": "rdfs:subPropertyOf",
+                "valueUrl": "{parent_property}"
             },
             {
                 "titles": "Source",
@@ -43,33 +52,26 @@
                 "valueUrl": "{source}"
             },
             {
-                "titles": "Parent",
-                "required": false,
-                "name": "parent",
-                "datatype": "anyURI",
-                "propertyUrl": "rdfs:subPropertyOf",
-                "valueUrl": "{parent}"
-            },
-            {
                 "titles": "Range",
-                "required": false,
+                "required": true,
                 "name": "range",
                 "datatype": "anyURI",
                 "propertyUrl": "rdfs:range",
                 "valueUrl": "{range}"
             },
             {
-                "name": "type",
-                "virtual": true,
-                "propertyUrl": "rdf:type",
-                "valueUrl": "http://purl.org/linked-data/cube#MeasureProperty"
+                "titles": "Comment",
+                "required": false,
+                "name": "comment",
+                "datatype": "string",
+                "propertyUrl": "rdfs:comment"
             }
         ],
         "primaryKey": [
             "path"
         ],
-        "aboutUrl": "http://gss-data.org.uk/def/measure/{+path}"
+        "aboutUrl": "http://gss-data.org.uk/def/property/{+path}"
     },
-    "rdfs:label": "GSS Trade Measures",
-    "dc:title": "GSS Trade Measures"
+    "rdfs:label": "GSS Trade Properties",
+    "dc:title": "GSS Trade Properties"
 }

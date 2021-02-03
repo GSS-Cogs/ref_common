@@ -8,8 +8,10 @@
     "@id": "#table",
     "prov:hadDerivation": {
         "@id": "http://gss-data.org.uk/def/concept-scheme/markers",
-        "@type": "skos:ConceptScheme",
-        "rdfs:label": "Harmonised symbols"
+        "@type": [
+            "skos:ConceptScheme",
+            "http://publishmydata.com/pmdcat#ConceptScheme"
+        ]
     },
     "url": "markers.csv",
     "tableSchema": {
@@ -88,5 +90,59 @@
             "path"
         ],
         "aboutUrl": "http://gss-data.org.uk/def/concept/marker/{+path}"
-    }
+    },
+    "rdfs:label": "Harmonised symbols",
+    "dc:title": "Harmonised symbols",
+    "rdfs:seeAlso": [
+        {
+            "@id": "#table/dataset",
+            "@type": [
+                "dcat:Dataset",
+                "http://publishmydata.com/pmdcat#Dataset"
+            ],
+            "http://publishmydata.com/pmdcat#datasetContents": {
+                "@id": "#table"
+            },
+            "http://publishmydata.com/pmdcat#graph": {
+                "@id": "#table"
+            },
+            "dc:modified": {
+                "@type": "dateTime",
+                "@value": "2021-02-03T08:41:31.828223"
+            },
+            "rdfs:label": "Harmonised symbols",
+            "dc:title": "Harmonised symbols",
+            "rdfs:comment": "Dataset representing the 'Harmonised symbols' code list.",
+            "dc:issued": {
+                "@type": "dateTime",
+                "@value": "2021-02-03T08:41:31.828223"
+            }
+        },
+        {
+            "@id": "http://gss-data.org.uk/catalog/vocabularies",
+            "dcat:record": {
+                "@id": "#table/catalog-record"
+            }
+        },
+        {
+            "@id": "#table/catalog-record",
+            "@type": "dcat:CatalogRecord",
+            "foaf:primaryTopic": {
+                "@id": "#table/dataset"
+            },
+            "http://publishmydata.com/pmdcat#metadataGraph": {
+                "@id": "#table"
+            },
+            "dc:title": "Harmonised symbols Catalog Record",
+            "rdfs:label": "Harmonised symbols Catalog Record",
+            "dc:issued": {
+                "@type": "dateTime",
+                "@value": "2021-02-03T08:41:31.828223"
+            },
+            "dc:modified": {
+                "@type": "dateTime",
+                "@value": "2021-02-03T08:41:31.828223"
+            }
+        }
+    ]
 }

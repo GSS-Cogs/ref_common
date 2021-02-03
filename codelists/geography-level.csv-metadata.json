@@ -1,68 +1,124 @@
 {
-  "@context": "http://www.w3.org/ns/csvw",
-  "@id": "#table",
-  "url": "geography-level.csv",
-  "tableSchema": {
-    "columns": [
-      {
-        "titles": "Label",
-        "name": "label",
-        "datatype": "string",
-        "required": true,
-        "propertyUrl": "rdfs:label"
-      },
-      {
-        "titles": "Notation",
-        "name": "notation",
-        "datatype": {
-          "base": "string",
-          "format": "^-?[\\w\\.\\/]+(-[\\w\\.\\/]+)*$"
+    "@context": "http://www.w3.org/ns/csvw",
+    "@id": "#table",
+    "url": "geography-level.csv",
+    "tableSchema": {
+        "columns": [
+            {
+                "titles": "Label",
+                "name": "label",
+                "datatype": "string",
+                "required": true,
+                "propertyUrl": "rdfs:label"
+            },
+            {
+                "titles": "Notation",
+                "name": "notation",
+                "datatype": {
+                    "base": "string",
+                    "format": "^-?[\\w\\.\\/]+(-[\\w\\.\\/]+)*$"
+                },
+                "required": true,
+                "propertyUrl": "skos:notation"
+            },
+            {
+                "titles": "Parent Notation",
+                "name": "parent_notation",
+                "datatype": {
+                    "base": "string",
+                    "format": "^(-?[\\w\\.\\/]+(-[\\w\\.\\/]+)*|)$"
+                },
+                "required": false,
+                "propertyUrl": "skos:broader",
+                "valueUrl": "http://gss-data.org.uk/def/concept/geography-level/{parent_notation}"
+            },
+            {
+                "titles": "Sort Priority",
+                "name": "sort",
+                "datatype": "integer",
+                "required": false,
+                "propertyUrl": "http://www.w3.org/ns/ui#sortPriority"
+            },
+            {
+                "titles": "Description",
+                "name": "description",
+                "datatype": "string",
+                "required": false,
+                "propertyUrl": "rdfs:comment"
+            },
+            {
+                "virtual": true,
+                "propertyUrl": "rdf:type",
+                "valueUrl": "skos:Concept"
+            },
+            {
+                "virtual": true,
+                "propertyUrl": "skos:inScheme",
+                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/geography-level"
+            }
+        ],
+        "primaryKey": "notation",
+        "aboutUrl": "http://gss-data.org.uk/def/concept/geography-level/{notation}"
+    },
+    "prov:hadDerivation": {
+        "@id": "http://gss-data.org.uk/def/concept-scheme/geography-level",
+        "@type": [
+            "skos:ConceptScheme",
+            "http://publishmydata.com/pmdcat#ConceptScheme"
+        ]
+    },
+    "rdfs:label": "Geography Level",
+    "dc:title": "Geography Level",
+    "rdfs:seeAlso": [
+        {
+            "@id": "#table/dataset",
+            "@type": [
+                "dcat:Dataset",
+                "http://publishmydata.com/pmdcat#Dataset"
+            ],
+            "http://publishmydata.com/pmdcat#datasetContents": {
+                "@id": "#table"
+            },
+            "http://publishmydata.com/pmdcat#graph": {
+                "@id": "#table"
+            },
+            "dc:modified": {
+                "@type": "dateTime",
+                "@value": "2021-02-03T08:41:31.829625"
+            },
+            "rdfs:label": "Geography Level",
+            "dc:title": "Geography Level",
+            "rdfs:comment": "Dataset representing the 'Geography Level' code list.",
+            "dc:issued": {
+                "@type": "dateTime",
+                "@value": "2021-02-03T08:41:31.829625"
+            }
         },
-        "required": true,
-        "propertyUrl": "skos:notation"
-      },
-      {
-        "titles": "Parent Notation",
-        "name": "parent_notation",
-        "datatype": {
-          "base": "string",
-          "format": "^(-?[\\w\\.\\/]+(-[\\w\\.\\/]+)*|)$"
+        {
+            "@id": "http://gss-data.org.uk/catalog/vocabularies",
+            "dcat:record": {
+                "@id": "#table/catalog-record"
+            }
         },
-        "required": false,
-        "propertyUrl": "skos:broader",
-        "valueUrl": "http://gss-data.org.uk/def/concept/geography-level/{parent_notation}"
-      },
-      {
-        "titles": "Sort Priority",
-        "name": "sort",
-        "datatype": "integer",
-        "required": false,
-        "propertyUrl": "http://www.w3.org/ns/ui#sortPriority"
-      },
-      {
-        "titles": "Description",
-        "name": "description",
-        "datatype": "string",
-        "required": false,
-        "propertyUrl": "rdfs:comment"
-      },
-      {
-        "virtual": true,
-        "propertyUrl": "rdf:type",
-        "valueUrl": "skos:Concept"
-      },
-      {
-        "virtual": true,
-        "propertyUrl": "skos:inScheme",
-        "valueUrl": "http://gss-data.org.uk/def/concept-scheme/geography-level"
-      }
-    ],
-    "primaryKey": "notation",
-    "aboutUrl": "http://gss-data.org.uk/def/concept/geography-level/{notation}"
-  },
-  "prov:hadDerivation": {
-    "@id": "http://gss-data.org.uk/def/concept-scheme/geography-level",
-    "@type": "skos:ConceptScheme",
-    "rdfs:label": "Geography Level"
-  }
+        {
+            "@id": "#table/catalog-record",
+            "@type": "dcat:CatalogRecord",
+            "foaf:primaryTopic": {
+                "@id": "#table/dataset"
+            },
+            "http://publishmydata.com/pmdcat#metadataGraph": {
+                "@id": "#table"
+            },
+            "dc:title": "Geography Level Catalog Record",
+            "rdfs:label": "Geography Level Catalog Record",
+            "dc:issued": {
+                "@type": "dateTime",
+                "@value": "2021-02-03T08:41:31.829625"
+            },
+            "dc:modified": {
+                "@type": "dateTime",
+                "@value": "2021-02-03T08:41:31.829625"
+            }
+        }
+    ]
 }
