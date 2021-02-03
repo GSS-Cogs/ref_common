@@ -68,12 +68,6 @@
                 "propertyUrl": "http://www.w3.org/ns/ui#sortPriority"
             },
             {
-                "name": "top",
-                "virtual": true,
-                "propertyUrl": "skos:topConceptOf",
-                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/markers"
-            },
-            {
                 "name": "type",
                 "virtual": true,
                 "propertyUrl": "rdf:type",

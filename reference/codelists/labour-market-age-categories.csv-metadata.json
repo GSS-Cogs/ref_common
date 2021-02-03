@@ -65,10 +65,7 @@
         "@type": [
             "skos:ConceptScheme",
             "http://publishmydata.com/pmdcat#ConceptScheme"
-        ],
-        "skos:hasTopConcept": {
-            "@id": "http://gss-data.org.uk/def/concept/labour-market-age-categories/all-ages"
-        }
+        ]
     },
     "rdfs:label": "Labour Market Age Categories",
     "dc:title": "Labour Market Age Categories",

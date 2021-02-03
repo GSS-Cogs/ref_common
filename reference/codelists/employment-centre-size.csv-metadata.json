@@ -65,8 +65,7 @@
         "@type": [
             "skos:ConceptScheme",
             "http://publishmydata.com/pmdcat#ConceptScheme"
-        ],
-        "skos:hasTopConcept": "http://gss-data.org.uk/def/concept/employment-centre-size/all"
+        ]
     },
     "rdfs:label": "Employment Centre Size",
     "dc:title": "Employment Centre Size",
