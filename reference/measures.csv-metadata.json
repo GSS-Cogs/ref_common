@@ -5,9 +5,9 @@
             "@language": "en"
         }
     ],
-    "@id": "http://gss-data.org.uk/def/trade/ontology/measures",
+    "@id": "http://gss-data.org.uk/def/ontology/measures",
     "prov:hadDerivation": {
-        "@id": "http://gss-data.org.uk/def/trade/ontology/measures",
+        "@id": "http://gss-data.org.uk/def/ontology/measures",
         "@type": "owl:Ontology"
     },
     "url": "measures.csv",
@@ -70,6 +70,6 @@
         ],
         "aboutUrl": "http://gss-data.org.uk/def/measure/{+path}"
     },
-    "rdfs:label": "GSS Trade Measures",
-    "dc:title": "GSS Trade Measures"
+    "rdfs:label": "GSS Measures",
+    "dc:title": "GSS Measures"
 }
