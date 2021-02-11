@@ -49,3 +49,5 @@ bop-capital-account,Balance of Payments Capital Account,"The capital account has
 production,Production,,,,xsd:decimal
 clearances,Clearances,,,,xsd:decimal
 duty-receipts,Duty Receipts,,,,xsd:decimal
+fuel-used-in-generation,Fuel Used in Generation,,,,xsd:decimal
+fuel-used-in-generation-representative,Fuel Used in Generation - Representative,,,,xsd:decimal
