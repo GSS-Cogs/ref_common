@@ -46,3 +46,6 @@ value-of-exports,Value of Exports,,,,xsd:decimal
 value-of-imports,Value of Imports,,,,xsd:decimal
 bop-current-account,Balance of Payments Current Account,"The current account is made up of the trade in goods and services account, the primary income account, and secondary income account. The difference in the monetary value of these accounts is known as the current account balance. A current account balance is in surplus if overall credits exceed debits, and it is in deficit if overall debits exceed credits",,,xsd:integer
 bop-capital-account,Balance of Payments Capital Account,"The capital account has two components: capital transfers and the acquisition (purchase) or disposal (sale) of non-produced, non-financial assets. Capital transfers are those involving transfers of ownership of fixed assets, transfers of funds associated with the acquisition or disposal of fixed assets, and cancellation of liabilities by creditors without any counterparts being received in return. The sale or purchase of non-produced, non-financial assets covers intangibles such as patents, copyrights, franchises, leases and other transferable contracts, and goodwill",,,xsd:integer
+production,Production,,,,xsd:decimal
+clearances,Clearances,,,,xsd:decimal
+duty-receipts,Duty Receipts,,,,xsd:decimal
