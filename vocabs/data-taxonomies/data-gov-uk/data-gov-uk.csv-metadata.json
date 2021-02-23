@@ -1,0 +1,124 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "@id": "http://gss-data.org.uk/def/concept-scheme/data-gov-uk",
+    "url": "data-gov-uk.csv",
+    "rdfs:label": "data.gov.uk Taxonomy",
+    "dc:title": "data.gov.uk Taxonomy",
+    "tableSchema": {
+        "columns": [
+            {
+                "titles": "Label",
+                "name": "label",
+                "datatype": "string",
+                "required": true,
+                "propertyUrl": "rdfs:label"
+            },
+            {
+                "titles": "Notation",
+                "name": "notation",
+                "datatype": {
+                    "base": "string",
+                    "format": "^-?[\\w\\.\\/\\+]+(-[\\w\\.\\/\\+]+)*$"
+                },
+                "required": true,
+                "propertyUrl": "skos:notation"
+            },
+            {
+                "titles": "Parent Notation",
+                "name": "parent_notation",
+                "datatype": {
+                    "base": "string",
+                    "format": "^(-?[\\w\\.\\/\\+]+(-[\\w\\.\\/\\+]+)*|)$"
+                },
+                "required": false,
+                "propertyUrl": "skos:broader",
+                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/data-gov-uk/{parent_notation}"
+            },
+            {
+                "titles": "Sort Priority",
+                "name": "sort_priority",
+                "datatype": "integer",
+                "required": false,
+                "propertyUrl": "http://www.w3.org/ns/ui#sortPriority"
+            },
+            {
+                "titles": "Description",
+                "name": "description",
+                "datatype": "string",
+                "required": false,
+                "propertyUrl": "rdfs:comment"
+            },
+            {
+                "virtual": true,
+                "propertyUrl": "rdf:type",
+                "valueUrl": "skos:Concept"
+            },
+            {
+                "virtual": true,
+                "propertyUrl": "skos:inScheme",
+                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/data-gov-uk"
+            }
+        ],
+        "primaryKey": "notation",
+        "aboutUrl": "https://data.gov.uk/search?filters%5Btopic%5D={notation}"
+    },
+    "prov:hadDerivation": {
+        "@id": "http://gss-data.org.uk/def/concept-scheme/data-gov-uk",
+        "@type": [
+            "skos:ConceptScheme",
+            "http://publishmydata.com/pmdcat#ConceptScheme"
+        ]
+    },
+    "rdfs:seeAlso": [
+        {
+            "@id": "http://gss-data.org.uk/def/concept-scheme/data-gov-uk/dataset",
+            "@type": [
+                "dcat:Dataset",
+                "http://publishmydata.com/pmdcat#Dataset"
+            ],
+            "http://publishmydata.com/pmdcat#datasetContents": {
+                "@id": "http://gss-data.org.uk/def/concept-scheme/data-gov-uk"
+            },
+            "http://publishmydata.com/pmdcat#graph": {
+                "@id": "http://gss-data.org.uk/def/concept-scheme/data-gov-uk"
+            },
+            "dc:modified": {
+                "@type": "dateTime",
+                "@value": "2021-02-23T14:23:34.172066"
+            },
+            "rdfs:label": "data.gov.uk Taxonomy",
+            "dc:title": "data.gov.uk Taxonomy",
+            "rdfs:comment": "Dataset representing the 'data.gov.uk Taxonomy' code list.",
+            "dc:issued": {
+                "@type": "dateTime",
+                "@value": "2021-02-23T14:23:34.172066"
+            }
+        },
+        {
+            "@id": "http://gss-data.org.uk/catalog/vocabularies",
+            "dcat:record": {
+                "@id": "http://gss-data.org.uk/def/concept-scheme/data-gov-uk/catalog-record"
+            }
+        },
+        {
+            "@id": "http://gss-data.org.uk/def/concept-scheme/data-gov-uk/catalog-record",
+            "@type": "dcat:CatalogRecord",
+            "foaf:primaryTopic": {
+                "@id": "http://gss-data.org.uk/def/concept-scheme/data-gov-uk/dataset"
+            },
+            "http://publishmydata.com/pmdcat#metadataGraph": {
+                "@id": "http://gss-data.org.uk/def/concept-scheme/data-gov-uk"
+            },
+            "dc:title": "data.gov.uk Taxonomy Catalog Record",
+            "rdfs:label": "data.gov.uk Taxonomy Catalog Record",
+            "dc:issued": {
+                "@type": "dateTime",
+                "@value": "2021-02-23T14:23:34.172066"
+            },
+            "dc:modified": {
+                "@type": "dateTime",
+                "@value": "2021-02-23T14:23:34.172066"
+            }
+        }
+    ]
+}
