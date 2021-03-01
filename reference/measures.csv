@@ -51,3 +51,10 @@ clearances,Clearances,,,,xsd:decimal
 duty-receipts,Duty Receipts,,,,xsd:decimal
 fuel-used-in-generation,Fuel Used in Generation,,,,xsd:decimal
 fuel-used-in-generation-representative,Fuel Used in Generation - Representative,,,,xsd:decimal
+cumulative-installations,Cumulative Installations,,,,xsd:decimal
+installations-per-10000-households,Installations per 10000 Households,,,,xsd:decimal
+cumulative-installed-capacity,Cumulative Installed Capacity,,,,xsd:decimal
+
+
+
+
