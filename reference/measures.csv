@@ -54,7 +54,3 @@ fuel-used-in-generation-representative,Fuel Used in Generation - Representative,
 cumulative-installations,Cumulative Installations,,,,xsd:decimal
 installations-per-10000-households,Installations per 10000 Households,,,,xsd:decimal
 cumulative-installed-capacity,Cumulative Installed Capacity,,,,xsd:decimal
-
-
-
-
