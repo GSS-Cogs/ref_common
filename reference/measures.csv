@@ -59,3 +59,11 @@ actual-eii-excluded-electricity,Actual EII Excluded Electricity,,,,xsd:decimal
 actual-gross-demand,Actual Gross Demand,,,,xsd:decimal
 actual-ilr,Actual IRL,,,,xsd:decimal
 actual-income,Actual Income,,,,xsd:decimal
+volume,Volume,,,,xsd:decimal
+energy,Energy,,,,xsd:decimal
+shares-of-motor-spirit-road-fuels,Shares of Motor Spirit Road Fuels,,,,xsd:decimal
+shares-of-derv-road-fuels,Shares of DERV Road Fuels,,,,xsd:decimal
+shares-of-road-fuels,Shares of Road Fuels,,,,xsd:decimal
+percentage-change-in-shares-of-motor-spirit-road-fuels,Percentage Change in Shares of Motor Spirit,,,,xsd:decimal
+percentage-change-in-shares-of-derv-road-fuels,Percentage Change in Shares of DERV Road Fuels,,,,xsd:decimal
+percentage-change-in-shares-of-road-fuels,Percentage Change in Shares of Road Fuels,,,,xsd:decimal
