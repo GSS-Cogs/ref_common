@@ -1,0 +1,368 @@
+Label,Notation,Parent Notation,Sort Priority,Description
+Not applicable,_Z,,1,
+Current account,CA,,2,CA=GS+IN1+IN2
+Current plus capital account (if balance = Net lending (+) / net borrowing (-)),CKA,,3,CKA=CA+KA
+Current plus capital plus financial account,CKAFA,,4,CKFA=CA+KA+FA
+Primary income: Compensation of employees,D1,,5,D1=D11+D12
+Primary income: Wages and salaries excluding employers' social contributions,D11,,6,
+Primary income: Employers? social contributions,D12,,7,D12=D121+D122
+Primary income: Employers? actual social contributions,D121,,8,D121=D1211+D1212
+Primary income: Employers? actual pension contributions,D1211,,9,
+Primary income: Employers? actual non-pension contributions,D1212,,10,
+Primary income: Employers? imputed social contributions,D122,,11,D122=D1221+D1222
+Primary income: Employers? imputed pension contributions,D1221,,12,
+Primary income: Employers? imputed non-pension contributions,D1222,,13,
+Primary income: Taxes on production and imports,D2,,14,D2=D21+D29
+Primary income: Taxes on products,D21,,15,D21=D21EU+D21OTH
+"Primary income: Taxes and duties on imports, Customs duties, Traditional Own Resources",D2121EU1,,16,
+"Primary income: Taxes and duties on imports, Agricultural levies, Trade with non member countries under the CAP, Traditional Own Resources",D2122EU2,,17,
+"Primary income: Taxes on products, Sugar/isoglucose production levies, Traditional Own Resources",D214AEU3,,18,
+"Primary income: Taxes on products involing EU Institutions, Traditional Own Resources",D21EU,,19,D21EU=D2121EU1+D2122EU2+D214AEU3
+"Primary income: Taxes on products, Other than those involing EU Institutions",D21OTH,,20,
+Primary income: Other taxes on production,D29,,21,D29=D29EU+D29OTH
+Primary income: Other taxes on production - involving EU institutions,D29EU,,22,
+"Primary income: Other taxes on production, Other than those involving EU Institutions",D29OTH,,23,
+Primary income: Subsidies,D3,,24,D3=D31+D39
+Primary income: Subsidies on products,D31,,25,D31=D31EU+D31OTH
+"Primary income: Subsidies on products, EU Institutions",D31EU,,26,D31EU=D31EU1
+Primary income: Subsidies on products - Agriculture and fishery,D31EU1,,27,
+"Primary income: Subsidies on products, Other than those involving EU Institutions",D31OTH,,28,
+Primary income: Other subsidies on production excluding subsidies on products,D39,,29,D39=D39EU+D39OTH
+"Primary income: Other subsidies on production excluding subsidies on products, EU Institutions",D39EU,,30,D39EU=D39EU1+D39EU2+D39EU3
+Primary income: Subsidies on production - Agriculture and fishery,D39EU1,,31,
+Primary income: Subsidies on production - Grants for interest relief,D39EU2,,32,
+"Primary income: Subsidies on production - Other excluding agriculture, fishery and grants for interest of relief",D39EU3,,33,
+"Primary income: Other subsidies on production excluding subsidies on products, Other than those involing EU Institutions",D39OTH,,34,
+Property income,D4,,35,D4==D41+D42+D43+D44+D45
+Primary income: interest,D41,,36,
+Primary income: interest before FISIM,D41G,,37,
+"Primary income: interests (lending fees on equity securities, gold loans and gold swaps)",D41L,,38,
+Primary income: Dividends and withdrawals from income of quasi corporations (excluding RIE and excluding IF),D42,,39,D42=D421+D422
+Dividends,D421,,40,
+Withdrawals from income of quasi corporations,D422,,41,
+"Primary income: dividends, withdrawals from income of quasi corporations (including RIE, excluding IF)",D42R,,42,D42R=D42+D43
+"Primary income: dividends, withdrawals from income of quasi corporations and income distributed to investment fund shareholders (excluding RIE)",D42S,,43,D42S=D42+D4431
+Primary income: Reinvested earnings on FDI (Excluding IF),D43,,44,
+Primary income: reinvested earnings on FDI (Including IF),D43S,,45,D43S=D43+D4432
+Other investment income (ESA),D44,,46,D44=D441+D442+D443
+Investment income attributable to insurance policy holders,D441,,47,
+Investment income payable on pension entitlements,D442,,48,
+Investment income attributable to collective investment fund shareholders (IF),D443,,49,D443=D4431+D4432
+Dividends distributed to collective investment fund shareholders (IF),D4431,,50,
+Reinvested earnings attributable to collective investment fund shareholders (IF),D4432,,51,
+"Primary income: Investment income attributable to policy holders (insurance, pension and standardized guarantee schemes)",D44P,,52,D44P=D441+D442
+Primary income: Rent,D45,,53,
+Primary income: Other primary income,D4O,,54,D4O=D2+D3+D45
+Primary income: Investment income,D4P,,55,D4P=D4S+D4Q;  D4P=(D42+D43+D443)+(D41+D441+D442)=D41+D42+D43+D44; D4P=D4-D45
+Primary income: Interest and income attributable to policy holders,D4Q,,56,D4Q=D41+D44P;  D4Q=D41+D441+D442;
+"Primary income: Investment income attributable to shareholders, including income on IF, including RIE",D4S,,57,D4S=D42S+D43S;  D4S=D42+D4431+D43+D4432=D42+D43+443;  D4S=D42+D43+D443
+"Secondary income: Current taxes on income, wealth, etc.",D5,,58,D5=D51+D59
+Secondary income: Taxes on income,D51,,59,
+Secondary income: Other current taxes excluding on income,D59,,60,
+"Secondary income: Current taxes on income, wealth, etc. Of which: payable by border, seasonal, and other short-term workers (Current taxes on income, wealth, etc.)",D5Z,,61,
+Secondary income: Social contributions and benefits,D6,,62,
+Secondary income: Social contributions,D61,,63,D61=D611+D612+D613
+Secondary income: Employers'  actual social contributions,D611,,64,D611=D121
+Secondary income: Employers'  actual pension contributions,D6111,,65,D6111=D1211
+Secondary income: Employers'  actual non-pension contributions,D6112,,66,D6112=D1212
+Secondary income: Employers'  imputed social contributions,D612,,67,D612=D122
+Secondary income: Households' actual social contributions,D613,,68,
+Secondary income: Households? actual pension contributions,D6131,,69,
+Secondary income: Households? actual non-pension contributions,D6132,,70,
+"Secondary income: Of which: payable by border, seasonal, and other short-term workers (Social contributions)",D61Z,,71,
+Secondary income: Social benefits,D62,,72,D62=D62P+D62O
+"Secondary income: Other social allowances (payments of family, education, medical services and other allowances) excluding retirement and survivors' pensions",D62O,,73,
+Secondary income: Retirement and survivors' Pensions,D62P,,74,
+Social transfers in kind,D63,,75,
+Other current transfers,D7,,76,D7= D71+D72+D73+D74+D75+D76
+Secondary income: Net non-life insurance premiums,D71,,77,D71=D711+D712
+Net non-life direct insurance premiums,D711,,78,
+Net non-life reinsurance premiums,D712,,79,
+Secondary income: Nonlife insurance claims,D72,,80,D72=D721+D722
+Non-life direct insurance claims,D721,,81,
+Non-life reinsurance claims,D722,,82,
+Current transfers within general government,D73,,83,
+Secondary income: Current international cooperation,D74,,84,D74=D74EU+D74OTH
+Secondary income: Memo item: o/w Exceptional financing,D74EF,,85,D74EF=D74EF1+D74EF2
+Secondary income: Memo item: o/w Exceptional financing: Grants received from IMF subsidy accounts,D74EF1,,86,
+Secondary income: Memo item: o/w Exceptional financing: Other intergovernmental grants,D74EF2,,87,
+Secondary income: Current international cooperation involving the EU institutions,D74EU,,88,D74EU=D74EU1+D74EU2+D74EU3+D74EU4+D74EU5     +D74EU6
+Secondary income: Current international cooperation -European Development Fund,D74EU1,,89,
+Secondary income: Current international cooperation -European Social Fund,D74EU2,,90,
+Secondary income: Current international cooperation -Agriculture and Fish (Guidance and other),D74EU3,,91,
+Secondary income: Current international cooperation -European Regional Development Fund,D74EU4,,92,
+Secondary income: Current international cooperation -European Community Steel and Coal transfers,D74EU5,,93,
+Secondary income: Current international cooperation - Other,D74EU6,,94,
+Secondary income: Current international cooperation other,D74OTH,,95,
+Secondary income: Miscellaneous current transfers,D75,,96,D75=D751+D752+D759 D75E+D76
+Secondary income: Current transfers to NPISH,D751,,97,
+Secondary income: Personal transfers (Current transfers between resident and nonresident households),D752,,98,D752=D752O+D752W
+Secondary income: Personal transfers other than Workers' remittances,D752O,,99,
+Secondary income: Of which: Workers' remittances,D752W,,100,
+Secondary income: Other miscellaneous current transfers,D759,,101,
+Secondary income: Value added tax and gross national income-based European Union own resources,D76,,102,D76=D761+D762+D763
+VAT-based third EU own resource,D761,,103,
+GNI-based fourth EU own resource,D762,,104,
+Current transfers of which UK rebate,D762K,,105,
+Miscellaneous non-tax contribution of the government to the institutions of the EU,D763,,106,
+"Current international cooperation, miscellaneous current transfers (including in the EU VAT and GNI-based own resources)",D7N,,107,D7N=D74+D75+D76
+Secondary income: All miscellaneous current transfers,D7O,,108,D7O=D75+D76
+Secondary income : Adjustment for change in pension entitlements,D8,,109,
+Capital transfers,D9,,110,D9=D91+D92+D99; D9=D99A+D9A
+Capital taxes,D91,,111,
+Investment grants,D92,,112,D92=D92EU+D92OTH
+Investment grants involving EU Institutions,D92EU,,113,D92EU=D92EU1+D92EU2+D92EU3+D92EU4+D92EU5
+Agriculture and Fishery grants (EAGGF guidance and others),D92EU1,,114,
+European Regional Development Fund -  grants,D92EU2,,115,
+European Development Fund: EU Commission capital transfers to third countries,D92EU3,,116,
+Cohesion funds,D92EU4,,117,
+Investment grants - Other,D92EU5,,118,
+Investment grants other,D92OTH,,119,
+Other capital transfers,D99,,120,D99=D99A+D99B; D99=D99EU+D99OTH
+Other capital transfers: Debt forgiveness,D99A,,121,
+Memo item: o/w Exceptional financing: Debt forgiveness,D99AEF,,122,
+Other capital transfers excluding debt forgiveness,D99B,,123,
+Other capital transfers involving EU Institutions,D99EU,,124,D99EU=D99EU1+D99EU2
+Other capital transfers - Agriculture and Fishery  (EAGGF guidance and others),D99EU1,,125,
+Other capital transfers - Other,D99EU2,,126,
+"Other capital transfers, other",D99OTH,,127,
+Memo item: Capital transfers between households,D99R1,,128,
+Memo item: Capital transfers to NPISH,D99R2,,129,
+Capital transfers other than debt forgiveness,D9A,,130,D9A=D9-D99A
+Memo item: o/w Exceptional financing: Other investment grants,D9AEF,,131,
+Capital transfers: Memo item: o/w Exceptional financing,D9EF,,132,D9EF=D9AEF+D9Z+D99AEF
+Memo item: o/w Exceptional financing: Grants received from IMF subsidy accounts,D9Z,,133,
+Net errors and omissions,EO,,134,EO=FA-(CA+KA)
+Financial account,FA,,135,
+Memo item: o/w  Exceptional Financing: Total,FEF,,136,
+Memo item: o/w  Exceptional Financing:  Equity investment associated with debt reduction,FEF1,,137,
+Memo item: o/w  Exceptional Financing:  Drawings on new loans/Issues of new securities by authorities or by other sectors on behalf of authorities,FEF2,,138,
+Memo item: o/w  Exceptional Financing:  Prepayment/buyback,FEF3,,139,
+"Memo item: o/w  Exceptional Financing:  Rescheduling of arrears, Total",FEF4,,140,
+Memo item: o/w  Exceptional Financing:  Rescheduling of arrears on Principal,FEF41,,141,
+Memo item: o/w  Exceptional Financing:  Rescheduling of arrears on interest/coupon,FEF42,,142,
+"Memo item: o/w  Exceptional Financing:  Accumulation of arrears, Total",FEF5,,143,
+"Memo item: o/w  Exceptional Financing:  Accumulation of arrears, on Principal",FEF51,,144,
+"Memo item: o/w  Exceptional Financing:  Accumulation of arrears, on original interest/coupon",FEF52,,145,
+"Memo item: o/w  Exceptional Financing:  Accumulation of arrears, on penalty interest",FEF53,,146,
+"Memo item: o/w  Exceptional Financing:  Repayment of arrears, Total",FEF6,,147,
+"Memo item: o/w  Exceptional Financing:  Repayment of arrears, on Principal",FEF61,,148,
+"Memo item: o/w  Exceptional Financing:  Repayment of arrears, on interest/coupon",FEF62,,149,
+"Memo item: o/w  Exceptional Financing:  Rescheduling of payments due in current reporting period, Total",FEF7,,150,
+"Memo item: o/w  Exceptional Financing:  Rescheduling of payments due in current reporting period, on Principal",FEF71,,151,
+"Memo item: o/w  Exceptional Financing:  Rescheduling of payments due in current reporting period, on interest/coupon",FEF72,,152,
+"Memo item: o/w  Exceptional Financing:  Cancellation of arrears, Total",FEF8,,153,
+"Memo item: o/w  Exceptional Financing:  Cancellation of arrears, on Principal",FEF81,,154,
+"Memo item: o/w  Exceptional Financing:  Cancellation of arrears, on interest/coupon",FEF82,,155,
+Supplementary item: o/w Arrears not in exceptional financing,FEF9,,156,
+Goods,G,,157,G(Credit)=G1+G2+G3+G4EU
+General merchandise on a balance of payments basis,G1,,158,
+General merchandise on a balance of payments basis of which Re-exports,G1Z,,159,
+Net exports of goods under merchanting,G2,,160,G2=G21+G22 NB: this identity holds only for counterpart ROW-W1 and not for individual countries/zones
+Goods acquired under merchanting,G21,,161,
+Goods sold under merchanting,G22,,162,
+Nonmonetary gold,G3,,163,
+Branding - quasi-transit trade adjustment,G4EU,,164,
+Goods and services,GS,,165,GS=G+S
+"Goods, services and primary income",GSIN1,,166,GSIN1=G+S+IN1
+Primary plus secondary income,IN,,167,IN=D1+D2+D3+D4+D5+D6+D7+D8
+Primary income,IN1,,168,IN1=D1+D2+D3+D4
+Secondary income,IN2,,169,IN2=D5+D6+D7+D8
+"Secondary income, current transfers",IN21,,170,IN21=D5+D6+D7
+Secondary income: Other current transfers excluding personal transfers,IN22,,171,IN22=IN2-D752
+Capital account,KA,,172,KA=NP+D9
+Capital and financial account,KAFA,,173,KAFA=KA+FA
+Gross acquisitions  / disposals  of nonproduced nonfinancial assets,NP,,174,
+Supplementary item: Personal Remittances,R1,,175,R1=D752+(D1-D5z-SCAz-SDA1-D61z)+ D99R1
+Supplementary item: Workers remittances and compensation of employees,R1WR,,176,R1WR= D752W+D1
+Supplementary item: Total Remittances,R2,,177,R2=R1+D62
+Supplementary item: Remittances and transfers,R3,,178,R3=R2+D751+D99R2
+Reserves Template: principal and accrued interest/coupon,RT1,,179,
+Reserves Template: instrument subject to margin,RT10,,180,
+Reserves Template: principal,RT11,,181,
+Reserves Template: accrued interest/coupon,RT12,,182,
+Reserves Template: short/long positions,RT2,,183,
+Reserves Template: calls,RT2C,,184,
+Reserves Template: puts,RT2P,,185,
+Reserves Template: collateral guarantees,RT3,,186,
+Reserves Template: liabilities other than on collateral guarantees,RT4,,187,
+"Reserves Template: in-the-money options, at current exchange rates",RT5,,188,
+"Reserves Template: in-the-money options, + 5 % (depreciation of 5%)",RT5A,,189,
+"Reserves Template: in-the-money options, + 5 % (appreciation of 5%)",RT5B,,190,
+"Reserves Template: in-the-money options, + 10 % (depreciation of 10%)",RT5C,,191,
+"Reserves Template: in-the-money options, + 10 % (appreciation of 10%)",RT5D,,192,
+"Reserves Template: in-the-money options, Other",RT5E,,193,
+Reserves Template: instrument indexed to the exchange rate,RT6,,194,
+"Reserves Template: instrument denominated in foreign currency and settled by other means (e.g., in domestic currency)",RT7,,195,
+Reserves Template: pledged instruments,RT8,,196,
+Reserves Template: instrument lent and on repo,RT9,,197,RT9=RT9A+RT9B+RT9C+RT9D
+Reserves Template: instrument lent or on repo  and included in Section I,RT9A,,198,
+Reserves Template: instrument lent or on repo but not included in Section I,RT9B,,199,
+Reserves Template: instrument borrowed or acquired and included in Section I ��,RT9C,,200,
+Reserves Template: instrument borrowed or acquired but not included in Section I �,RT9D,,201,
+Services,S,,202,S=SA+SB+SC+SD+SE+SF+SG+SH+SI+SJ+SK+SL+SN
+Services: EBOPS 2010 complementary groupings: Audio-visual transactions,S1,,203,
+Services: EBOPS 2010 complementary groupings: Audio-visual transactions; Of which: Licences to use audio-visual products,S1Z,,204,
+Services: EBOPS 2010 complementary groupings: Cultural transactions,S2,,205,
+Services: EBOPS 2010 complementary groupings: Computer software transactions,S3,,206,
+Services: EBOPS 2010 complementary groupings: Computer software transactions; Of which: Licences to use computer software products,S3Z,,207,
+Services: EBOPS 2010 complementary groupings: Call-centre services,S4,,208,
+Services: EBOPS 2010 complementary groupings: Total trade-related transactions,S6,,209,
+Services: EBOPS 2010 complementary groupings: Environmental transactions,S7,,210,
+Services: EBOPS 2010 complementary groupings: Total health services,S8,,211,S8=SK21+SDB1
+Services: EBOPS 2010 complementary groupings: Total education services,S9,,212,S9=SK22+SDB2
+Services: Manufacturing services on physical inputs owned by others,SA,,213,
+"Services: Goods for processing in reporting economy - Goods returned, Goods received",SAY,,214,
+"Services: Goods for processing abroad - Goods sent, Goods returned",SAZ,,215,
+Services: Maintenance and repair services n.i.e.,SB,,216,
+Services: Transport,SC,,217,SC=SC1+SC2+SC3+SC4
+Services: Sea transport,SC1,,218,SC1=SC11+SC12+SC13
+Services: Sea transport; Passenger,SC11,,219,
+"Services: Sea transport; Passenger; Of which: Payable by border, seasonal, and other short-term workers",SC11Z,,220,
+Services: Sea transport; Freight,SC12,,221,
+Services: Sea transport; Other than passenger and freight,SC13,,222,
+Services: Air transport,SC2,,223,SC2=SC21+SC22+SC23
+Services: Air transport; Passenger,SC21,,224,
+"Services: Air transport; Passenger; Of which: Payable by border, seasonal, and other short-term workers",SC21Z,,225,
+Services: Air transport; Freight,SC22,,226,
+Services: Air transport; Other than passenger and freight,SC23,,227,
+Services: Other modes of transport,SC3,,228,SC3=SC31+SC32+SC33
+Services: Other modes of transport; Passenger,SC31,,229,SC31=SC3B1+SC3C1+SC3D1
+"Services: Other modes of transport; Passenger; Of which: Payable by border, seasonal, and other short-term workers",SC31Z,,230,
+Services: Other modes of transport; Freight,SC32,,231,SC32=SC3B2+SC3C2+SC3D2+SC3E+SC3F
+Services: Other modes of transport; Other than passenger and freight,SC33,,232,SC33=SC3A+SC3B3+SC3C3+SC3D3+SC3G
+Services: Space transport,SC3A,,233,
+Services: Rail transport,SC3B,,234,SC3B=SC3B1+SC3B2+SC3B3
+Services: Rail transport; Passenger,SC3B1,,235,
+Services: Rail transport; Freight,SC3B2,,236,
+Services: Rail transport; Other than passenger and freight,SC3B3,,237,
+Services: Road transport,SC3C,,238,SC3C=SC3C1+SC3C2+SC3C3
+Services: Road transport; Passenger,SC3C1,,239,
+Services: Road transport; Freight,SC3C2,,240,
+Services: Road transport; Other than passenger and freigh,SC3C3,,241,
+Services: Inland waterway transport,SC3D,,242,SC3D=SC3D1+SC3D2+SC3D3
+Services: Inland waterway transport; Passenger,SC3D1,,243,
+Services: Inland waterway transport; Freight,SC3D2,,244,
+Services: Inland waterway transport; Other than passenger and freight,SC3D3,,245,
+Services: Pipeline transport,SC3E,,246,
+Services: Electricity transmission,SC3F,,247,
+Services: Other supporting and auxiliary transport services,SC3G,,248,
+Services: Postal and courier services,SC4,,249,SC4=SC41X+SC42X
+Memo item: Services: Postal services,SC41X,,250,
+Memo item: Services: Courier services,SC42X,,251,
+Services: All modes of transport; Passenger,SCA,,252,SCA=SC11+SC21+SC31
+"Services: All modes of transport;  Passenger; Of which: payable by border, seasonal, and other short-term workers",SCAZ,,253,
+Services: All modes of transport; Freight,SCB,,254,SCB=SC12+SC22+SC32
+Services: All modes of transport; Other than passenger and freight,SCC,,255,SCC=SCC1+SC4
+Services: All modes of transport; Other than passenger and freight; Other than Postal and courier services,SCC1,,256,SCC1=SC13+SC23+SC33
+Services: Travel,SD,,257,SD=SD1+SD2+SD3+SD4+SD5
+Services: Travel; Goods,SD1,,258,
+Services: Travel; Local transport services,SD2,,259,
+Services: Travel; Accommodation services,SD3,,260,
+Services: Travel; Food-serving services,SD4,,261,
+Services: Travel; Other services,SD5,,262,
+Services: Travel; Other services; Of which: Education services,SD5Y,,263,
+Services: Travel; Other services; Of which: Health services,SD5Z,,264,
+Services: Travel; Business,SDA,,265,SDA=SDA1+SDA2
+"Services: Travel; Business; Acquisition of goods and services by border, seasonal, and other short-term workers",SDA1,,266,
+"Services: Travel; Business; Other than acquisition of goods and services by border, seasonal, and other short-term workers",SDA2,,267,
+Services: Travel; Personal,SDB,,268,SDB=SDB1+SDB2+SDB3
+Services: Travel; Personal; Health-related,SDB1,,269,
+Services: Travel; Personal; Education-related,SDB2,,270,
+Services: Travel; Personal; Other than heath-related and education-related,SDB3,,271,
+Services: Tourism-related services in  travel and passenger transport,SDZ,,272,
+Services: Construction,SE,,273,SE=SE1+SE2
+Services: Construction abroad,SE1,,274,
+Services: Construction in the reporting economy,SE2,,275,
+Services: Insurance and pension services,SF,,276,SF=SF1+SF2+SF3+SF4
+Services: Direct insurance,SF1,,277,SF1=SF11+SF12+SF13
+Services: Life insurance,SF11,,278,
+Services: Gross life insurance premiums receivable (credits) and payable (debits),SF11Y,,279,
+Services: Gross life insurance claims receivable (credits) and payable (debits),SF11Z,,280,
+Services: Freight insurance,SF12,,281,
+Services: Gross freight insurance premiums receivable (credits) and payable (debits),SF12Y,,282,
+Services: Gross freight insurance claims receivable (credits) and payable (debits),SF12Z,,283,
+Services: Direct insurance other than life and freight insurance,SF13,,284,
+Services: Gross direct insurance (other than life and freight insurance) premiums receivable (credits) and payable (debits),SF13Y,,285,
+Services: Gross direct insurance  (other than life and freight insurance) claims receivable (credits) and payable (debits),SF13Z,,286,
+Services: Reinsurance,SF2,,287,
+Services: Auxiliary insurance services,SF3,,288,
+Services: Pension and standardized guarantee services,SF4,,289,SF4=SF41+SF42
+Services: Pension services,SF41,,290,
+Services: Standardized guarantee services,SF42,,291,
+Services: Financial services,SG,,292,SG=SG1+SG2
+Services: Financial services explicitly charged and other financial services,SG1,,293,
+Services: Financial intermediation services indirectly measured (FISIM),SG2,,294,
+Services: Charges for the use of intellectual property n.i.e.,SH,,295,SH=SH1+SH2+SH3+SH4
+Services: Franchises and trademarks licensing fees,SH1,,296,
+Services: Licences for the use of outcomes of research and development,SH2,,297,
+Services: Licences to reproduce and/or distribute computer software,SH3,,298,
+Services: Licences to reproduce and/or distribute audio-visual and related products,SH4,,299,SH4=SH41+SH42
+Services: Licences to reproduce and/or distribute audio-visual products,SH41,,300,
+Services: Licences to reproduce and/or distribute other than audio-visual products,SH42,,301,
+"Services: Telecommunications, computer, and information services",SI,,302,SI=SI1+SI2+SI3
+Services: Telecommunications services,SI1,,303,
+Services: Computer services,SI2,,304,SI2=SI21+SI22
+Services: Computer software,SI21,,305,
+Services: Computer software; Of which: Software originals,SI21Z,,306,
+Services: Computer services other than computer software,SI22,,307,
+Services: Information services,SI3,,308,SI3=SI31+SI32
+Services: News agency services,SI31,,309,
+Services: Information services other than news agency services,SI32,,310,
+Services: Other business services,SJ,,311,SJ=SJ1+SJ2+SJ3
+Services: Research and development services,SJ1,,312,SJ1=SJ11+SJ12
+Services: Work undertaken on a systematic basis to increase the stock of knowledge,SJ11,,313,SJ11=SJ111+SJ112
+Services: Provision of customized and non-customized research and development services,SJ111,,314,
+Services: Sale of proprietary rights arising from research and development,SJ112,,315,SJ112=SJ1121+SJ1122+SJ1123+SJ1124
+Services: Patents,SJ1121,,316,
+Services: Copyrights arising from research and development,SJ1122,,317,
+Services: Industrial processes and designs,SJ1123,,318,
+"Services: Sales of proprietary rights arising from research and development other than patents, copyrights arising from research and development and industrial processes and designs",SJ1124,,319,
+Services: Research and development services other than work undertaken on a systematic basis to increase the stock of knowledge,SJ12,,320,
+Services: Professional and management consulting services,SJ2,,321,SJ2=SJ21+SJ22
+"Services: Legal, accounting, management consulting, and public relations services",SJ21,,322,SJ21=SJ211+SJ212+SJ213
+Services: Legal services,SJ211,,323,
+"Services: Accounting, auditing, bookkeeping, and tax consulting services",SJ212,,324,
+Services: Business and management consulting and public relations services,SJ213,,325,
+"Services: Advertising, market research, and public opinion polling services",SJ22,,326,
+"Services: Advertising, market research, and public opinion polling services; Of which: Convention, trade-fair and exhibition organization services",SJ22Z,,327,
+"Services: Technical, trade-related, and other business services",SJ3,,328,SJ3=SJ31+SJ32+SJ33+SJ34+SJ35
+"Services: Architectural, engineering, scientific, and other technical services",SJ31,,329,SJ31=SJ311+SJ312+SJ313
+Services: Architectural services,SJ311,,330,
+Services: Engineering services,SJ312,,331,
+Services: Scientific and other technical services,SJ313,,332,
+"Services: Waste treatment and de-pollution, agricultural and mining services",SJ32,,333,SJ32=SJ321+SJ322+SJ323
+Services: Waste treatment and de-pollution,SJ321,,334,
+"Services: Services incidental to agriculture, forestry and fishing",SJ322,,335,
+"Services: Services incidental to mining, and oil and gas extraction",SJ323,,336,
+"Memo grouping: Services, Services incidental to agriculture and mining",SJ32X,,337,SJ32X=SJ322+SJ323
+Services: Operating leasing services,SJ33,,338,
+Services: Trade-related services,SJ34,,339,
+Services: Other business services n.i.e.,SJ35,,340,
+"Services: Other business services n.i.e.; Of which:  Employment services, i.e., search, placement and supply services of personnel",SJ35Z,,341,
+"Services: Personal, cultural, and recreational services",SK,,342,SK=SK1+SK2
+Services: Audiovisual and related services,SK1,,343,SK1=SK11+SK12
+Services: Audio-visual services,SK11,,344,
+Services: Audio-visual services; Of which: Audio-visual originals,SK11Z,,345,
+Services: Artistic related services,SK12,,346,
+"Services: Personal, cultural, and recreational services other than audiovisual and related services",SK2,,347,SK2=SK21+SK22+SK23+SK24
+"Services: Personal, cultural, and recreational services other than audiovisual and related services; Health services",SK21,,348,
+"Services: Personal, cultural, and recreational services other than audiovisual and related services; Education services",SK22,,349,
+"Services: Personal, cultural, and recreational services other than audiovisual and related services; Heritage and recreational services",SK23,,350,
+"Services: Personal, cultural, and recreational services other than audiovisual and related services; Personal services other than health, education and heritage and recreational services",SK24,,351,
+Services: Government goods and services n.i.e.,SL,,352,SL=SL1+SL2+SL3
+Services: Embassies and consulates,SL1,,353,
+Services: Military units and agencies,SL2,,354,
+Services: Government goods and services n.i.e other than embassies and consulates and military units and agencies,SL3,,355,SL3=SL31X+SL32X+SL33X
+"Memo item: Services, Government services: reimbursement of MSs' cost of collecting own resources",SL31X,,356,
+"Memo item: Services, Government services: building rentals",SL32X,,357,
+"Memo item: Services, Government services: other government services n.i.e.",SL33X,,358,
+Services: Services not allocated,SN,,359,
+"Memo Grouping: Services, Commercial services",SOX,,360,SOX=S-SL
+Other commercial services : other services excluding Government goods and services n.i.e,SOX1,,361,SOX1 = SE+SF+SG+SH+SI+SJ+SK+SN
+"Other services: Total services excluding Manufacturing services on physical inputs owned by others, Maintenance and repair services, transport and Travel",SPX1,,362,SPX1 = SE+SF+SG+SH+SI+SJ+SK+SL+SN
+"Miscellaneous services:  Services: Manufacturing services on physical inputs owned by others + Services: Maintenance and repair services n.i.e. + Services: Charges for the use of intellectual property n.i.e + Services: Personal, cultural, and recreational services + Services: Government goods and services n.i.e. + Services: Services not allocated",SPX2,,363,SPX2 = SA+SB+SH+SK+SL+SN
+Services: Insurance and pension services + Services: Financial services,SPX3,,364,SPX3= SF + SG
+"Goods related services: Manufacturing services on physical inputs owned by others,+ Maintenance and repair services",SPX4,,365,SPX4 = SA+SB
+"Miscellaneous services: Services excluding transport, financial services, charges for the use of intellectual property and other business services",SPX5,,366,SPX5 = S - SC - SG - SH -SJ
+Services excluding Transport and Financial services,SXSC_SG,,367,

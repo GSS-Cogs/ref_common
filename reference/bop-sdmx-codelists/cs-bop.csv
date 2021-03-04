@@ -1,0 +1,34 @@
+Label,Notation,Parent Notation,Sort Priority,Description
+Frequency,FREQ,,1,Frequency
+Adjustment indicator,ADJUSTMENT,,2,Adjustment indicator
+Reference country or area,REF_AREA,,3,Reference country or area
+Counterpart Area,COUNTERPART_AREA,,4,Counterpart Area
+Reference sector,REF_SECTOR,,5,Institutional sector in the Reference country or area
+Counterpart sector,COUNTERPART_SECTOR,,6,Counterpart institutional sector in the reporting country or area
+Flows and stocks indicator,FLOW_STOCK_ENTRY,,7,Flows and stocks indicator
+Accounting entries,ACCOUNTING_ENTRY,,8,"Types of accounting entries (i.e. credit, debit, balance)"
+International accounts item,INT_ACC_ITEM,,9,Item classification for international accounts statistics
+Functional category,FUNCTIONAL_CAT,,10,Classification by functional of the financial investment
+Instrument and assets classification,INSTR_ASSET,,11,Breakdown by financial instruments and assets
+Maturity,MATURITY,,12,"Original maturity of financial instrument, combined with remaining maturity"
+Unit of measure,UNIT_MEASURE,,13,Unit of measure for reporting the time-series
+Currency of denomination,CURRENCY_DENOM,,14,Currency of issuance for financial items or invoicing for goods and services
+Valuation,VALUATION,,15,Price valuation
+Compiliation methodology,COMP_METHOD,,16,Identify the compilation methodology of otherwise identical concepts
+Time format,TIME_FORMAT,,17,
+Observation status,OBS_STATUS,,18,
+Confidentiality status,CONF_STATUS,,19,
+Pre-break value,PRE_BREAK_VALUE,,20,
+Comments to the observation value,COMMENT_OBS,,21,
+Title complement: Detailed description of the series,COMMENT_TS,,22,
+Short title,TITLE,,23,
+Unit multiplier,UNIT_MULT,,24,
+Decimals,DECIMALS,,25,
+Time period collection,TIME_PER_COLLECT,,26,
+Reference period detail,REF_PERIOD_DETAIL,,27,
+Compiling organisation,COMPILING_ORG,,28,
+Underlying compilation,DATA_COMP,,29,
+Time Period,TIME_PERIOD,,30,
+Obseravation Value,OBS_VALUE,,31,
+Data dissemination agency,DISS_ORG,,32,
+Title Complement,TITLE_COMPL,,33,

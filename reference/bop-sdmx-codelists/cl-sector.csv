@@ -1,0 +1,243 @@
+Label,Notation,Parent Notation,Sort Priority,Description
+Constant Net Asset Value (NAV) MMFs,S123A,,1,
+Variable NAV MMFs,S123B,,2,
+Non-MMFs Open end funds - Real estate funds,S124A1,,3,
+Non-MMFs Open end funds - Equity funds,S124A2,,4,
+Non-MMFs Open end funds - Bond funds,S124A3,,5,
+Non-MMFs Open end funds - Mixed or balanced funds,S124A4,,6,
+Non-MMFs Open end funds - Hedge funds,S124A5,,7,
+Other Non-MMFs Open end funds,S124A9,,8,S124A9 = S124A - S124A1 - S124A2 –S 124A3 - S124A4 – S124A5
+Financial corporations engaged in lending,S125B,,9,
+Security and derivative dealers,S125C,,10,
+Specialised financial corporations,S125D,,11,
+"Clearing houses, which are part of specialised financial corporations (deprecated)",S125D1,,12,
+Other OFIs,S125E,,13,S125E = S125 – S125A – S125B – S125C – S125D
+"Trusts, estate and agency accounts",S1271,,14,
+Corporate groups’ captive financial entities,S1272,,15,
+Other captive finance companies and money lenders,S1273,,16,S1273 = S127 – S1271 – S1272
+Other captive finance companies and money lenders (deprecated),S1274,,17,
+Defined benefit funds,S129A,,18,
+Defined contribution funds,S129B,,19,
+Not applicable,_Z,,20,
+Total economy,S1,,21,S1=S11+S12+S13+S14+S15+S1N
+Non financial corporations,S11,,22,
+Public non financial corporations,S11001,,23,
+"Public non financial corporations, which are part of domestic multinationals",S110011,,24,
+Public non financial corporations controlled by central government,S11001C,,25,
+National private non financial corporations,S11002,,26,
+"National private non financial corporations, which are part of domestic multinationals",S110021,,27,
+Foreign controlled non financial corporations,S11003,,28,
+Private nonfinancial corporations,S1100P,,29,S1100P=S11002+S11003
+Head offices of non financial corporations,S11B,,30,
+Domestically controlled non-financial corporations,S11DO,,31,S11DO=S11001+S11002
+Non-financial corporations (sub-sector not identified),S11U,,32,
+Financial corporations,S12,,33,S12=S12K+S12M
+Public financial corporations,S12001,,34,
+"Public financial corporations, which are part of domestic multinationals",S120011,,35,
+Public financial corporations controlled by central government,S12001C,,36,
+National private financial corporations,S12002,,37,
+National private financial corporations which are part of domestic multinationals,S120021,,38,
+Foreign controlled financial corporations,S12003,,39,
+Private financial corporations,S1200P,,40,S1200P=S12002+S12003
+Central bank,S121,,41,
+"Deposit taking corporations, except the Central Bank",S122,,42,
+"Public deposit taking corporations, except the Central Bank",S12201,,43,
+"National private deposit taking corporations, except the Central Bank",S12202,,44,
+"Foreign controlled deposit taking corporations, except the Central Bank",S12203,,45,
+Private deposit-taking corporations,S1220P,,46,S1220P=S12202+S12203
+Banks headquartered in the reporting country or currency area,S122A,,47,
+Banks headquartered outside the reporting country or currency area,S122B,,48,
+"Deposit taking corporations, except the Central Bank (sub-sector not identified)",S122U,,49,
+Deposit-taking corporations except the central bank and excluding electronic money institutions principally engaged in financial intermediation,S122Z,,50,
+Money market funds,S123,,51,
+Public money market funds,S12301,,52,
+National private money market funds,S12302,,53,
+Foreign controlled money market funds,S12303,,54,
+Money market funds (sub-sector not identified),S123U,,55,
+Non MMF investment funds,S124,,56,S124=S124A+S124B
+Public non MMF investment funds,S12401,,57,
+National private non MMF investment funds,S12402,,58,
+Foreign controlled non MMF investment funds,S12403,,59,
+Open-end Non MMFs,S124A,,60,"S124=S124A+S124B;
+S124=S12401+S12402+S12403"
+Closed-end Non MMFs,S124B,,61,S124B=S124B1+S124B2+S124B3+S124B4+S124B5+S124B9
+Closed-end Real Estate Funds,S124B1,,62,
+Closed-end Equity funds,S124B2,,63,
+Closed-end Bond funds,S124B3,,64,
+Closed-end Mixed funds,S124B4,,65,
+Closed-end Hedge funds,S124B5,,66,
+Other closed-end Non MMFs,S124B9,,67,S124B9=S124B-S124B1-S124B2-S124B3-S124B4-S124B5
+Non MMF investment funds (sub-sector not identified),S124U,,68,
+"Other financial intermediaries, except insurance corporations and pension funds",S125,,69,
+"Public other financial intermediaries, except insurance corporations and pension funds",S12501,,70,
+"National private other financial intermediaries, except insurance corporations and pension funds",S12502,,71,
+"Foreign controlled other financial intermediaries, except insurance corporations and pension funds",S12503,,72,
+Financial vehicle corporations engaged in securitisation,S125A,,73,(part of S125)
+"Other financial intermediaries, except insurance corporations and pension funds (sub-sector not identified)",S125U,,74,
+Other financial corporations excluding financial vehicle corporations,S125W,,75,
+Financial auxiliaries,S126,,76,
+Public financial auxiliaries,S12601,,77,
+National private financial auxiliaries,S12602,,78,
+Foreign controlled financial auxiliaries,S12603,,79,
+Head offices of financial corporations,S126B,,80,
+Financial auxiliaries (sub-sector not identified),S126U,,81,
+Captive financial institutions and money lenders,S127,,82,
+Public captive financial institutions and money lenders,S12701,,83,
+National private captive financial institutions and money lenders,S12702,,84,
+Foreign controlled captive financial institutions and money lenders,S12703,,85,
+Holding companies,S127A,,86,
+Captive financial institutions and money lenders (sub-sector not identified),S127U,,87,
+Insurance corporations,S128,,88,S128=S1281+S1282
+Public insurance corporations,S12801,,89,
+National private insurance corporations,S12802,,90,
+Foreign controlled insurance corporations,S12803,,91,
+Life Insurance Corporations,S1281,,92,
+Non-life Insurance Corporations,S1282,,93,
+Reinsurance corporations,S128A,,94,
+Life insurance corporations excluding reinsurance corporations,S128B,,95,
+Non-life insurance corporations excluding reinsurance corporations,S128C,,96,
+Composite life and non-life insurance corporations excluding reinsurance corporations,S128D,,97,
+Insurance corporations (sub-sector not identified),S128U,,98,
+Pension funds,S129,,99,
+Public pension funds,S12901,,100,
+National private pension funds,S12902,,101,
+Foreign controlled pension funds,S12903,,102,
+Pension funds (sub-sector not identified),S129U,,103,
+Banks and other financial institutions headquartered in the reporting country or currency area,S12A,,104,
+Banks and other financial institutions headquartered outside the reporting country or currency area,S12B,,105,
+Deposit taking corporations,S12C,,106,S12C=S121+S122
+Financial corporations other than central banks,S12D,,107,S12D=S12-S121
+Domestically controlled financial corporations,S12DO,,108,
+Monetary financial institutions (MFI),S12K,,109,S12K=S121+S122+S123
+Monetary financial institutions (sub-sector not identified),S12KU,,110,
+Investment Funds (MMFs and non-MMFs),S12L,,111,"S12L=S123+S124
+S12L=S12L1+S12L2+S12L3+S12L4+S12L5+S12L9
+S12L=S12LO+S124B"
+Real estate funds,S12L1,,112,S12L1=S12LO1+S124B1
+Equity funds,S12L2,,113,S12L2=S12LO2+S124B2
+Bond funds,S12L3,,114,S12L3=S12LO3+S124B3
+Mixed funds,S12L4,,115,S12L4=S12LO4+S124B4
+Hedge funds,S12L5,,116,S12L5=S12LO5+S124B5
+"Other funds (other than equity, bond, mixed, real estate and hedge funds)",S12L9,,117,S12L9=S12LO9+S124B9
+Open-end Investment Funds,S12LO,,118,"S12LO=S123+S124A
+S12LO=S12LO1+S12LO2+S12LO3+S12LO4+S12LO5+S12LO9"
+Open-end Real Estate Funds,S12LO1,,119,
+Open-end Equity funds,S12LO2,,120,
+Open-end Bond funds,S12LO3,,121,
+Open-end Mixed funds,S12LO4,,122,
+Open-end Hedge funds,S12LO5,,123,
+Other open-end funds,S12LO9,,124,S12LO9=S12LO-S12LO1-S12LO2-S12LO3-S12LO4-S12LO5
+Financial corporations other than MFIs,S12M,,125,S124+S125+S126+S127+S128+S129
+"Other financial institutions (Financial corporations other than MFIs, insurance corporations, pension funds and financial auxiliaries)",S12N,,126,S12N=S124+S125+S127
+"Other financial institutions (Financial corporations other than MFIs, insurance corporations, pension funds and non MMFs Investment Funds)",S12O,,127,S12O=S125+S126+S127
+"Other financial institutions (Financial corporations other than MFIs, insurance corporations and pension funds)",S12P,,128,S12P=S124+S125+S126+S127
+Other Financial Institutions  (sub-sector not identified),S12PU,,129,
+Insurance corporations and Pension Funds,S12Q,,130,S12Q=S128+S129
+Other insurance corporations and pension funds (sub-sector not identified),S12QU,,131,
+Other financial corporations,S12R,,132,S12R=S123+S124+S125+S126+S127+S128+S129
+Other public financial corporations,S12R01,,133,S12R=S12301+S12401+S12501+S12601+S12701+S12801+S12901
+Other private financial corporations,S12R0P,,134,S12R=S12302+S12303+S12402+S12403+S12502+S12503+S12602+S12603+S12702+S12703+S12802+S12803+S12902+S12903
+Other Forms of Institutional Savings,S12S,,135,
+"Financial corporations, SPEs",S12SP,,136,
+Monetary financial institutions other than central bank,S12T,,137,S12T=S122+S123
+Financial corporations other than the central bank,S12U,,138,
+Financial corporations other than central banks and credit institutions,S12V,,139,
+General government,S13,,140,"S13=S1311+S1312+S1313+S1314;
+S13=S1321+S1322+S1323"
+General government excluding social security,S131,,141,
+Central government excluding social security,S1311,,142,
+"Central government, budgetary units",S13111,,143,
+"Central government, extra-budgetary units",S13112,,144,
+Budgetary Central Government,S1311B,,145,
+State government excluding social security,S1312,,146,
+"State government, budgetary units",S13121,,147,
+"State government, extra-budgetary units",S13122,,148,
+Local government excluding social security,S1313,,149,
+"Local government, budgetary units",S13131,,150,
+"Local government, extra-budgetary units",S13132,,151,
+Social security funds,S1314,,152,
+"Social security funds, budgetary units",S13141,,153,
+"Social security funds, extra-budgetary units",S13142,,154,
+European institutions and bodies (EU accounts),S1315,,155,
+Central government including social security,S1321,,156,
+State government including social security,S1322,,157,
+Local government including social security,S1323,,158,
+General government non profit institutions,S133,,159,
+Central government non profit institutions,S1331,,160,
+State government non profit institutions,S1332,,161,
+Local government non profit institutions,S1333,,162,
+General government involved in monetary policy operations,S134,,163,
+Central and state government excluding social security,S13L,,164,S13L=S1311+S1312
+State and local government excluding social security,S13M,,165,S13M=S1312+S1313
+"General government, except central government",S13O,,166,S13O=S13-S1311
+"General government, except state government",S13P,,167,S13P=S13-S1312
+"General government, except local government",S13R,,168,S13R=S13-S1313
+"General government, except social security funds",S13T,,169,S13T=S13-S1314
+Other General Government (sub-sector not identified),S13U,,170,
+Households,S14,,171,
+Employers,S141,,172,
+Own account workers,S142,,173,
+Employees,S143,,174,
+Recipients of property and transfer income,S144,,175,
+Recipients of property income,S1441,,176,
+Recipients of pensions,S1442,,177,
+Recipients of other transfers,S1443,,178,
+Non profit institutions serving households,S15,,179,
+National private,S15002,,180,
+Foreign controlled,S15003,,181,
+Affiliates,S1A,,182,
+Not affiliates,S1B,,183,S1B=S1-S1A
+Financial intermediaries (CDIS),S1F,,184,
+All resident sectors excluding financial intermediaries (CDIS),S1G,,185,
+Issuer headquartered in the reporting country or currency area,S1H,,186,
+Corporations,S1K,,187,S1K=S11+S12
+Public corporations,S1K1,,188,S1K1=S11001+S12001
+Central banks and general government,S1KK,,189,
+Private corporations,S1KP,,190,S1KP=S1100P+S1200P
+"General government, households and non profit institutions serving households",S1L,,191,S1L=S13+S14+S15
+Households and non profit institutions serving households (NPISH),S1M,,192,S1M=S14+S15
+Other households and non-profit institutions serving households (sub-sector not identified),S1MU,,193,
+Not sectorised,S1N,,194,
+Other sectors than MFIs and central government,S1O,,195,"S1O=S1V+S12M+S13O;
+S1O=S11+S14+S15+S124+S125+S126+S127+S128+S129+S1312+S1313+S1314"
+Other sectors than MFIs and general government,S1P,,196,"S1P=S1V+S12M;
+S1P=S11+S14+S15+S124+S125+S126+S127+S128+S129"
+Other sectors than MFIs,S1Q,,197,"S1Q=S1S+S12M;
+S1Q=S11+S13+S14+S15+S124+S125+S126+S127+S128+S129"
+"Non financial sectors, except households",S1R,,198,S1R=S11+S13+S15
+"Non-financial corporations, general government and households and NPISH",S1S,,199,S1S=S11+S13+S14+S15
+"Total economy, SPEs",S1SP,,200,S1SP=S12SP+S1SSP
+"Non-financial corporations, SPEs",S1SSP,,201,
+Non-financial corporations and general government,S1T,,202,S1T=S11+S13
+"Non financial sectors, except central government",S1U,,203,"S1U=S1V+S13O;
+S1U=S11+S14+S15+S1312+S1313+S1314"
+"Non financial corporations, households and NPISH",S1V,,204,S1V=S11+S14+S15
+Other sectors than general government,S1W,,205,S1W=S11+S12+S14+S15+S1N
+Monetary authorities,S1X,,206,S1X=S121+ S134
+Monetary authorities and international organizations,S1XA,,207,
+Other sectors than monetary authorities,S1Y,,208,S1Y=S1-S1X-S1N
+Sectors other than deposit-taking corporations and general government (Other Sectors - BPM6),S1Z,,209,"S1Z=S11+S14+S15+S123+S124
++S125+S126+S127+S128+S129"
+Other sectors than central bank,S1ZK,,210,S1ZK=S1-S121-S1N
+Other sectors than central bank and general government,S1ZL,,211,S1ZL=S1-S121-S13-S1N
+Other sectors than central government,S1ZM,,212,S1ZM=S1-S1311-S1N
+Other sectors than state government,S1ZN,,213,S1ZN=S1-S1312-S1N
+"Other sectors including non-financial corporations, money market funds, non-MMF investment funds, OFIs, insurance corporations, pension funds, general government or a central bank",S1ZO,,214,S1ZO=S1-S1M-S122= S11+S13+S121+S123+S124+S125+S128+S129
+Other sectors than local government,S1ZP,,215,S1ZP=S1-S1313-S1N
+Other sectors than social security funds,S1ZQ,,216,S1ZQ=S1-S1314-S1N
+Other sectors than financial corporations and general government,S1ZR,,217,S1ZR=S1-S12-S13-S1N
+Public sector,S1ZS,,218,S1ZS=S11001+S12001+S13
+National private financial and non financial corporations,S1ZT,,219,S1ZT=S11002+S12002+S15002
+"Sectors other than central bank, credit institutions and general government",S1ZU,,220,
+All sectors other than households and NPISH,S1ZV,,221,S1ZV=S1-S1M;S1ZV=S11+S13+S121+S122+S123+S124+S125+S128+S129
+Institutions of the European Union (ESA GFS concept),SZU,,222,
+General government and institutions of the European Union (ESA GFS concept),SZV,,223,SZV=SZU+S13
+Institutions financed by the European Union (EU) budget and the European Development Fund (EDF),SZX,,224,
+General government and institutions financed by the EU budget and the EDF,SZY,,225,
+Of which: Foreign owned SPE-type captives,S1272A,,226,
+"Central clearing counterparties, which are part of other OFIs",S125E1,,227,
+"Other than general government, clearing and settlement organisations and other financial institutions",SZP,,228,
+Payment institutions,S126C,,229,
+Post office giro,S11A,,230,
+Credit institutions,S122C,,231,
+Electronic money institutions,S12E,,232,

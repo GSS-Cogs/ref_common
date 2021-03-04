@@ -1,0 +1,417 @@
+Label,Notation,Parent Notation,Sort Priority,Description
+Not applicable,_Z,,1,
+Total financial assets/liabilities,F,,2,"F= F1+F2+F3+F4+F5+F6+F7+F8
+In some data flow definitions the integrity rules are shown in a different format in order to explain to users their practical implementation. However, in none of the cases double counting is allowed."
+Liabilities and assets outside general government under guarantee,F_G,,3,
+Total assets/liabilities (financial and gross non-financial),F_NG,,4,F_NG=F+NG
+Total assets/liabilities (financial and net non-financial),F_NN,,5,F_NN=F+NN
+Liabilities related to special purpose entities (EDP-FC concept),F_SPV,,6,
+Guarantees provided to special purpose vehicles (FAM concept),F_SPVG,,7,
+Monetary gold and SDRs,F1,,8,
+Monetary gold,F11,,9,F11=F11A+F11B
+Gold bullion,F11A,,10,
+Unallocated gold accounts,F11B,,11,
+"Monetary gold, of which gold under swap for cash collateral",F11Z,,12,
+SDRs,F12,,13,
+"SDRs, fixed rate",F12FR,,14,
+"SDRs, variable rate",F12VR,,15,
+Currency and deposits,F2,,16,F2=F21+F22+F29
+"Loans, currency and deposits: Currency and deposits + Loans",F2_F4,,17,F2_F4 = F2+F4
+Currency,F21,,18,
+Transferable deposits,F22,,19,F22=F221+F229
+Inter-bank positions,F221,,20,
+"Inter-bank positions, of which intra-Eurosystem Technical claims",F221C,,21,
+"Inter-bank positions, of which TARGET accounts",F221T,,22,
+Other transferable deposits,F229,,23,
+"Other transferable deposits, except overnight deposits",F2291,,24,
+Other deposits,F29,,25,F29=F29A+F29B+F29C
+Deposits with agreed maturity,F29A,,26,
+Deposits redeemable at notice,F29B,,27,
+Repurchase agreements,F29C,,28,
+Currency and overnight deposits,F2A,,29,
+Currency and monetary deposits,F2B,,30,
+"Currency and deposits, fixed rate",F2FR,,31,
+Deposits,F2M,,32,F2M=F22+F29
+Non-monetary deposits,F2MF,,33,
+Monetary deposits,F2MM,,34,
+"Currency and deposits, debt securities and loans",F2T4,,35,F2+F3+F4
+Numerator for financial sector leverage,F2T4_71,,36,F2T4_71=F2+F3+F4+F71
+"Currency and deposits; debt securities; loans; equity and investment fund shares; insurance, pension and standardized guarantee schemes",F2T6,,37,F2+F3+F4+F5+F6
+"Currency and deposits, variable rate",F2VR,,38,
+Debt securities,F3,,39,F3=F3A+F3VR+F3C
+"Debt securities, fixed rate issues",F3A,,40,
+"Debt securities, floating rate issues (e.g. variable interest)",F3B,,41,"deprecated, replaced by F3VR"
+"Debt securities, zero coupon bonds",F3C,,42,
+Debt securities issued with embedded options (puttable bonds),F3D,,43,
+Non-monetary securities,F3F,,44,
+"Debt securities, fixed rate",F3FR,,45,F3FR=F3A+F3C
+High quality tradable securities,F3H,,46,
+Securities issued under liquidity schemes,F3LS,,47,
+Monetary securities,F3M,,48,
+Debt securities and loans,F3T4,,49,F3+F4
+"Debt securities, variable rate",F3VR,,50,F3VR= F3VRA+F3VRB+F3VRC
+Inflation-linked variable rate,F3VRA,,51,
+Interest rate-linked variable rate,F3VRB,,52,
+Asset price-linked variable rate,F3VRC,,53,
+Loans,F4,,54,For OECD table 7HH: F4A=F4A1+F4A2 at short term; F4A=F4AK+F4A29 at long term
+Credit lines,F41,,55,
+"Credit lines; unconditional, undrawn",F41A,,56,
+Consumer credit,F4A,,57,
+Revolving credit,F4A1,,58,
+Credit cards,F4A11,,59,
+Other lines of credit,F4A19,,60,
+Non-revolving credit,F4A2,,61,
+Automobile loans,F4A21,,62,
+Other loans for consumer durables,F4A22,,63,
+"Other installment credit, including student loans",F4A29,,64,
+Student long-term loans,F4A291,,65,
+"Other installment credit, excluding student loans",F4A299,,66,
+Loans for consumer durables,F4AK,,67,F4AK=F4A21+F4A22
+Loans for house purchasing,F4B,,68,F4B=F4B1+F4B2
+Mortgage guaranteed,F4B1,,69,
+Mortgage unguaranteed,F4B2,,70,
+Loans for other purpose,F4C,,71,
+Concessional loans,F4CL,,72,
+"Repurchase agreement, securities lending and margin lending",F4D,,73,
+"Loans, fixed rate",F4FR,,74,
+Non-performing loans,F4M2,,75,
+Nonperforming loans,F4NP,,76,
+Repo loans,F4R,,77,
+Other loans,F4RX,,78,
+"Loans, variable rate",F4VR,,79,
+Equity and investment fund shares/units,F5,,80,F5=F51+F52; F5=F5A+F5B; F5=F5D+F5E
+Equity,F51,,81,"F51=F511+F512+F519, F51=F51A+F51B"
+Listed shares,F511,,82,
+Unlisted shares,F512,,83,
+Other equity,F519,,84,
+Equity: other than reinvestment of earnings,F51A,,85,
+Equity: reinvestment of earnings,F51B,,86,
+Shares,F51K,,87,F511+F512
+Unlisted shares and other equity,F51M,,88,F512+F519
+Investment fund shares/units,F52,,89,"F52=F521+F522, F52=F52A+F52B"
+Money market fund shares/units,F521,,90,
+Money market fund shares/units: reinvestment of earnings,F521B,,91,
+Non-MMF investment fund shares/units,F522,,92,
+Real Estate Fund Shares,F5221,,93,
+Bond  Fund Shares,F5222,,94,
+Mixed Fund Shares,F5223,,95,
+Equity Fund Shares,F5224,,96,
+Other Fund Shares,F5229,,97,
+Investment fund shares/units: other than reinvestment of earnings,F52A,,98,
+Investment fund shares/units: reinvestment of earnings,F52B,,99,
+Equity and investment fund shares/units: other than reinvestment of earnings,F5A,,100,
+Equity and investment fund shares/units: other than reinvestment of earnings: Extension of capital,F5AE,,101,
+Equity and investment fund shares/units: other than reinvestment of earnings: Financial restructuring,F5AF,,102,
+Equity and investment fund shares/units: other than reinvestment of earnings: Greenfield,F5AG,,103,
+Equity and investment fund shares/units: other than reinvestment of earnings: Merger & Acquisitions (M&A) type,F5AM,,104,
+Equity and investment fund shares/units: reinvestment of earnings,F5B,,105,
+Equity and investment fund shares of which equity injection,F5I,,106,
+Equity and investment fund shares other than privatisations and equity injections,F5O,,107,F5O=F5-F5P-F5I
+Shares and other equity other than portfolio investments,F5OP,,108,
+Equity and investment fund shares of which privatisation,F5P,,109,
+"Portfolio investments, net",F5PN,,110,
+"Insurance, pension and standardized guarantee schemes",F6,,111,F6=F61+F62+F63+F64+F65+F66
+Non-life insurance technical reserves,F61,,112,
+Life insurance and annuity entitlements,F62,,113,
+"Life insurance and annuity entitlements, of which unit linked",F62A,,114,
+"Life insurance and annuity entitlements, of which non-unit-linked",F62B,,115,
+Pension entitlements,F63,,116,
+Pension entitlements and entitlements to non-pension benefits,F63_65,,117,F63_65=F63+F65
+"Pension entitlements, of which defined contribution",F63A,,118,
+"Pension entitlements, defined contribution, managed by Autonomous Pension Funds",F63A1,,119,
+"Pension entitlements, defined contribution, managed by Non-autonomous Pension Funds",F63A2,,120,
+"Pension entitlements, defined contribution, managed by Insurers",F63A3,,121,
+"Pension entitlements, of which defined benefit",F63B,,122,
+"Pension entitlements, defined benefit, managed by Autonomous Pension Funds",F63B1,,123,
+"Pension entitlements, defined benefit, managed by Non-autonomous Pension Funds",F63B2,,124,
+"Pension entitlements, defined benefit, managed by Insurers",F63B3,,125,
+"Pension entitlements, of which hybrid schemes",F63C,,126,
+"Pension entitlements, hybrid schemes, managed by Autonomous Pension Funds",F63C1,,127,
+"Pension entitlements, hybrid schemes, managed by Non-autonomous Pension Funds",F63C2,,128,
+"Pension entitlements, hybrid schemes, managed by Insurers",F63C3,,129,
+"Pension entitlements, managed by Autonomous Pension Funds",F63F,,130,F63F=F63A1+F63B1+F63C1
+"Pension entitlements, managed by Non-autonomous Pension Funds",F63H,,131,F63H=F63A2+F63B2+F63C2
+"Pension entitlements, managed by Insurers",F63I,,132,F63I=F63A3+F63B3+F63C3
+"Other Pension Plans, including Unfunded Pension Plans",F63O,,133,
+Unfunded Pension Plans,F63O1,,134,
+Other Pension Plans,F63O9,,135,
+Claims of pension funds on pension managers,F64,,136,
+Entitlements to non-pension benefits,F65,,137,
+Provisions for calls under standardized guarantees,F66,,138,
+"Insurance, pension and standardized guarantee schemes, fixed rate",F6FR,,139,
+"Pension entitlements, claims of pension funds on pension managers and entitlements to non-pension benefits",F6M,,140,F6M=F63+F64+F65
+"Life insurance and annuity entitlements, pension entitlements, claims of pension funds on pension managers and entitlements to non-pension benefits",F6N,,141,F62+F63+F64+F65
+Non-life insurance technical provisions and provisions for calls under standardized guarantees,F6O,,142,F6O=F61+F66
+"Insurance, pension and standardized guarantee schemes, variable rate",F6VR,,143,
+Financial derivatives and employee stock options,F7,,144,F7=F71+F72
+Financial derivatives,F71,,145,F71=F711+F712
+Options type,F711,,146,
+Options,F711A,,147,
+Other option-type contracts,F711B,,148,
+Forward type,F712,,149,
+Forwards,F712A,,150,
+Futures,F712B,,151,
+Swaps,F712C,,152,
+Other forward-type contracts,F712D,,153,
+Forwards and futures,F71FF,,154,
+"Forwards, futures and options",F71FO,,155,
+Interest relating to swaps and forward rate arrangements (FRAs) (+/-),F71K,,156,
+Other derivatives,F71R,,157,
+Employee stock options,F72,,158,
+Financial derivatives and employee stock options; other accounts receivable/payable,F7T8,,159,F7T8=F7+F8
+Other accounts receivable/payable,F8,,160,F8=F81+F89
+Trade credits and advances,F81,,161,F81=F81A+F81B
+Trade credits,F81A,,162,
+Trade credits relating to P.2 intermediate consumption and other,F81A1,,163,
+Trade credits relating to D.7 current transfers,F81A2,,164,
+Trade credits relating to D.9 capital transfers,F81A3,,165,
+Trade credits relating to P.51 gross fixed capital formation,F81A4,,166,
+Trade credits relating to military equipment,F81AX,,167,
+Advances,F81B,,168,
+"Other accounts receivable/payable, excluding trade credits and advances",F89,,169,
+"Other accounts receivable/payable, other than trade credits, related to taxes",F89A,,170,
+"Other accounts receivable/payable, other than trade credits, related to taxes and social contributions",F89A_B,,171,
+"Other accounts receivable/payable, related to D.2 taxes on production and imports",F89A1,,172,
+"Other accounts receivable/payable, related to D.5 taxes on income, wealth, etc.",F89A2,,173,
+"Other accounts receivable/payable, related to D.91 capital taxes",F89A3,,174,
+"Other accounts receivable/payable, other than trade credits, related to social contributions",F89B,,175,
+"Other accounts receivable/payable, related to D.611 and D.613 actual social contributions",F89B1,,176,
+"Other accounts receivable/payable, other than trade credits, related to EU flows",F89C,,177,
+"Other accounts receivable/payable, other than trade credits, related to Military Expenditure",F89D,,178,
+"Other accounts receivable/payable, fixed rate",F8FR,,179,
+"Other accounts receivable/payable, variable rate",F8VR,,180,
+"Other financial assets/liabilities, non elsewhere classified",F9,,181,
+Debt assumption/cancellation,FAC,,182,
+"Asset swaps, securities lending without cash collateral and repurchase agreements",FCA,,183,
+Guarantees and asset swaps/lending (FAM concept),FCGA,,184,FCGA=F_SPVG+FXSPVG+FCA
+Debt related to special purpose vehicles (FAM concept),FCV,,185,
+Explicit contingent liabilities,FCY,,186,
+Publicly guaranteed debt,FCY1,,187,
+Other types of one-off guarantees,FCY2,,188,
+Net implicit obligations for social security benefits,FCZ,,189,
+Financing,FD,,190,
+"SDRs, currency and deposits, debt securities and loans",FD2,,191,FD2=F12+F2+F3+F4
+"SDRs, currency and deposits, debt securities, loans and other accounts payable",FD3,,192,FD3=F12+F2+F3+F4+F8
+Debt instruments (GFSM/PSDSG),FD4,,193,FD4=F12+F2+F3+F4+F6+F8
+Non-monetary financial assets,FF,,194,
+Total impact on gross debt,FGD,,195,FGD=FGDD+FGDI
+Direct impact on gross debt,FGDD,,196,
+Indirect impact on gross debt,FGDI,,197,
+Gross external debt,FGED,,198,"FGED= F12+F2+F3+F4+F6+F8
+In some data flow definitions the integrity rules are shown in a different format in order to explain to users their practical implementation. However, in none of the cases double counting is allowed."
+Financial investment,FI,,199,
+Impaired assets,FIA,,200,
+Property - real state,FINM,,201,
+Arrears,FJ,,202,
+Reserve Position in the IMF,FK,,203,
+Debt instruments (FDI),FL,,204,FL = F229 + F29 + F3 + F4 + F61 + F62 + F64 + F66 + F8
+"Debt instruments other than insurance, pension, and standardised schemes",FLA,,205,FLA=F2+F3+F4+F8+F12
+"Debt instruments other than SDRs, insurance, pension, and standardised schemes",FLA1,,206,
+Debt instrument other than intercompany lending,FLB,,207,FLB=F12+F2+F3+F4+F6+F8
+Debt instrument other than intercompany lending and SDRs,FLC,,208,FLC=F2+F3+F4+F6+F8
+"Debt instruments, domestic creditors",FLD,,209,
+"Debt instruments, external creditors",FLE,,210,
+Other FDI debt instruments,FLF,,211,FLF=FL-F4-F3-F81
+Monetary financial assets,FM,,212,
+Other liabilities/assets (GFS concept),FN,,213,FN=F1+F8 for assets; FN=F1+F5+F8 for liabilities
+Other financial transactions within EDP of which: transactions in debt liabilities (+/-),FNDL,,214,
+Other financial transactions within EDP,FNDX,,215,
+Net external debt,FNED,,216,"FNED= F11B+F12+F2+F3+F4+F6+F8
+In some data flow definitions the integrity rules are shown in a different format in order to explain to users their practical implementation. However, in none of the cases double counting is allowed."
+Equity and debt instruments (BPM6),FO,,217,FO=F5+F6+FLA
+"Investment fund shares/units, insurance, pension, and standardized guaranteed schemes",FO1,,218,FO1=F52+F6
+Other assets and liabilities of general government entities (assets/liabilities as defined for EDP financial crisis tables and to be used with custom breakdown FC),FOAL,,219,
+Debt (non-standard definition),FP,,220,
+"Debt securities; loans; pension entitlements, claims of pension funds on pension managers and entitlements to non-pension benefits; trade credits and advances",FPT,,221,FPT=F3+F4+F6M+F81
+Amount outstanding in the government debt from the financing of public undertakings deprecated,FPU,,222,
+"Remaining net assets of non-financial corporations, insurance corporations and pension funds deprecated",FQ,,223,
+Assets in remaining net flows of households deprecated,FR,,224,
+Other instruments than insurance and technical reserves (F6); equity (F5); securities (F3); currency and deposits (F2),FR0,,225,F-F6-F5-F3-F2
+"Securities (Equity, investment fund shares/units and debt securities)",FR1,,226,FR1=F3+F5
+Securities under repo for cash collateral,FR1Z,,227,
+"Other reserve assets (currency, deposits, securities, financial derivatives and other claims)",FR2,,228,FR2=FR3+FR4
+Securities; currency and deposits,FR3,,229,FR3=F5+F3+F2
+"Other reserve assets (financial derivatives, loans to non-banks and other)",FR4,,230,FR4=F71+F4+FR411
+"Other claims (other reserve assets than Currency, deposits, securities and financial derivatives)",FR41,,231,FR41=F4+FR411
+"Reserve assets other than gold, SDRs, IMF reserve position, currency, deposits, securities, financial derivatives and loans (to non-banks)",FR411,,232,FR411=F6+F8
+"Other foreign currency assets (securities, deposits, loans, financial derivatives and gold not included in reserve assets)",FR5,,233,FR5=F3+F5+F2+F4+F71+F11+FR51
+Other ( remaining part of other foreign currency assets (not included in reserve assets)),FR51,,234,
+"Currency and deposits, loans and securities",FR6,,235,FR6=F3+F5+F2+F4
+"Other (flows related to repos and reverse repos, trade credits and other accounts payable/receivable)",FR8,,236,FR8=F29C+F81A+F89
+"Other instruments than forwards, futures and options",FR9,,237,FR9=F-F71FO
+Other accounts receivable/payable plus financial derivatives,FS,,238,F71+F8
+"Other, mainly inter-company loans",FT,,239,
+Remaining net assets of households deprecated,FU,,240,
+"Other liabilities (F.5, F.6 and F.8)",FV,,241,FV=F5+F6+F8
+"Loans +Insurance, pension and standardized guarantee schemes + Trade credits and advances + Other Equity",FW1,,242,FW1= F4 + F6 + F81 + F519
+"Loans + Insurance, pension and standardized guarantee schemes + SDRs + Trade credits and advances + Other Equity",FW2,,243,FW2 = F4 + F6 + F12 + F81 + F519
+"Other Debt Liabilities: Insurance, pension and standardized guarantee schemes + SDRs + Other accounts receivable/payable, excluding trade credits and advances",FW3,,244,FW3 = F6 + F12+ F89
+Total financial assets/liabilities other than loans,FX4,,245,FX4=F-F4
+Financial instruments other than currency and deposits,FXF2,,246,FR10=F-F2
+Other guarantees provided (FAM concept),FXSPVG,,247,
+"Other debt assets/liabilities: insurance, pension and standardized guarantee schemes + other accounts receivable/payable, excluding trade credits and advances",FY,,248,FY=F6+F89
+Debt securities and financial derivatives,FZ,,249,F71+F3
+Maastricht debt,GD,,250,
+Maarstricht debt of which variable interest rate (GFS concept),GDA,,251,
+Memo: Privatisation proceeds allocated to redemption of debt (GFS concept),GDM1,,252,
+Memo: Universal Mobile Telecommunications System proceeds allocated to redemption of debt  (GFS concept),GDM2,,253,
+Government debt excluding government assistance to the financial corporations,GDXFAM,,254,government debt (GD) - impact on government debt related to government assistance to the financial corporations
+Dwellings (gross),N111G,,255,
+Dwellings (net),N111N,,256,
+Buildings other than dwellings (gross),N1121G,,257,
+Buildings other than dwellings (net),N1121N,,258,
+Other structures (gross),N1122G,,259,
+Other structures (net),N1122N,,260,
+Land improvements (gross),N1123G,,261,
+Land improvements (net),N1123N,,262,
+Other buildings and structures (gross),N112G,,263,
+Other buildings and structures (net),N112N,,264,
+Transport equipment (gross),N1131G,,265,
+Transport equipment (net),N1131N,,266,
+Computer hardware (gross),N11321G,,267,
+Computer hardware (net),N11321N,,268,
+Telecommunications equipment (gross),N11322G,,269,
+Telecommunications equipment (net),N11322N,,270,
+ICT equipment (gross),N1132G,,271,
+ICT equipment (net),N1132N,,272,
+Other machinery and equipment (gross),N1139G,,273,
+Other machinery and equipment (net),N1139N,,274,
+Machinery and equipment (gross),N113G,,275,
+ICT equipment and other machinery and equipment (Machinery and equipment other than transport equipment) (gross),N113KG,,276,N113KG=N1132G+N1139G
+ICT equipment and other machinery and equipment (Machinery and equipment other than transport equipment) (net),N113KN,,277,N113KN=N1132N+N1139N
+Machinery and equipment (net),N113N,,278,
+Weapons systems (gross),N114G,,279,
+Weapons systems (net),N114N,,280,
+Animal resources yielding repeat products (gross),N1151G,,281,
+Animal resources yielding repeat products (net),N1151N,,282,
+"Tree, crop and plant resources yielding repeat products (gross)",N1152G,,283,
+"Tree, crop and plant resources yielding repeat products (net)",N1152N,,284,
+Cultivated biological resources (gross),N115G,,285,
+Cultivated biological resources (net),N115N,,286,
+Costs of ownership transfer on non-produced assets (gross),N116G,,287,
+Costs of ownership transfer on non-produced assets (net),N116N,,288,
+Research and development (gross),N1171G,,289,
+Research and development (net),N1171N,,290,
+Mineral exploration and evaluation (gross),N1172G,,291,
+Mineral exploration and evaluation (net),N1172N,,292,
+Computer software (gross),N11731G,,293,
+Computer software (net),N11731N,,294,
+Databases (gross),N11732G,,295,
+Databases (net),N11732N,,296,
+Computer software and databases (gross),N1173G,,297,
+Computer software and databases (net),N1173N,,298,
+"Entertainment, literary or artistic originals (gross)",N1174G,,299,
+"Entertainment, literary or artistic originals (net)",N1174N,,300,
+Other intellectual property products (gross),N1179G,,301,
+Other intellectual property products (net),N1179N,,302,
+Intellectual property products (gross),N117G,,303,
+Intellectual property products (net),N117N,,304,
+Fixed assets by type of asset (gross),N11G,,305,
+Total construction (Buildings and structures) (gross),N11KG,,306,N11KG=N111G+N112G
+Total construction (Buildings and structures) (net),N11KN,,307,N11KN=N111N+N112N
+Cultivated assets and intangible fixed assets (gross),N11LG,,308,N115G+N117G
+Cultivated assets and intangible fixed assets (net),N11LN,,309,N115N+N117N
+Machinery and equipment and weapons systems (gross),N11MG,,310,N11MG=N113G+N114G
+Machinery and equipment and weapons systems (net),N11MN,,311,N11MN=N113N+N114N
+Fixed assets by type of asset (net),N11N,,312,
+Other machinery and equipment and weapons systems (gross),N11OG,,313,N11OG=N1139G+N114G
+Other machinery and equipment and weapons systems (net),N11ON,,314,N11ON=N1139N+N114N
+Other fixed assets (gross),N11PG,,315,N11PG=N115G+N116G+N117G
+Other fixed assets (net),N11PN,,316,N11PN=N115N+N116N+N117N
+Fixed assets other than dwellings (gross),N11RG,,317,N11RG=N11G-N111G
+Fixed assets other than dwellings (net),N11RN,,318,N11RN=N11N-N111N
+Materials and supplies (gross),N121G,,319,
+Materials and supplies (net),N121N,,320,
+Work-in-progress on cultivated biological assets (gross),N1221G,,321,
+Work-in-progress on cultivated biological assets (net),N1221N,,322,
+Other work-in-progress (gross),N1222G,,323,
+Other work-in-progress (net),N1222N,,324,
+Work-in-progress (gross),N122G,,325,
+Work-in-progress (net),N122N,,326,
+Finished goods (gross),N123G,,327,
+Finished goods (net),N123N,,328,
+Military inventories (gross),N124G,,329,
+Military inventories (net),N124N,,330,
+Goods for resale (gross),N125G,,331,
+Goods for resale (net),N125N,,332,
+Inventories by type of inventory (gross),N12G,,333,
+Inventories by type of inventory (net),N12N,,334,
+Precious metals and stones (gross),N131G,,335,
+Precious metals and stones (net),N131N,,336,
+Antiques and other art objects (gross),N132G,,337,
+Antiques and other art objects (net),N132N,,338,
+Other valuables (gross),N133G,,339,
+Other valuables (net),N133N,,340,
+Valuables (gross),N13G,,341,
+Valuables (net),N13N,,342,
+Produced non-financial assets (gross),N1G,,343,
+Inventories by type of inventory and valuables (gross),N1MG,,344,N12G+N13G
+Inventories by type of inventory and valuables (net),N1MN,,345,N12N+N13N
+Produced non-financial assets (net),N1N,,346,
+Fixed assets by type of assets and inventories (gross),N1OG,,347,N1OG=N11G+N12G
+Fixed assets by type of assets and inventories (net),N1ON,,348,N1ON=N11N+N12N
+Land underlying buildings and structures,N2111,,349,N2111=N21111+N21112
+Land underlying dwellings,N21111,,350,
+Land underlying other buildings and structures,N21112,,351,
+Land underlying buildings other than dwellings,N211121,,352,
+"Land underlying dwellings [deprecated, replaced by N21111]",N2111A,,353,
+Land underlying dwellings (gross),N2111AG,,354,
+Land underlying dwellings (net),N2111AN,,355,
+Land underlying buildings and structures (gross),N2111G,,356,
+Land underlying buildings and structures (net),N2111N,,357,
+Agricultural land,N21121,,358,
+Forestry land,N21122,,359,
+Surface water used for aquaculture,N21123,,360,
+Land under cultivation (gross),N2112G,,361,
+Land under cultivation (net),N2112N,,362,
+Recreational land and associated surface water (gross),N2113G,,363,
+Recreational land and associated surface water (net),N2113N,,364,
+Other land and associated surface water (gross),N2119G,,365,
+Other land and associated surface water (net),N2119N,,366,
+Land (gross),N211G,,367,
+Land (net),N211N,,368,
+Mineral and energy reserves (gross),N212G,,369,
+Mineral and energy reserves (net),N212N,,370,
+Non-cultivated biological resources (gross),N213G,,371,
+Non-cultivated biological resources (net),N213N,,372,
+Water resources (gross),N214G,,373,
+Water resources (net),N214N,,374,
+Radio spectra (gross),N2151G,,375,
+Radio spectra (net),N2151N,,376,
+Other (gross),N2159G,,377,
+Other (net),N2159N,,378,
+Other natural resources (gross),N215G,,379,
+Other natural resources (net),N215N,,380,
+Universal Mobile Telecommunications System (net),N215UN,,381,
+Natural resources (gross),N21G,,382,
+Other naturally occurring assets (gross),N21KG,,383,N21KG = N213G + N214G + N215G
+Other naturally occuRring assets (net),N21KN,,384,N21KN = N213N + N214N + N215N
+Natural resources (net),N21N,,385,
+Non-cultivated biological resources and water resources (gross),N21OG,,386,N21OG=N213G+N214G
+Non-cultivated biological resources and water resources (net),N21ON,,387,N21ON=N213N+N214N
+Marketable operating leases (gross),N221G,,388,
+Marketable operating leases (net),N221N,,389,
+Permissions to use natural resources (gross),N222G,,390,
+Permissions to use natural resources (net),N222N,,391,
+Permissions to undertake specific activities (gross),N223G,,392,
+Permissions to undertake specific activities (net),N223N,,393,
+Entitlement to future goods and services on an exclusive basis (gross),N224G,,394,
+Entitlement to future goods and services on an exclusive basis (net),N224N,,395,
+"Contracts, leases and licences (gross)",N22G,,396,
+"Contracts, leases and licences (net)",N22N,,397,
+Purchases less sales of goodwill and marketing assets (gross),N23G,,398,
+Purchases less sales of goodwill and marketing assets (net),N23N,,399,
+Non-produced non-financial assets (gross),N2G,,400,
+Intangible nonproduced assets (gross),N2KG,,401,N2KG = N22G + N23G
+Intangible nonproduced assets (net),N2KN,,402,N2KN = N22N + N23N
+Non-produced non-financial assets (net),N2N,,403,
+All non-financial assets (gross),NG,,404,
+"Non-financial assets, other than dwellings and lands (gross)",NKG,,405,
+"Non-financial assets, other than dwellings and lands (net)",NKN,,406,
+"All non-financial assets, other than inventories (gross)",NLG,,407,NLG=N11G+N13G+N2G
+Dwellings and land underlying buildings and structures (net),NM111N,,408,
+Consumer durable (net),NMN,,409,
+All non-financial assets (net),NN,,410,
+Housing wealth (net),NUN,,411,
+Non-financial assets (includes total produced fixed assets and land underlying dwellings) (net),NYN,,412,
+Net international investment position excluding non-defaultable instruments,NENDI,,413,

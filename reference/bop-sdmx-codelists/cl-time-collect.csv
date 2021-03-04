@@ -1,0 +1,11 @@
+Label,Notation,Parent Notation,Sort Priority,Description
+Average of observations through period,A,,1,
+Beginning of period,B,,2,
+End of period,E,,3,
+Highest in period,H,,4,
+Lowest in period,L,,5,
+Middle of period,M,,6,
+Summed through period,S,,7,
+Unknown,U,,8,
+Other,V,,9,
+Annualised summed,Y,,10,

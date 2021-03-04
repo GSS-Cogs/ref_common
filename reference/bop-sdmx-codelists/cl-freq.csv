@@ -1,0 +1,10 @@
+Label,Notation,Parent Notation,Sort Priority,Description
+Annual,A,,1,To be used for data collected or disseminated every year.
+"Half-yearly, semester",S,,2,To be used for data collected or disseminated every semester.
+Quarterly,Q,,3,To be used for data collected or disseminated every quarter.
+Monthly,M,,4,To be used for data collected or disseminated every month.
+Weekly,W,,5,To be used for data collected or disseminated every week.
+Daily,D,,6,To be used for data collected or disseminated every day.
+Hourly,H,,7,To be used for data collected or disseminated every hour.
+Daily – businessweek,B,,8,"Similar to ""daily"", however there are no observations for Saturdays and Sundays (so, neither ""missing values"" nor ""numeric values"" should be provided for Saturday and Sunday). This treatment  (""business"") is one way to deal with such cases, but it is not the only option. Such a time series could alternatively be considered daily (""D""), thus, with missing values in the weekend."
+Minutely,N,,9,"While N denotes ""minutely"", usually, there may be no observations every minute (for several series the frequency is usually ""irregular"" within a day/days). And though observations may be sparse (not collected or disseminated every minute), missing values do not need to be given for the minutes when no observations exist: in any case the time stamp determines when an observation is observed."

@@ -1,0 +1,22 @@
+Label,Notation,Parent Notation,Sort Priority,Description
+CCYYMMDDhhmm,203,,1,(Used in SDMX-EDI for series with freq. higher than daily) year/month/day/hours/minutes
+CCYYMMDD,102,,2,(Used in SDMX-EDI for daily and business series) year/month/day
+CCYYWW,616,,3,(Used in SDMX-EDI for weekly series) year/week
+CCYYMM,610,,4,(Used in SDMX-EDI for monthly series) year/month
+CCYYQ,608,,5,(Used in SDMX-EDI for quarterly series) year/quarter
+CCYYS,604,,6,(Used in SDMX-EDI for half yearly series) year/semester
+CCYY,602,,7,(Used in SDMX-EDI for annual series) year
+CCYYMMDDhhmmCCYYMMDDhhmm,719,,8,(Used in SDMX-EDI for series with freq. higher than daily) year/month/day/hours/minutes to year/month/day/hours/minutes
+CCYYMMDDCCYYMMDD,711,,9,(Used in SDMX-EDI for daily and business series) from year/month/day to year/month/day
+CCYYWWCCYYWW,716,,10,(Used in SDMX-EDI for weekly series) from year/week to year/week
+CCYYMMCCYYMM,710,,11,(Used in SDMX-EDI for monthly series) from year/month to year/month
+CCYYQCCYYQ,708,,12,(Used in SDMX-EDI for quarterly series) from year/quarter to year/quarter
+CCYYSCCYYS,704,,13,(Used in SDMX-EDI for half yearly series) from half-year to half-year
+CCYYCCYY,702,,14,(Used in SDMX-EDI for annual series) from year to year
+Daily (or Business),P1D,,15,Used only in SDMX-ML messages
+Monthly,P1M,,16,Used only in SDMX-ML messages
+Annual,P1Y,,17,Used only in SDMX-ML messages
+Quarterly,P3M,,18,Used only in SDMX-ML messages
+"Half-yearly, semester",P6M,,19,Used only in SDMX-ML messages
+Weekly,P7D,,20,Used only in SDMX-ML messages
+Minutely,PT1M,,21,Used only in SDMX-ML messages

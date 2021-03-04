@@ -1,0 +1,28 @@
+Label,Notation,Parent Notation,Sort Priority,Description
+All functional categories,_T,,1,_T=R+D+P+F+O
+Not allocated/unspecified,_X,,2,
+Not Applicable,_Z,,3,
+Direct Investment,D,,4,D=D1+D2+D3
+Direct Investment + Portfolio Investment,D_P,,5,D_P =D + P
+Direct investor in direct invesment enterprises,D1,,6,
+Direct investment excluding direct investment between fellow enterprises,D1D2,,7,
+Direct investment enterprises in direct investor,D2,,8,
+Direct Investment between fellow enterprises,D3,,9,D3=U1+U2+U3
+Financial Derivatives and Employee Stock Options,F,,10,
+Other Investment,O,,11,
+Portfolio Investment,P,,12,
+Reserve Assets,R,,13,
+Reserve template,RT,,14,
+"All functional categories (total) - sum of (Direct Investment, Portfolio Investment)",TXD_P,,15,TXD_P =T - DAP
+All functional categories (total) excluding Direct Investment,TXD,,16,TXD =T – D
+All functional categories (total) excluding financial derivatives and employee stock options,TXF,,17,TXF=_T-F
+Direct Investment between fellow enterprises; if ultimate controlling parent is resident,U1,,18,
+Direct Investment between fellow enterprises; if ultimate controlling parent is nonresident,U2,,19,
+Direct Investment between fellow enterprises; if ultimate controlling parent is resident in another euro area country,U21,,20,
+Direct Investment between fellow enterprises; if ultimate controlling parent is resident in another EU country outside the euro area,U22,,21,
+Direct Investment between fellow enterprises; if ultimate controlling parent is resident outside the EU,U23,,22,
+Direct Investment between fellow enterprises; if ultimate controlling parent is unknown,U3,,23,
+Direct Investment between fellow enterprises; if ultimate controlling parent is resident outside the euro area,U22_23,,24,U22_23=U22+U23
+All functional categories (total) excluding reserve assets,TXR,,25,
+"All functional categories (total) excluding financial derivatives, employee stock options and reserve assets",TXF_R,,26,TXF_R=_T-F-R
+All functional categories (total) excluding direct investment and reserve assets,TXD_R,,27,TXD_R = _T-D-R
