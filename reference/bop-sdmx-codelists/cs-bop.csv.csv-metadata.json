@@ -81,7 +81,7 @@
             "http://publishmydata.com/pmdcat#datasetContents": {
                 "@id": "http://gss-data.org.uk/def/concept-scheme/cs-bop"
             },
-            "rdfs:comment": "Dataset representing the codelist CS_BOP. URN: urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF:CS_BOP(1.14). Main source: https://sdmx.org/?page_id=1747. Structure source: https://registry.sdmx.org/ws/public/sdmxapi/rest/datastructure/IMF/BOP/1.14/?detail=full&references=descendants&version=2.1:1:555:'",
+            "rdfs:comment": "Dataset representing the codelist CS_BOP, Balance of Payments Concept Scheme. URN: urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF:CS_BOP(1.14). Main source: https://sdmx.org/?page_id=1747. Structure source: https://registry.sdmx.org/ws/public/sdmxapi/rest/datastructure/IMF/BOP/1.14/?detail=full&references=descendants&version=2.1:1:555:'",
             "http://publishmydata.com/pmdcat#graph": {
                 "@id": "http://gss-data.org.uk/def/concept-scheme/cs-bop"
             },
