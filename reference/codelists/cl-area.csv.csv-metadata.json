@@ -76,12 +76,12 @@
                 "dcat:Dataset",
                 "http://publishmydata.com/pmdcat#Dataset"
             ],
-            "rdfs:label": "CL_AREA",
-            "dc:title": "CL_AREA",
+            "rdfs:label": "SDMX AREA",
+            "dc:title": "SDMX AREA",
             "http://publishmydata.com/pmdcat#datasetContents": {
                 "@id": "http://gss-data.org.uk/def/concept-scheme/cl-area"
             },
-            "rdfs:comment": "Dataset representing the codelist CL_AREA. URN: urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_AREA(1.13). Main source: https://sdmx.org/?page_id=1747. Structure source: https://registry.sdmx.org/ws/public/sdmxapi/rest/datastructure/IMF/BOP/1.14/?detail=full&references=descendants&version=2.1:1:555:'",
+            "rdfs:comment": "Dataset representing the SDMX Area codelist. URN: urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_AREA(1.13). Main source: https://sdmx.org/?page_id=1747. Structure source: https://registry.sdmx.org/ws/public/sdmxapi/rest/datastructure/IMF/BOP/1.14/?detail=full&references=descendants&version=2.1:1:555:'",
             "http://publishmydata.com/pmdcat#graph": {
                 "@id": "http://gss-data.org.uk/def/concept-scheme/cl-area"
             },
@@ -103,8 +103,8 @@
         {
             "@id": "http://gss-data.org.uk/def/concept-scheme/cl-area/catalog-record",
             "@type": "dcat:CatalogRecord",
-            "dc:title": "CL_AREA Catalog Record",
-            "rdfs:label": "CL_AREA Catalog Record",
+            "dc:title": " SDMX AREA Catalog Record",
+            "rdfs:label": "SDMX AREA Catalog Record",
             "dc:issued": {
                 "@type": "dateTime",
                 "@value": "2020-12-23T11:58:58.120533"
