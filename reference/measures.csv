@@ -67,3 +67,5 @@ shares-of-road-fuels,Shares of Road Fuels,,,,xsd:decimal
 percentage-change-in-shares-of-motor-spirit-road-fuels,Percentage Change in Shares of Motor Spirit,,,,xsd:decimal
 percentage-change-in-shares-of-derv-road-fuels,Percentage Change in Shares of DERV Road Fuels,,,,xsd:decimal
 percentage-change-in-shares-of-road-fuels,Percentage Change in Shares of Road Fuels,,,,xsd:decimal
+statistical-value,Statistical Value,,,,xsd:decimal
+businesses,Businesses,,,,xsd:decimal
