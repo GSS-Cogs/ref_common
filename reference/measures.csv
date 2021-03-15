@@ -69,3 +69,4 @@ percentage-change-in-shares-of-derv-road-fuels,Percentage Change in Shares of DE
 percentage-change-in-shares-of-road-fuels,Percentage Change in Shares of Road Fuels,,,,xsd:decimal
 statistical-value,Statistical Value,,,,xsd:decimal
 businesses,Businesses,,,,xsd:decimal
+gas-emissions,Gas Emissions,,,,xsd:decimal
