@@ -1,0 +1,26 @@
+Label,Notation,Parent Notation,Sort Priority
+Balance of payments,/economy/nationalaccounts/balanceofpayments,,1
+Earnings and working hours,/employmentandlabourmarket/peopleinwork/earningsandworkinghours,,2
+Economic inactivity,/employmentandlabourmarket/peoplenotinwork/economicinactivity,,3
+Employment and employee types,/employmentandlabourmarket/peopleinwork/employmentandemployeetypes,,4
+Gross domestic product (GDP),/economy/grossdomesticproductgdp,,5
+Gross value added (GVA),/economy/grossvalueaddedgva,,6
+Inflation and price indices,/economy/inflationandpriceindices,,7
+International trade,/businessindustryandtrade/internationaltrade,,8
+"Investments, pensions and trusts",/economy/investmentspensionsandtrusts,,9
+Labour productivity,/employmentandlabourmarket/peopleinwork/labourproductivity,,10
+Leisure and tourism,/peoplepopulationandcommunity/leisureandtourism,,11
+Manufacturing and production industry,/businessindustryandtrade/manufacturingandproductionindustry,,12
+Mergers and acquisitions,/businessindustryandtrade/changestobusiness/mergersandacquisitions,,13
+Out of work benefits,/employmentandlabourmarket/peoplenotinwork/outofworkbenefits,,14
+Output,/economy/economicoutputandproductivity/output,,15
+Public sector finance,/economy/governmentpublicsectorandtaxes/publicsectorfinance,,16
+Public sector personnel,/employmentandlabourmarket/peopleinwork/publicsectorpersonnel,,17
+Public spending,/economy/governmentpublicsectorandtaxes/publicspending,,18
+Redundancies,/employmentandlabourmarket/peoplenotinwork/redundancies,,19
+Research and development expenditure,/economy/governmentpublicsectorandtaxes/researchanddevelopmentexpenditure,,20
+Retail Industry,/businessindustryandtrade/retailindustry,,21
+Satellite accounts,/economy/nationalaccounts/satelliteaccounts,,22
+Tourism industry,/businessindustryandtrade/tourismindustry,,23
+UK sector accounts,/economy/nationalaccounts/uksectoraccounts,,24
+Unemployment,/employmentandlabourmarket/peoplenotinwork/unemployment,,25
