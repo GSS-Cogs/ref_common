@@ -1,0 +1,100 @@
+
+<http://gss-data.org.uk/def/concept-scheme/data-gov-uk> a <http://publishmydata.com/pmdcat#ConceptScheme>,
+    <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+  <http://purl.org/dc/terms/title> "data.gov.uk Taxonomy";
+  <http://www.w3.org/2000/01/rdf-schema#label> "data.gov.uk Taxonomy";
+  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://gss-data.org.uk/catalog/vocabularies>,
+    <http://gss-data.org.uk/def/concept-scheme/data-gov-uk/catalog-record>, <http://gss-data.org.uk/def/concept-scheme/data-gov-uk/dataset>;
+  <http://www.w3.org/ns/prov#hadDerivation> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk> .
+
+<http://gss-data.org.uk/def/concept-scheme/data-gov-uk/dataset> a <http://publishmydata.com/pmdcat#Dataset>,
+    <http://www.w3.org/ns/dcat#Dataset>;
+  <http://publishmydata.com/pmdcat#datasetContents> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk>;
+  <http://publishmydata.com/pmdcat#graph> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk>;
+  <http://purl.org/dc/terms/issued> "2021-02-23T14:23:34.172066"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://purl.org/dc/terms/modified> "2021-02-23T14:23:34.172066"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://purl.org/dc/terms/title> "data.gov.uk Taxonomy";
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Dataset representing the 'data.gov.uk Taxonomy' code list.";
+  <http://www.w3.org/2000/01/rdf-schema#label> "data.gov.uk Taxonomy" .
+
+<http://gss-data.org.uk/catalog/vocabularies> <http://www.w3.org/ns/dcat#record> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk/catalog-record> .
+
+<http://gss-data.org.uk/def/concept-scheme/data-gov-uk/catalog-record> a <http://www.w3.org/ns/dcat#CatalogRecord>;
+  <http://publishmydata.com/pmdcat#metadataGraph> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk>;
+  <http://purl.org/dc/terms/issued> "2021-02-23T14:23:34.172066"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://purl.org/dc/terms/modified> "2021-02-23T14:23:34.172066"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://purl.org/dc/terms/title> "data.gov.uk Taxonomy Catalog Record";
+  <http://www.w3.org/2000/01/rdf-schema#label> "data.gov.uk Taxonomy Catalog Record";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk/dataset> .
+
+<https://data.gov.uk/search?filters[topic]=Business+and+economy> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Small businesses, industry, imports, exports and trade";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Business and economy";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk>;
+  <http://www.w3.org/2004/02/skos/core#notation> "Business+and+economy" .
+
+<https://data.gov.uk/search?filters[topic]=Crime+and+justice> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Courts, police, prison, offenders, borders and immigration";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Crime and justice";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk>;
+  <http://www.w3.org/2004/02/skos/core#notation> "Crime+and+justice" .
+
+<https://data.gov.uk/search?filters[topic]=Defence> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Armed forces, health and safety, search and rescue";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Defence";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk>;
+  <http://www.w3.org/2004/02/skos/core#notation> "Defence" .
+
+<https://data.gov.uk/search?filters[topic]=Education> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Students, training, qualifications and the National Curriculum";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Education";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk>;
+  <http://www.w3.org/2004/02/skos/core#notation> "Education" .
+
+<https://data.gov.uk/search?filters[topic]=Environment> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Weather, flooding, rivers, air quality, geology and agriculture";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Environment";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk>;
+  <http://www.w3.org/2004/02/skos/core#notation> "Environment" .
+
+<https://data.gov.uk/search?filters[topic]=Government> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Staff numbers and pay, local councillors and department business plans";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Government";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk>;
+  <http://www.w3.org/2004/02/skos/core#notation> "Government" .
+
+<https://data.gov.uk/search?filters[topic]=Government+spending> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Includes all payments by government departments over £25,000";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Government spending";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk>;
+  <http://www.w3.org/2004/02/skos/core#notation> "Government+spending" .
+
+<https://data.gov.uk/search?filters[topic]=Health> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Includes smoking, drugs, alcohol, medicine performance and hospitals";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Health";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk>;
+  <http://www.w3.org/2004/02/skos/core#notation> "Health" .
+
+<https://data.gov.uk/search?filters[topic]=Mapping> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Addresses, boundaries, land ownership, aerial photographs, seabed and land terrain";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Mapping";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk>;
+  <http://www.w3.org/2004/02/skos/core#notation> "Mapping" .
+
+<https://data.gov.uk/search?filters[topic]=Society> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Employment, benefits, household finances, poverty and population";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Society";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk>;
+  <http://www.w3.org/2004/02/skos/core#notation> "Society" .
+
+<https://data.gov.uk/search?filters[topic]=Towns+and+Citizenship> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Includes housing, urban planning, leisure, waste and energy, consumption";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Towns and Citizenship";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk>;
+  <http://www.w3.org/2004/02/skos/core#notation> "Towns+and+Citizenship" .
+
+<https://data.gov.uk/search?filters[topic]=Transport> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Airports, roads, freight, electric vehicles, parking, buses and footpaths";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Transport";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/data-gov-uk>;
+  <http://www.w3.org/2004/02/skos/core#notation> "Transport" .

@@ -1,0 +1,122 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "@id": "http://gss-data.org.uk/def/concept-scheme/gov-uk-taxonomy",
+    "url": "gov-uk-taxonomy.csv",
+    "rdfs:label": "GOV UK Taxonomy",
+    "dc:title": "GOV UK Taxonomy",
+    "tableSchema": {
+        "columns": [
+            {
+                "titles": "title",
+                "name": "title",
+                "propertyUrl": "rdfs:Label"
+            },
+            {
+                "titles": "content_id",
+                "name": "content_id",
+                "suppressOutput": true
+            },
+            {
+                "titles": "base_path",
+                "name": "base_path",
+                "valueUrl": "https://www.gov.uk{base_path}"
+            },
+            {
+                "titles": "document_type",
+                "name": "document_type",
+                "suppressOutput": true
+            },
+            {
+                "titles": "level",
+                "name": "level",
+                "suppressOutput": true
+            },
+            {
+                "titles": "title_parent",
+                "name": "title_parent",
+                "suppressOutput": true
+            },
+            {
+                "titles": "content_id_parent",
+                "name": "content_id_parent",
+                "suppressOutput": true
+            },
+            {
+                "titles": "base_path_parent",
+                "name": "base_path_parent",
+                "propertyUrl": "skos:broader",
+                "valueUrl": "https://www.gov.uk{base_path_parent}"
+            },
+            {
+                "virtual": true,
+                "propertyUrl": "rdf:type",
+                "valueUrl": "skos:Concept"
+            },
+            {
+                "virtual": true,
+                "propertyUrl": "skos:inScheme",
+                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/gov-uk-taxonomy"
+            }
+        ],
+        "aboutUrl": "https://www.gov.uk{base_path}"
+    },
+    "prov:hadDerivation": {
+        "@id": "http://gss-data.org.uk/def/concept-scheme/gov-uk-taxonomy",
+        "@type": [
+            "skos:ConceptScheme",
+            "http://publishmydata.com/pmdcat#ConceptScheme"
+        ]
+    },
+    "rdfs:seeAlso": [
+        {
+            "@id": "http://gss-data.org.uk/def/concept-scheme/gov-uk-taxonomy/dataset",
+            "@type": [
+                "dcat:Dataset",
+                "http://publishmydata.com/pmdcat#Dataset"
+            ],
+            "http://publishmydata.com/pmdcat#datasetContents": {
+                "@id": "http://gss-data.org.uk/def/concept-scheme/gov-uk-taxonomy"
+            },
+            "http://publishmydata.com/pmdcat#graph": {
+                "@id": "http://gss-data.org.uk/def/concept-scheme/gov-uk-taxonomy"
+            },
+            "dc:modified": {
+                "@type": "dateTime",
+                "@value": "2021-02-23T13:48:09.352419"
+            },
+            "rdfs:label": "GOV UK Taxonomy",
+            "dc:title": "GOV UK Taxonomy",
+            "rdfs:comment": "Dataset representing the GOV.UK content taxonomy.",
+            "dc:issued": {
+                "@type": "dateTime",
+                "@value": "2021-02-23T13:48:09.352419"
+            }
+        },
+        {
+            "@id": "http://gss-data.org.uk/catalog/vocabularies",
+            "dcat:record": {
+                "@id": "http://gss-data.org.uk/def/concept-scheme/gov-uk-taxonomy/catalog-record"
+            }
+        },
+        {
+            "@id": "http://gss-data.org.uk/def/concept-scheme/gov-uk-taxonomy/catalog-record",
+            "@type": "dcat:CatalogRecord",
+            "foaf:primaryTopic": {
+                "@id": "http://gss-data.org.uk/def/concept-scheme/gov-uk-taxonomy/dataset"
+            },
+            "http://publishmydata.com/pmdcat#metadataGraph": {
+                "@id": "http://gss-data.org.uk/def/concept-scheme/gov-uk-taxonomy"
+            },
+            "dc:title": "GOV UK Taxonomy Catalog Record",
+            "rdfs:label": "GOV UK Taxonomy Catalog Record",
+            "dc:issued": {
+                "@type": "dateTime",
+                "@value": "2021-02-23T13:48:09.352419"
+            },
+            "dc:modified": {
+                "@type": "dateTime",
+                "@value": "2021-02-23T13:48:09.352419"
+            }
+        }
+    ]
+}

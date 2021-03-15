@@ -1,0 +1,94 @@
+
+<http://gss-data.org.uk/def/concept-scheme/statistics-authority> a <http://publishmydata.com/pmdcat#ConceptScheme>,
+    <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+  <http://purl.org/dc/terms/title> "Statistics Authority Themes";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Statistics Authority Themes";
+  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://gss-data.org.uk/catalog/vocabularies>,
+    <http://gss-data.org.uk/def/concept-scheme/statistics-authority/catalog-record>, <http://gss-data.org.uk/def/concept-scheme/statistics-authority/dataset>;
+  <http://www.w3.org/ns/prov#hadDerivation> <http://gss-data.org.uk/def/concept-scheme/statistics-authority> .
+
+<http://gss-data.org.uk/def/concept-scheme/statistics-authority/dataset> a <http://publishmydata.com/pmdcat#Dataset>,
+    <http://www.w3.org/ns/dcat#Dataset>;
+  <http://publishmydata.com/pmdcat#datasetContents> <http://gss-data.org.uk/def/concept-scheme/statistics-authority>;
+  <http://publishmydata.com/pmdcat#graph> <http://gss-data.org.uk/def/concept-scheme/statistics-authority>;
+  <http://purl.org/dc/terms/issued> "2021-02-23T13:54:30.019630"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://purl.org/dc/terms/modified> "2021-02-23T13:54:30.019630"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://purl.org/dc/terms/publisher> <https://uksa.statisticsauthority.gov.uk/>;
+  <http://purl.org/dc/terms/title> "Statistics Authority";
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Dataset representing the 'Statistics Authority Themes' code list.";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Statistics Authority" .
+
+<http://gss-data.org.uk/catalog/vocabularies> <http://www.w3.org/ns/dcat#record> <http://gss-data.org.uk/def/concept-scheme/statistics-authority/catalog-record> .
+
+<http://gss-data.org.uk/def/concept-scheme/statistics-authority/catalog-record> a
+    <http://www.w3.org/ns/dcat#CatalogRecord>;
+  <http://publishmydata.com/pmdcat#metadataGraph> <http://gss-data.org.uk/def/concept-scheme/statistics-authority>;
+  <http://purl.org/dc/terms/issued> "2021-02-23T13:54:30.019630"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://purl.org/dc/terms/modified> "2021-02-23T13:54:30.019630"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://purl.org/dc/terms/title> "Statistics Authority Themes Catalog Record";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Statistics Authority Themes Catalog Record";
+  <http://xmlns.com/foaf/0.1/primaryTopic> <http://gss-data.org.uk/def/concept-scheme/statistics-authority/dataset> .
+
+<https://uksa.statisticsauthority.gov.uk/themes/agriculture-energy-environment/> a
+    <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Agriculture, Energy and Environment";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/statistics-authority>;
+  <http://www.w3.org/2004/02/skos/core#notation> "/themes/agriculture-energy-environment/" .
+
+<https://uksa.statisticsauthority.gov.uk/themes/business-trade-international-development/>
+  a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Business, Trade and International Development";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/statistics-authority>;
+  <http://www.w3.org/2004/02/skos/core#notation> "/themes/business-trade-international-development/" .
+
+<https://uksa.statisticsauthority.gov.uk/themes/children-education-skills/> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Children, Education and Skills";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/statistics-authority>;
+  <http://www.w3.org/2004/02/skos/core#notation> "/themes/children-education-skills/" .
+
+<https://uksa.statisticsauthority.gov.uk/themes/crime-security/> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Crime and Security";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/statistics-authority>;
+  <http://www.w3.org/2004/02/skos/core#notation> "/themes/crime-security/" .
+
+<https://uksa.statisticsauthority.gov.uk/themes/culture-identity/> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Culture and Identity";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/statistics-authority>;
+  <http://www.w3.org/2004/02/skos/core#notation> "/themes/culture-identity/" .
+
+<https://uksa.statisticsauthority.gov.uk/themes/economy/> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Economy";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/statistics-authority>;
+  <http://www.w3.org/2004/02/skos/core#notation> "/themes/economy/" .
+
+<https://uksa.statisticsauthority.gov.uk/themes/health-social-care/> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Health and Social Care";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/statistics-authority>;
+  <http://www.w3.org/2004/02/skos/core#notation> "/themes/health-social-care/" .
+
+<https://uksa.statisticsauthority.gov.uk/themes/housing-planning-local-services/>
+  a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Housing, Planning and Local Services";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/statistics-authority>;
+  <http://www.w3.org/2004/02/skos/core#notation> "/themes/housing-planning-local-services/" .
+
+<https://uksa.statisticsauthority.gov.uk/themes/labour-market-welfare/> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Labour Market and Welfare";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/statistics-authority>;
+  <http://www.w3.org/2004/02/skos/core#notation> "/themes/labour-market-welfare/" .
+
+<https://uksa.statisticsauthority.gov.uk/themes/population-society/> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Population and Society";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/statistics-authority>;
+  <http://www.w3.org/2004/02/skos/core#notation> "/themes/population-society/" .
+
+<https://uksa.statisticsauthority.gov.uk/themes/security-defence-international-relations/>
+  a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Security, Defence and International Relations";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/statistics-authority>;
+  <http://www.w3.org/2004/02/skos/core#notation> "/themes/security-defence-international-relations/" .
+
+<https://uksa.statisticsauthority.gov.uk/themes/travel-transport-tourism/> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Travel, Transport and Tourism";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/statistics-authority>;
+  <http://www.w3.org/2004/02/skos/core#notation> "/themes/travel-transport-tourism/" .
