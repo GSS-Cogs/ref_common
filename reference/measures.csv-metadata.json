@@ -70,6 +70,6 @@
         ],
         "aboutUrl": "http://gss-data.org.uk/def/measure/{+path}"
     },
-    "rdfs:label": "GSS Measures",
-    "dc:title": "GSS Measures"
+    "rdfs:label": "GSS Common Measures",
+    "dc:title": "GSS Common Measures"
 }
