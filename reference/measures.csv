@@ -88,3 +88,4 @@ total-electricity-generated,Total Electricity Generated,,,,xsd:decimal
 transfers-from-other-generators-to-public-supply,Transfers from Other Generators to Public Supply,,,,xsd:decimal
 transmission-losses,Transmission Losses,,,,xsd:decimal
 used-in-pumping-at-pumped-storage-and-other-own-use-by-mpps,Used in Pumping at Pumped Storage and Other Own use by Major Power Producers,,,,xsd:decimal
+electricity-generated,Electricity Generated,,,,xsd:decimal
