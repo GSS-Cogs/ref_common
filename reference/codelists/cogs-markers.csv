@@ -9,3 +9,4 @@ Estimated,estimated,"The particular value yielded by an estimator in a given set
 Low sample count,low-sample-count,"",8
 Unknown,unknown,"",9
 Nil or less than a Million,nil-or-less-than-a-million,"",10
+Not Available,not-available,"",11
