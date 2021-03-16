@@ -1,0 +1,133 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "@id": "http://gss-data.org.uk/def/concept-scheme/ons-topics",
+    "url": "ons-topics.csv",
+    "rdfs:label": "ONS Topics",
+    "dc:title": "ONS Topics",
+    "tableSchema": {
+        "columns": [
+            {
+                "titles": "Label",
+                "name": "label",
+                "datatype": "string",
+                "required": true,
+                "propertyUrl": "rdfs:label"
+            },
+            {
+                "titles": "Path",
+                "name": "path",
+                "datatype": {
+                    "base": "string",
+                    "format": "^-?[\\w\\.\\/\\+]+(-[\\w\\.\\/\\+]+)*$"
+                },
+                "required": true,
+                "suppressOutput": true
+            },
+            {
+                "titles": "Parent",
+                "name": "parent",
+                "datatype": {
+                    "base": "string",
+                    "format": "^(-?[\\w\\.\\/\\+]+(-[\\w\\.\\/\\+]+)*|)$"
+                },
+                "required": false,
+                "propertyUrl": "skos:broader",
+                "valueUrl": "https://www.ons.gov.uk{parent}"
+            },
+            {
+                "titles": "Summary",
+                "name": "summary",
+                "datatype": "string",
+                "required": false,
+                "propertyUrl": "skos:definition"
+            },
+            {
+                "virtual": true,
+                "propertyUrl": "rdf:type",
+                "valueUrl": "skos:Concept"
+            },
+            {
+                "virtual": true,
+                "propertyUrl": "skos:inScheme",
+                "valueUrl": "http://gss-data.org.uk/def/concept-scheme/ons-topics"
+            }
+        ],
+        "primaryKey": "path",
+        "aboutUrl": "https://www.ons.gov.uk{path}"
+    },
+    "prov:hadDerivation": {
+        "@id": "http://gss-data.org.uk/def/concept-scheme/ons-topics",
+        "@type": [
+            "skos:ConceptScheme",
+            "http://publishmydata.com/pmdcat#ConceptScheme"
+        ]
+    },
+    "rdfs:seeAlso": [
+        {
+            "@id": "http://gss-data.org.uk/def/concept-scheme/ons-topics/dataset",
+            "@type": [
+                "dcat:Dataset",
+                "http://publishmydata.com/pmdcat#Dataset"
+            ],
+            "http://publishmydata.com/pmdcat#datasetContents": {
+                "@id": "http://gss-data.org.uk/def/concept-scheme/ons-topics"
+            },
+            "http://publishmydata.com/pmdcat#graph": {
+                "@id": "http://gss-data.org.uk/def/concept-scheme/ons-topics"
+            },
+            "dc:modified": {
+                "@type": "dateTime",
+                "@value": "2021-03-15T13:55:54.371435"
+            },
+            "rdfs:label": "ONS Topics",
+            "dc:title": "ONS Topics",
+            "rdfs:comment": "ONS Topics taxonomy",
+            "dc:issued": {
+                "@type": "dateTime",
+                "@value": "2021-03-15T13:55:54.371435"
+            },
+            "dc:license": {
+                "@id": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            },
+            "dc:creator": {
+                "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
+            },
+            "dc:publisher": {
+                "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
+            },
+            "dcat:landingPage": {
+                "@id": "https://www.ons.gov.uk/timeseriestool"
+            },
+            "http://publishmydata.com/pmdcat#markdownDescription": {
+                "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
+                "@value": "Office for National Statistics topics"
+            }
+        },
+        {
+            "@id": "http://gss-data.org.uk/catalog/vocabularies",
+            "dcat:record": {
+                "@id": "http://gss-data.org.uk/def/concept-scheme/ons-topics/catalog-record"
+            }
+        },
+        {
+            "@id": "http://gss-data.org.uk/def/concept-scheme/ons-topics/catalog-record",
+            "@type": "dcat:CatalogRecord",
+            "foaf:primaryTopic": {
+                "@id": "http://gss-data.org.uk/def/concept-scheme/ons-topics/dataset"
+            },
+            "http://publishmydata.com/pmdcat#metadataGraph": {
+                "@id": "http://gss-data.org.uk/def/concept-scheme/ons-topics"
+            },
+            "dc:title": "ONS Topics Catalog Record",
+            "rdfs:label": "ONS Topics Catalog Record",
+            "dc:issued": {
+                "@type": "dateTime",
+                "@value": "2021-03-15T13:55:54.371435"
+            },
+            "dc:modified": {
+                "@type": "dateTime",
+                "@value": "2021-03-15T13:55:54.371435"
+            }
+        }
+    ]
+}
