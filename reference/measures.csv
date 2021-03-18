@@ -89,3 +89,4 @@ transfers-from-other-generators-to-public-supply,Transfers from Other Generators
 transmission-losses,Transmission Losses,,,,xsd:decimal
 used-in-pumping-at-pumped-storage-and-other-own-use-by-mpps,Used in Pumping at Pumped Storage and Other Own use by Major Power Producers,,,,xsd:decimal
 electricity-generated,Electricity Generated,,,,xsd:decimal
+load-factors,Load Factors,,,,xsd:decimal
