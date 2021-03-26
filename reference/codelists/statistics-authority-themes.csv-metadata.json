@@ -21,7 +21,7 @@
                     "format": "^-?[\\w\\.\\/\\+]+(-[\\w\\.\\/\\+]+)*$"
                 },
                 "required": true,
-                "suppressed": true
+                "suppressOutput": true
             },
             {
                 "titles": "Parent Notation",
