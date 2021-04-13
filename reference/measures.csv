@@ -91,7 +91,7 @@ used-in-pumping-at-pumped-storage-and-other-own-use-by-mpps,Used in Pumping at P
 electricity-generated,Electricity Generated,,,,xsd:decimal
 load-factors,Load Factors,,,,xsd:decimal
 value,Value,,,,xsd:decimal
-Gross Fixed Capital Formation,gfcf,,,,xsd:decimal
-Change in Inventories,change-in-inventories,,,,xsd:decimal
-Household final Consumption,hh-final-consumption,,,,xsd:decimal
-National Accounts Aggregates,na-aggregates,,,,xsd:decimal
+gfcf,Gross Fixed Capital Formation,,,,xsd:decimal
+change-in-inventories,Change in Inventories,,,,xsd:decimal
+hh-final-consumption,Household final Consumption,,,,xsd:decimal
+na-aggregtes,National Accounts Aggregates,,,,xsd:decimal
