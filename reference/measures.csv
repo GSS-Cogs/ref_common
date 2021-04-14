@@ -94,4 +94,4 @@ value,Value,,,,xsd:decimal
 gfcf,Gross Fixed Capital Formation,,,,xsd:decimal
 change-in-inventories,Change in Inventories,,,,xsd:decimal
 hh-final-consumption,Household final Consumption,,,,xsd:decimal
-na-aggregtes,National Accounts Aggregates,,,,xsd:decimal
+na-aggregates,National Accounts Aggregates,,,,xsd:decimal
