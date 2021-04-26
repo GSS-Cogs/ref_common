@@ -95,3 +95,6 @@ gfcf,Gross Fixed Capital Formation,,,,xsd:decimal
 change-in-inventories,Change in Inventories,,,,xsd:decimal
 hh-final-consumption,Household final Consumption,,,,xsd:decimal
 na-aggregates,National Accounts Aggregates,,,,xsd:decimal
+total,Total,,,,xsd:integer
+estimated-count,Estimated Count,,,,xsd:integer
+extra-capacity-count,Extra Capacity Count,,,,xsd:integer
