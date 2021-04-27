@@ -96,6 +96,6 @@ local-unit,Local Unit,,,,,94
 mw,Megawatt,,,,,95
 certificates,Certificates,,,,,96
 rough-sleepers,Rough Sleepers,,,,,97
-emergency-bed-spaces,Emergency Bed Spaces,,,,,98
-available-bed-spaces,Available Bed Spaces,,,,,99
+emergency-beds,Emergency Beds,,,,,98
+available-emergency-beds,Available Emergency Beds,,,,,99
 additional-beds,Additional Beds,,,,,100
