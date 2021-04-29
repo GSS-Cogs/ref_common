@@ -98,7 +98,7 @@ na-aggregates,National Accounts Aggregates,,,,xsd:decimal
 total,Total,,,,xsd:integer
 estimated-count,Estimated Count,,,,xsd:integer
 extra-capacity-count,Extra Capacity Count,,,,xsd:integer
-rate-of-approaches-per-1-000-households,Rate of Approaches per 1,000 households,,,,xsd:decimal
+rate-of-approaches-per-1-000-households,"Rate of Approaches per 1,000 households",,,,xsd:decimal
 unique-approaches,Unique Approaches,,,,xsd:decimal
 average-time-to-resolve-approach,Average Time to Resolve Approach,,,,xsd:decimal
 cumulative-approaches,Cumulative Approaches,,,,xsd:decimal
