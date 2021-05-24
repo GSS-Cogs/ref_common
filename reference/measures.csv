@@ -103,3 +103,4 @@ unique-approaches,Unique Approaches,,,,xsd:decimal
 average-time-to-resolve-approach,Average Time to Resolve Approach,,,,xsd:decimal
 cumulative-approaches,Cumulative Approaches,,,,xsd:decimal
 count-per-1000-population,Count Per 1000 Population,,,,xsd:integer
+capacity,Capacity,,,,xsd:integer
