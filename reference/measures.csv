@@ -105,8 +105,8 @@ cumulative-approaches,Cumulative Approaches,,,,xsd:decimal
 count-per-1000-population,Count Per 1000 Population,,,,xsd:integer
 capacity,Capacity,,,,xsd:integer
 applications,Applications,,,,xsd:integer
-rate-per-10-000-population,Rate per 10000 Population,,,,,107
-score,Score,,,,,109
-standardised-ratio,Standardised Ratio,,,,,110
-time,Time,,,,,111
-deprivation-rank,Deprivation Rank,,,,,112
+rate-per-10-000-population,Rate per 10000 Population,,,,107
+score,Score,,,,109
+standardised-ratio,Standardised Ratio,,,,110
+time,Time,,,,111
+deprivation-rank,Deprivation Rank,,,,112
