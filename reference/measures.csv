@@ -110,3 +110,4 @@ score,Score,,,,xsd:decimal
 standardised-ratio,Standardised Ratio,,,,xsd:decimal
 time,Time,,,,xsd:decimal
 deprivation-rank,Deprivation Rank,,,,xsd:decimal
+energy-consumption,Energy Consumption,,,,xsd:decimal
