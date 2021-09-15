@@ -111,3 +111,6 @@ standardised-ratio,Standardised Ratio,,,,xsd:decimal
 time,Time,,,,xsd:decimal
 deprivation-rank,Deprivation Rank,,,,xsd:decimal
 energy-consumption,Energy Consumption,,,,xsd:decimal
+water-consumption,Water Consumption,,,,xsd:decimal
+water-leakage,Water Leakage,,,,xsd:decimal
+
