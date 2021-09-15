@@ -113,3 +113,6 @@ deprivation-rank,Deprivation Rank,,,,xsd:decimal
 energy-consumption,Energy Consumption,,,,xsd:decimal
 water-consumption,Water Consumption,,,,xsd:decimal
 water-leakage,Water Leakage,,,,xsd:decimal
+status-of-surface-waters,Status of Surface Waters,,,,xsd:decimal
+status-of-ground-waters, Status of Ground Waters,,,,xsd:decimal
+status-of-waters-specially-protected-for-specific-uses,Status of Waters Specially Protected for Specific Uses,,,,xsd:decimal
