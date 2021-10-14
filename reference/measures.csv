@@ -117,3 +117,5 @@ status-of-surface-waters,Status of Surface Waters,,,,xsd:decimal
 status-of-ground-waters, Status of Ground Waters,,,,xsd:decimal
 status-of-waters-specially-protected-for-specific-uses,Status of Waters Specially Protected for Specific Uses,,,,xsd:decimal
 gross-caloric-values,Gross Caloric Values,,,,xsd:decimal
+greenhouse-gas-emissions,Greenhouse Gas Emissions,,,,xsd:decimal
+carbon-dioxide-emissions,Carbon Dioxide Emissions,,,,xsd:decimal
