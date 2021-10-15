@@ -119,3 +119,4 @@ status-of-waters-specially-protected-for-specific-uses,Status of Waters Speciall
 gross-caloric-values,Gross Caloric Values,,,,xsd:decimal
 greenhouse-gas-emissions,Greenhouse Gas Emissions,,,,xsd:decimal
 carbon-dioxide-emissions,Carbon Dioxide Emissions,,,,xsd:decimal
+temperature-adjusted-greenhouse-gas-emissions,Greenhouse Gas Emissions - Temperature Adjusted,,,,xsd:decimal
