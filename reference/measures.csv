@@ -120,3 +120,5 @@ gross-caloric-values,Gross Caloric Values,,,,xsd:decimal
 greenhouse-gas-emissions,Greenhouse Gas Emissions,,,,xsd:decimal
 carbon-dioxide-emissions,Carbon Dioxide Emissions,,,,xsd:decimal
 temperature-adjusted-greenhouse-gas-emissions,Greenhouse Gas Emissions - Temperature Adjusted,,,,xsd:decimal
+emissions-intensity,Emissions Intensity,,,,xsd:decimal
+emissions-intensity-sdg-basis,emissions intensity on a sustainable development goal basis,,,,xsd:decimal
