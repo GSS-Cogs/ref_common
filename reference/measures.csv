@@ -121,4 +121,3 @@ greenhouse-gas-emissions,Greenhouse Gas Emissions,,,,xsd:decimal
 carbon-dioxide-emissions,Carbon Dioxide Emissions,,,,xsd:decimal
 temperature-adjusted-greenhouse-gas-emissions,Greenhouse Gas Emissions - Temperature Adjusted,,,,xsd:decimal
 value-of-trade,Value of Trade,,,,xsd:integer
-firms-trading,Firms Trading,,,,xsd:integer
