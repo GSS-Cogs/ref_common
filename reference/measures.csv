@@ -121,3 +121,5 @@ greenhouse-gas-emissions,Greenhouse Gas Emissions,,,,xsd:decimal
 carbon-dioxide-emissions,Carbon Dioxide Emissions,,,,xsd:decimal
 temperature-adjusted-greenhouse-gas-emissions,Greenhouse Gas Emissions - Temperature Adjusted,,,,xsd:decimal
 value-of-trade,Value of Trade,,,,xsd:integer
+Production Volume,production-volume,,,,xsd:integer
+Production Volume of Alcohol,production-volume-alcohol,,,,xsd:integer
