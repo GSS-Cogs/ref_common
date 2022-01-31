@@ -123,3 +123,9 @@ temperature-adjusted-greenhouse-gas-emissions,Greenhouse Gas Emissions - Tempera
 value-of-trade,Value of Trade,,,,xsd:integer
 Production Volume,production-volume,,,,xsd:integer
 Production Volume of Alcohol,production-volume-alcohol,,,,xsd:integer
+Spirits Duty Receipts,spirits-duty-receipts
+Wine Duty Receipts,wine-duty-receipts,,,,xsd:integer
+Beer Duty Receipts,beer-duty-receipts,,,,xsd:integer
+Cider Duty Receipts,cider-duty-receipts,,,,xsd:integer
+Alcohol Duty Receipts,alcohol-duty-receipts,,,,xsd:integer
+Clearances of Alcohol,clearances-of-alcohol,,,,xsd:integer
