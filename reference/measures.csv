@@ -121,11 +121,11 @@ greenhouse-gas-emissions,Greenhouse Gas Emissions,,,,xsd:decimal
 carbon-dioxide-emissions,Carbon Dioxide Emissions,,,,xsd:decimal
 temperature-adjusted-greenhouse-gas-emissions,Greenhouse Gas Emissions - Temperature Adjusted,,,,xsd:decimal
 value-of-trade,Value of Trade,,,,xsd:integer
-Production Volume,production-volume,,,,xsd:decimal
-Production Volume of Alcohol,production-volume-alcohol,,,,xsd:decimal
-Spirits Duty Receipts,spirits-duty-receipts,,,,xsd:decimal
-Wine Duty Receipts,wine-duty-receipts,,,,xsd:decimal
-Beer Duty Receipts,beer-duty-receipts,,,,xsd:decimal
-Cider Duty Receipts,cider-duty-receipts,,,,xsd:decimal
-Alcohol Duty Receipts,alcohol-duty-receipts,,,,xsd:decimal
-Clearances of Alcohol,clearances-of-alcohol,,,,xsd:decimal
+production-volume,Production Volume,,,,xsd:decimal
+production-volume-alcohol,Production Volume of Alcohol,,,,xsd:decimal
+spirits-duty-receipts,Spirits Duty Receipts,,,,xsd:decimal
+wine-duty-receipts,Wine Duty Receipts,,,,xsd:decimal
+beer-duty-receipts,Beer Duty Receipts,,,,xsd:decimal
+cider-duty-receipts,Cider Duty Receipts,,,,xsd:decimal
+alcohol-duty-receipts,Alcohol Duty Receipts,,,,xsd:decimal
+clearances-of-alcohol,Clearances of Alcohol,,,,xsd:decimal
