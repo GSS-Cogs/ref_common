@@ -129,3 +129,14 @@ beer-duty-receipts,Beer Duty Receipts,,,,xsd:decimal
 cider-duty-receipts,Cider Duty Receipts,,,,xsd:decimal
 alcohol-duty-receipts,Alcohol Duty Receipts,,,,xsd:decimal
 clearances-of-alcohol,Clearances of Alcohol,,,,xsd:decimal
+gva-at-cp,GVA at Current Prices,GVA stands for Gross Value Added,,,xsd:decimal
+vat-on-products,VAT on Products,,,,xsd:decimal
+other-taxes-on-products,Other Taxes on Products,,,,xsd:decimal
+subsidies-on-products,Subsidies on Products,,,,xsd:decimal
+gdp-at-cmp,GDP at Current Market Prices,,,,xsd:decimal
+gdp-per-capita,GDP per Capita,,,,xsd:decimal
+gva-implied-deflators,GVA Implied Deflators,unit : base year 2018 = 100,,,xsd:decimal
+gdp-at-cvm,GDP at Chained Volume Measures,unit : base year 2018 = 100,,,xsd:decimal
+gdp-at-cvm-agr,GDP at Chained Volume Measures - Annual Growth Rates,% change from previous period,,,xsd:decimal
+gdp-at-cvm-per-head-agr,GDP at Chained Volume Measures - per Head Annual Growth Rates,% change from previous period,,,xsd:decimal
+gdp-at-cvm-2018-money,GDP at Chained Volume Measures,2018 Money,,,xsd:decimal
