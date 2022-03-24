@@ -134,7 +134,8 @@ vat-on-products,VAT on Products,,,,xsd:decimal
 other-taxes-on-products,Other Taxes on Products,,,,xsd:decimal
 subsidies-on-products,Subsidies on Products,,,,xsd:decimal
 gdp-at-cmp,GDP at Current Market Prices,,,,xsd:decimal
-gdp-per-capita,GDP per Capita,,,,xsd:decimal
+gdp-per-capita-cp,GDP per Capita (Current Market Prices),,,,xsd:decimal
+gdp-per-capita-cvm,GDP per Capita (Chained Volume Measures ),,,,xsd:decimal
 gva-implied-deflators,GVA Implied Deflators,unit : base year 2018 = 100,,,xsd:decimal
 gdp-at-cvm,GDP at Chained Volume Measures,unit : base year 2018 = 100,,,xsd:decimal
 gdp-at-cvm-agr,GDP at Chained Volume Measures - Annual Growth Rates,% change from previous period,,,xsd:decimal
