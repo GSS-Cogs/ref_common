@@ -141,3 +141,6 @@ gdp-at-cvm,GDP at Chained Volume Measures,unit : base year 2018 = 100,,,xsd:deci
 gdp-at-cvm-agr,GDP at Chained Volume Measures - Annual Growth Rates,% change from previous period,,,xsd:decimal
 gdp-at-cvm-per-head-agr,GDP at Chained Volume Measures - per Head Annual Growth Rates,% change from previous period,,,xsd:decimal
 gdp-at-cvm-2018-money,GDP at Chained Volume Measures,2018 Money,,,xsd:decimal
+volume-fuel-consumption,Volume Fuel Consumption,,,,xsd:decimal
+volume-share-of-derv,Volume Share of DERV,diesel oil for road vehicles,,,xsd:decimal
+volume-share-of-motor-spirit,Volume Share of Motor Spirit,,,,xsd:decimal
