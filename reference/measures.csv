@@ -142,3 +142,5 @@ gdp-at-cvm-agr,GDP at Chained Volume Measures - Annual Growth Rates,% change fro
 gdp-at-cvm-per-head-agr,GDP at Chained Volume Measures - per Head Annual Growth Rates,% change from previous period,,,xsd:decimal
 gdp-at-cvm-2018-money,GDP at Chained Volume Measures,2018 Money,,,xsd:decimal
 volume-of-total-biofuels,Volume of Total Biofuels,,,,xsd:decimal
+indicator-equivalent-to-prior-year,Indicator Equivalent to Prior Year,,,,xsd:decimal
+indicator-deduplicated,Indicator Deduplicated,,,,xsd:decimal
