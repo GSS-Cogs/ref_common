@@ -145,4 +145,4 @@ volume-of-total-biofuels,Volume of Total Biofuels,,,,xsd:decimal
 indicator-equivalent-to-prior-year,Indicator Equivalent to Prior Year,,,,xsd:decimal
 indicator-deduplicated,Indicator Deduplicated,,,,xsd:decimal
 unweighted-count,Unweighted Count,,,,xsd:integer
-responses-in-the-affirmative,Responses in the Affirmative,,,,xsd:integer
+responses-in-the-affirmative,Responses in the Affirmative,,,,xsd:decimal
